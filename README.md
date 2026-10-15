@@ -147,6 +147,7 @@ python3 ~/Claude\ Code/ec-harness/審査を回す.py <記事のフォルダ> <�
 | 他社の VSL の台本の全文（`構造/VSL structure/VSL example/` の1本ずつの台本） | 他社の物 | 索引の `_index.md` だけ入れた |
 | 個人の物（メールアドレス・Meta の広告アカウント・ピクセル・Shopify のストアの値） | 人の物 | ファイルの中では `REPLACE_ME` に替えた。自分の値を入れる |
 | 自分のブランドの資料（`ec/アルコット/`・`ec/ここちドライ/`） | 人のブランド | 自分のブランドの `ec/<ブランド>/` を作る |
+| 日本版の漫画（quiz-jp-copy の `漫画の指示.py`・`漫画の部品.py`・`漫画の画像を置く.py`、物語の記事の「日本版（漫画）」の枝） | 本人が要らないと決めた（2026-10-15） | 物語の記事は日本版にせず、`_VSLから型を選ぶ.md` の手順で作る |
 | `vsl-sagasu/scripts/state`・各スキルの `runs`・`.bak*`・`__pycache__`・`node_modules`・部屋の `data/` | 作業の記録で、仕組みではない | `install.sh` が `npm install` を回す。`data/` は部屋が作る |
 
 他社の参考の取り直し方: 記事の参考は `python3 ~/.claude/skills/kata-tsukuru/scripts/参考を保存する.py "<URL>" <記事のフォルダ>/参考/`。3つの形の固定の参考は、普通が `example/草むしり椅子/記事_1_時間で変化/`（参考の URL は同じフォルダの `参考を取り直す.md`）、リスティクルが `~/Claude Code/kata-tsukuru/runs/listicle-native/型.md`、ランキングが `~/Claude Code/kata-tsukuru/runs/ranking-static/型.md`（中の URL を同じコマンドで取り直す）。
