@@ -1,0 +1,7 @@
+# 1行目が参考の URL。2行目から引数（審査を回す.py が読む）
+https://roostys.co/pages/feather-loss
+--見た目は日本風
+--幅
+390
+--移植表
+移植表.md

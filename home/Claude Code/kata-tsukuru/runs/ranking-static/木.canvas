@@ -1,0 +1,2032 @@
+{
+ "nodes": [
+  {
+   "id": "g0",
+   "type": "group",
+   "label": "01 The Supplement Review",
+   "x": 0,
+   "y": 0,
+   "width": 420,
+   "height": 3040
+  },
+  {
+   "id": "g0_1",
+   "type": "text",
+   "x": 20,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題**\n仕事: K1 題\n心理: 「親と友だちに勧める1つ」で比較記事の中立さと身内の信頼を同時に出し、選び間違いの損を避けたくさせる\nビジュアル: 横長の見出し画像（350×129）\nコピー: 「The Top 5 Beetroot Supplements for Circulation — And the One I Actually Recommend to My Parents and Friends」「so you don't waste your money on the wrong one」\n差を0にする事: 題は「Top 5＋1つだけ」の形（数・比べた事・1つに絞った事）を残し、商品の種類だけうちに替える"
+  },
+  {
+   "id": "g0_2",
+   "type": "text",
+   "x": 20,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 書き手の名乗り**\n仕事: K2 書き手の名乗り\n心理: 健康担当の編集者という肩書きで専門の目を感じさせる\nビジュアル: 小さな顔写真（42×42）\nコピー: 「Written by Sarah Mitchell on March 24, 2026」「Senior Health Editor and Circulation Health Advocate」\n差を0にする事: 名前・肩書き・日付の3つを題のすぐ下に同じ小ささで置く（肩書きはうちの悩みの専門に替える）"
+  },
+  {
+   "id": "g0_3",
+   "type": "text",
+   "x": 20,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 研究・数字**\n仕事: K3 入り（選び間違える理由）\n心理: エクセター大学・ロンドン大学の研究で「ビーツは本当に効く・毎日続けないと戻る」と信じさせ、40歳以降の一酸化窒素の低下を自分ごとにする\nビジュアル: 文だけ\nコピー: 「A 2025 study from the University of Exeter…」「tl;dr — After 40, your body produces significantly less nitric oxide」\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g0_4",
+   "type": "text",
+   "x": 20,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 その他: 採点の基準**\n仕事: K4 採点の基準\n心理: 5つの基準を先に見せ、ランキングが公平だと思わせる（基準そのものが1位に有利）\nビジュアル: 文だけ\nコピー: 「How We Ranked These Supplements」Ingredient Synergy・Dosage・Delivery Method・Transparency・User Feedback\n差を0にする事: 基準の数と並びを同じにし、どの基準も1位だけが満たす形にする"
+  },
+  {
+   "id": "g0_5",
+   "type": "text",
+   "x": 20,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 採点・ランキング**\n仕事: K5 採点・ランキング\n心理: #1だけ別格（A+ 9.7）、#2〜#5は有名ブランドの欠点（味・胃・砂糖・量の非公開・200mg）を具体的に突き、1位しか残らない形にする\nビジュアル: 各商品の小さな写真（110×110）・評価の札（A+〜C+）・★・バッジ・5項目の点数・PROS/CONS\nコピー: 「Our Top 5」#1 EverHuman Beetroot Circulation+（By Nutrise）A+ 9.7「1 Month FREE」Visit Site／#2 Rosabella B+ 8.4／#3 HumanN SuperBeets B 7.9／#4 Qunol C+ 7.4／#5 Goli C+ 7.2\n差を0にする事: 順位の数・点数の札・1位だけ長く褒めて他は欠点で落とす形・商品写真の大きさを同じにする"
+  },
+  {
+   "id": "g0_6",
+   "type": "text",
+   "x": 20,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 その他: 1位の理由**\n仕事: K6 1位の理由のまとめ\n心理: 「The Right ～」5つで1位を選ぶ理由を要約し、迷いを閉じる\nビジュアル: 文だけ\nコピー: 「Why EverHuman Took the #1 Spot」Right Formula／Dosage／Delivery／Standards／Results\n差を0にする事: 1位を選んだ理由を同じ数の短い行でまとめ直す"
+  },
+  {
+   "id": "g0_7",
+   "type": "text",
+   "x": 20,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 悩みの共感**\n仕事: K3 入り（選び間違える理由）\n心理: 血流の悪さが心臓・脳・睡眠・免疫まで壊すと恐さを広げ、「ぜいたく品でない」に変える\nビジュアル: 文だけ\nコピー: 「Why Poor Circulation Is More Dangerous Than Most People Realise」\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g0_8",
+   "type": "text",
+   "x": 20,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**8 その他: 買い方の指南**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 選び方とダメな印を並べ、他社を自分で落とせるようにする\nビジュアル: 文だけ（✗のリスト）\nコピー: 「The Beetroot Supplement Buying Guide (So You Don't Get Burned)」Things to Look For／Red Flags to Avoid\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g0_9",
+   "type": "text",
+   "x": 20,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**9 FAQ**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 「本当に効く？」に1〜2週・4〜8週の目安で答え、期待を整える\nビジュアル: 文だけ\nコピー: 「Do Beetroot Supplements Actually Work?」\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g0_10",
+   "type": "text",
+   "x": 20,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**10 値段・オファー**\n仕事: K8 値段・オファー\n心理: 読者だけの特典（1か月無料・送料無料・60日保証・24時間発送）で今買う理由を作る\nビジュアル: 商品の小さな写真（130×130）\nコピー: 「Special Offer for Our Readers」Get 1 Month FREE\n差を0にする事: 読者だけの得（割引・特典）を同じ位置に置き、値段はうちの本番の店の値で言う"
+  },
+  {
+   "id": "g0_11",
+   "type": "text",
+   "x": 20,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**11 申込のボタン**\n仕事: K10 申込のボタン\n心理: 1位の要点を✓4つでまとめて押させる\nビジュアル: ✓リスト＋ボタン\nコピー: 「Our Top Pick – EverHuman Beetroot Circulation+」Claim 1 Month Free\n差を0にする事: ボタンの文と数を同じにし、1位だけ申込の先へ飛ばす"
+  },
+  {
+   "id": "g0_12",
+   "type": "text",
+   "x": 20,
+   "y": 1910,
+   "width": 380,
+   "height": 150,
+   "text": "**12 申込の先: 商品ページの頭**\n仕事: K12 申込の先\n心理: 上の帯「60日返金・最大57%OFF・送料無料」が流れ、開くとすぐ「Mystery offer」の割引の窓（悩みを4つから選ばせる）\nビジュアル: 帯の文字だけ／黒い窓に白い字、選ぶボタン4つ\nコピー: 60-Day Money Back Guarantee / Save up to 57% OFF / YOU'VE GOT A MYSTERY OFFER\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g0_14",
+   "type": "text",
+   "x": 20,
+   "y": 2080,
+   "width": 380,
+   "height": 150,
+   "text": "**14 申込の先: 特典と申込**\n仕事: K12 申込の先\n心理: 無料の特典の丸い絵（送料無料・43%OFF・E-Book・瓶1本）を並べ、緑の大きなボタンに値段\nビジュアル: 丸い絵5つ・緑のボタン\nコピー: FREE GIFTS WITH YOUR ORDER / Add to Cart $59.95 / Free Shipping to Japan / 60-Day Guarantee / 100,000+ Happy Customers\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g1",
+   "type": "group",
+   "label": "02 Healthy Dog Reviews",
+   "x": 420,
+   "y": 0,
+   "width": 420,
+   "height": 3040
+  },
+  {
+   "id": "g1_1",
+   "type": "text",
+   "x": 440,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題**\n仕事: K1 題\n心理: 「ほとんどはラベルを貼っただけのおやつ」で失敗した買い物を思い出させ、「全部のテストを通った1つ」で答えを知りたくさせる。比較サイトの体裁で中立に見せる\nビジュアル: 書き手の丸い顔（50）、横長のロゴ・帯画像（353×137）\nコピー: 「The Top 5 Dog Allergy Chews — And The One That Passed All Our Tests」/ most are just glorified treats with a label\n差を0にする事: 題は「Top 5＋1つだけ」の形（数・比べた事・1つに絞った事）を残し、商品の種類だけうちに替える"
+  },
+  {
+   "id": "g1_2",
+   "type": "text",
+   "x": 440,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 書き手の名乗り**\n仕事: K2 書き手の名乗り\n心理: 「上級編集者・動物栄養の認定」で、選んだ結果を信じてよいと思わせる\nビジュアル: 文字だけ\nコピー: Written by Karen Thompson on May 20, 2026 / Senior Pet Health Editor and Certified Animal Nutrition Advocate\n差を0にする事: 名前・肩書き・日付の3つを題のすぐ下に同じ小ささで置く（肩書きはうちの悩みの専門に替える）"
+  },
+  {
+   "id": "g1_3",
+   "type": "text",
+   "x": 440,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 隠れた原因**\n仕事: K3 入り（選び間違える理由）\n心理: かゆみ・足なめ・赤い肌は「免疫が過剰に反応している」外のサインだと教え、中から整えれば治ると思わせる\nビジュアル: 文字だけ\nコピー: Your dog's immune system is what controls how their body responds to triggers like pollen, grass, and dust. / calm this overactive response from the inside out\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g1_4",
+   "type": "text",
+   "x": 440,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 その他: 採点の基準**\n仕事: K4 採点の基準\n心理: 6つの基準を先に見せ、順位が公平に決まったと思わせる。基準そのものが1位に有利な形になっている\nビジュアル: 文字だけ\nコピー: How We Ranked These Chews / Ingredient Synergy / Effectiveness for Itching / Seasonal Allergies / Delivery & Absorption / Transparency / User Feedback\n差を0にする事: 基準の数と並びを同じにし、どの基準も1位だけが満たす形にする"
+  },
+  {
+   "id": "g1_5",
+   "type": "text",
+   "x": 440,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 採点・ランキング**\n仕事: K5 採点・ランキング\n心理: 1位だけA+・9.8で長く褒め、割引とボタンを2回置く。2〜5位は「スピルリナ・藻類油・ポストバイオティクスが無い」「でんぷんで加工しすぎ」を毎回くり返して落とし、他を選ぶ理由を消す\nビジュアル: 各位に商品の小さい画像（115前後）、評価の大きい数字、★、項目別の点数、PROS／CONS\nコピー: #1 — PupDose™ Overall Grade A+ 9.8/10（Up to 25% OFF・VISIT SITE）/ #2 PetLab Co. B+ 8.3 / #3 Zesty Paws B 7.7 / #4 Native Pet's C+ 6.7 / #5 Pawfy C- 6.3\n差を0にする事: 順位の数・点数の札・1位だけ長く褒めて他は欠点で落とす形・商品写真の大きさを同じにする"
+  },
+  {
+   "id": "g1_6",
+   "type": "text",
+   "x": 440,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 理由の列挙×5**\n仕事: K6 1位の理由のまとめ\n心理: 1位の理由を5つの「Right」にまとめ、比べた結果を1つの結論に固める\nビジュアル: 文字だけ\nコピー: Why PupDose™ Took the #1 Spot / The Right Ingredients / Form / Standards / Effect / Results\n差を0にする事: 1位を選んだ理由を同じ数の短い行でまとめ直す"
+  },
+  {
+   "id": "g1_7",
+   "type": "text",
+   "x": 440,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 その他: 選び方（見る所・赤信号）**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 「失敗しないための選び方」として、見る所4つと赤信号4つを渡す。どの条件も1位だけが満たす形で、自分で選んだ気持ちにさせる\nビジュアル: 文字だけ\nコピー: The Dog Allergy Chew Buying Guide (So You Don't Get Burned) / Things to Look For / Red Flags / Potential Side Effects\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g1_8",
+   "type": "text",
+   "x": 440,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**8 その他: 効くまでの目安**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 「完璧な答えは無い」と控えめに言って信頼を取り、1週・1〜2週・3〜4週の変化で期待を具体にする\nビジュアル: 文字だけ\nコピー: Are Dog Allergy Chews Really the Answer? / less scratching within the first week / 1–2 weeks / 3–4 weeks\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g1_9",
+   "type": "text",
+   "x": 440,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**9 値段・オファー**\n仕事: K8 値段・オファー\n心理: 「読者のために交渉した」特別価格で得と特別扱いを感じさせ、90日保証で試す怖さを消す\nビジュアル: 商品写真（254×254）\nコピー: Special Offer for Our Readers / FREE shipping / Up to 25% OFF / Full 90‑day, no‑questions-asked guarantee\n差を0にする事: 読者だけの得（割引・特典）を同じ位置に置き、値段はうちの本番の店の値で言う"
+  },
+  {
+   "id": "g1_10",
+   "type": "text",
+   "x": 440,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**10 申込のボタン**\n仕事: K10 申込のボタン\n心理: 1位の要点4つをもう一度並べて押させる\nビジュアル: 文字＋ボタン\nコピー: Our Top Pick – PupDose™ Allergy & Immune Support Chews / Thousands of dog owners… / Claim 25% Discount\n差を0にする事: ボタンの文と数を同じにし、1位だけ申込の先へ飛ばす"
+  },
+  {
+   "id": "g1_11",
+   "type": "text",
+   "x": 440,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**11 申込の先: 商品ページの頭**\n仕事: K12 申込の先\n心理: 開くとすぐ「初回10%OFF」の窓（YES/NO の2択。NO は「臭い息が好き」で押しにくくする）\nビジュアル: 白い窓・黒いボタン2つ・犬の写真\nコピー: Hey wanna save 10% on your first PupDose order? / YES, MY PUP DESERVES IT / NO, I LOVE STINKY BREATH\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g1_12",
+   "type": "text",
+   "x": 440,
+   "y": 1910,
+   "width": 380,
+   "height": 150,
+   "text": "**12 申込の先: 品切れの帯**\n仕事: K12 申込の先\n心理: 次の製造の日と「9月は売り切れ・10月は残りわずか」の棒\nビジュアル: 黒い棒の進み具合\nコピー: September 24th (1,500 units) SOLD OUT / October 13th (1,217 of 1,500) Reserved\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g1_13",
+   "type": "text",
+   "x": 440,
+   "y": 2080,
+   "width": 380,
+   "height": 150,
+   "text": "**13 申込の先: まとめ買いの選択**\n仕事: K12 申込の先\n心理: Buy 1・Buy 2 Get 1 Free・Buy 3 Get 2 Free の3つの箱と定期20%OFF\nビジュアル: 箱3つ・ラジオボタン・打ち消し線の元値\nコピー: Buy 1 ¥5,490 / Buy 2 Get 1 Free ¥10,337 / Buy 3 Get 2 Free ¥12,965 / Subscribe & Save 20% / ADD TO CART\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g2",
+   "type": "group",
+   "label": "03 Health Insider",
+   "x": 840,
+   "y": 0,
+   "width": 420,
+   "height": 2850
+  },
+  {
+   "id": "g2_1",
+   "type": "text",
+   "x": 860,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 申込のボタン**\n仕事: K10 申込のボタン\n心理: 読む前から「医師が選ぶ1位を無料で試せる」と出口を見せておく\nビジュアル: 上の帯（1行＋ボタン）、サイトのロゴ\nコピー: Try #1 Doctor Preferred Urinary Incontinence Supplement Risk-Free / CHECK AVAILABILITY\n差を0にする事: ボタンの文と数を同じにし、1位だけ申込の先へ飛ばす"
+  },
+  {
+   "id": "g2_2",
+   "type": "text",
+   "x": 860,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 題**\n仕事: K1 題\n心理: 泌尿婦人科の医師が5つを比べた、で「原因から治す答えがここにある」と思わせる\nビジュアル: 横長の写真（390×182）、署名・更新日・閲覧数・5 min の行\nコピー: MD in Urogynecology Reviews the Top 5 Supplements to Tackle Urinary Incontinence at Its Actual Root to End Sudden Urges and 「Pee Leaks for Good」 / Published By Alexandra Pierce, MD\n差を0にする事: 題は「Top 5＋1つだけ」の形（数・比べた事・1つに絞った事）を残し、商品の種類だけうちに替える"
+  },
+  {
+   "id": "g2_3",
+   "type": "text",
+   "x": 860,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 書き手の名乗り**\n仕事: K2 書き手の名乗り\n心理: 20年の専門医が話す、で信じさせる\nビジュアル: 文字だけ\nコピー: Hi, my name is Dr. Rebecca Bell. I've been practicing urogynecology for over 20 years\n差を0にする事: 名前・肩書き・日付の3つを題のすぐ下に同じ小ささで置く（肩書きはうちの悩みの専門に替える）"
+  },
+  {
+   "id": "g2_5",
+   "type": "text",
+   "x": 860,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**5 隠れた原因**\n仕事: K3 入り（選び間違える理由）\n心理: 膀胱にも菌の生態系があり、それが崩れると漏れる、という新しい原因を渡す\nビジュアル: 膀胱の菌の図（350×225）\nコピー: So what is the real root cause...? / the urinary microbiome / backed by reputable institutions like Harvard / diet, stress, antibiotics, childbirth, menopause... knock it out of balance / Lactobacillus... vanishes from the bladder\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g2_6",
+   "type": "text",
+   "x": 860,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**6 今までのやり方を切る**\n仕事: K3 入り（選び間違える理由）\n心理: 「歳のせい」は嘘、骨盤底の体操も薬も根に届かない、で今までの失敗を許し、要るのは2段（悪い菌を出す・良い菌を足す）と決める\nビジュアル: 図（350×225）\nコピー: most doctors aren't aware of it and suggest ineffective treatments / \"it's just a natural part of aging\" is complete nonsense / Kegel exercises... medications... none of them tackle urinary incontinence at its actual root\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g2_7",
+   "type": "text",
+   "x": 860,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**7 採点・ランキング**\n仕事: K5 採点・ランキング\n心理: 5位から1位へ、菌の数と成分が増えていく順に並べ、1位に6つの理由を積んで他を見劣りさせる\nビジュアル: 文字だけの4品、1位だけ商品の写真（350×225）\nコピー: Top 5 supplements / Olly Happy Hoo-Ha... entry-level / Uqora Promote / URO / 「Love Wellness Good Girl」 / Bioma Feminine Health Synbiotic: First... Sixth, delayed-release capsules / The most sophisticated formula... less than $1 a day\n差を0にする事: 順位の数・点数の札・1位だけ長く褒めて他は欠点で落とす形・商品写真の大きさを同じにする"
+  },
+  {
+   "id": "g2_9",
+   "type": "text",
+   "x": 860,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**9 値段・オファー**\n仕事: K8 値段・オファー\n心理: 記事の後でメーカーから読者だけに60%引き、と「今だけ」の得を出す\nビジュアル: 文字だけ（IMPORTANT UPDATE の見出し）\nコピー: IMPORTANT UPDATE / for a limited time, they are offering our readers an exclusive 60% discount / free shipping, three gifts, and a money-back guarantee\n差を0にする事: 読者だけの得（割引・特典）を同じ位置に置き、値段はうちの本番の店の値で言う"
+  },
+  {
+   "id": "g2_10",
+   "type": "text",
+   "x": 860,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**10 申込のボタン**\n仕事: K10 申込のボタン\n心理: 60%引き・送料無料・返金保証をもう一度並べて押させる\nビジュアル: ボタン\nコピー: Take advantage of this limited-time offer and try Bioma with 60% discount, free shipping, and a money-back guarantee! / Check Availability\n差を0にする事: ボタンの文と数を同じにし、1位だけ申込の先へ飛ばす"
+  },
+  {
+   "id": "g2_11",
+   "type": "text",
+   "x": 860,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**11 客の声**\n仕事: K11 客の声\n心理: 自分と同じ悩みの人が「今注文した」「6週で変わった」と書くコメントで、後押しと実例を見せる\nビジュアル: コメント欄（3件、名前・日時）\nコピー: Comments (3) / Been doing kegels for 2 YEARS and getting nowhere / I've been using Bioma for about 6 weeks / the dark pants only… Ordering right now\n差を0にする事: コメント欄の件数・名前・日時の形を同じにし、うちの客の声に替える"
+  },
+  {
+   "id": "g2_12",
+   "type": "text",
+   "x": 860,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**12 申込の先: 入口**\n仕事: K12 申込の先\n心理: 「膀胱の菌が弱くしている？」の大きな見出しと✓4つ、医師1,008人の推薦の札、その下で最初の問い（初めてか・くり返すか）\nビジュアル: 女性の写真の上に白い字・オレンジのボタン2つ\nコピー: Is your urinary microbiome making you vulnerable? / 1,008 clinicians... share this / Select the occurrence of your bladder issues: First time / Recurrent\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g2_13",
+   "type": "text",
+   "x": 860,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**13 申込の先: 12問のクイズ**\n仕事: K12 申込の先\n心理: 「2 of 12」の進み具合つきで、症状（複数選ぶ）・頻度・暮らしへの影響を聞く。答えで値段の前に自分の悩みを言わせる\nビジュアル: 白地・選ぶ箱・下に固定の Next\nコピー: What bladder issues are you experiencing? / How often do you experience these issues? / How has this affected your daily life?\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g3",
+   "type": "group",
+   "label": "04 Health Insider",
+   "x": 1260,
+   "y": 0,
+   "width": 420,
+   "height": 2190
+  },
+  {
+   "id": "g3_1",
+   "type": "text",
+   "x": 1280,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 申込のボタン**\n仕事: K10 申込のボタン\n心理: 読む前から「60%引きのセール中」と出口を見せておく\nビジュアル: 上の帯（1行＋ボタン）、サイトのロゴ\nコピー: (Limited-Time Sale) Get up to 60% OFF Bioma / CLAIM YOUR DISCOUNT\n差を0にする事: ボタンの文と数を同じにし、1位だけ申込の先へ飛ばす"
+  },
+  {
+   "id": "g3_2",
+   "type": "text",
+   "x": 1280,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 題**\n仕事: K1 題\n心理: 「4か月試した結果の1位」で、自分で試す手間なしに答えだけ取れると思わせる\nビジュアル: 横長の写真（390×182）、署名（医師）・更新日・閲覧数・4 min の行\nコピー: We tested 5 top-rated GLP-1 supplements for 4 months. Which one is #1 in 2026? / Published By Alexandra Pierce, MD\n差を0にする事: 題は「Top 5＋1つだけ」の形（数・比べた事・1つに絞った事）を残し、商品の種類だけうちに替える"
+  },
+  {
+   "id": "g3_3",
+   "type": "text",
+   "x": 1280,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 悩みの共感**\n仕事: K3 入り（選び間違える理由）\n心理: オゼンピックの月1,029ドルと副作用、という読み手の不満を言い当てる\nビジュアル: 文字だけ\nコピー: Spending $1,029 on Ozempic. Every single month. / \"The side effects that are far worse than being overweight.\"\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g3_4",
+   "type": "text",
+   "x": 1280,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 研究・数字**\n仕事: K4 採点の基準\n心理: 65人・5組・4か月・毎週の体重測定、という試し方を見せて結果を信じさせる\nビジュアル: 文字だけ（試した5品と測った4項目の箇条書き）\nコピー: we ran a 4-month test with 65 women / The goal was to find the closest thing to Ozempic but without any of its drawbacks / weekly weigh-ins / Total weight loss / Hunger suppression / Energy levels / Side effects\n差を0にする事: 基準の数と並びを同じにし、どの基準も1位だけが満たす形にする"
+  },
+  {
+   "id": "g3_5",
+   "type": "text",
+   "x": 1280,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 採点・ランキング**\n仕事: K5 採点・ランキング\n心理: 5品を同じ欄（何か・どう効いたか・値段・平均の減量・空腹・元気・副作用・長所・短所）で並べ、1位34ポンド→5位13ポンドと数字で差を見せる。1位の悪い点は「人気で売り切れる」だけ\nビジュアル: 各品の写真（350×225）×5、各品の下にボタン\nコピー: #1 — Bioma GLP-1 Booster: Average weight loss: 34 lbs / Side effects: None reported / $27.09 (currently 60% off, normally $67.73) / Cons: Sells out often / #2 Pendulum 24 lbs / #3 Advanced Bionutritionals 20 lbs, $99.95 / #4 UMZU 18 lbs / #5 Inno Shred 13 lbs\n差を0にする事: 順位の数・点数の札・1位だけ長く褒めて他は欠点で落とす形・商品写真の大きさを同じにする"
+  },
+  {
+   "id": "g3_6",
+   "type": "text",
+   "x": 1280,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 商品の紹介**\n仕事: K6 1位の理由のまとめ\n心理: 1位の結果を1段で言い直し「何をしても痩せなかった人」に向けて勧める\nビジュアル: 文字だけ\nコピー: Final word / one of them clearly stood out / helped lose 34 pounds on average with no side effects / If you've tried everything but still couldn't lose weight and keep it off\n差を0にする事: 1位を選んだ理由を同じ数の短い行でまとめ直す"
+  },
+  {
+   "id": "g3_7",
+   "type": "text",
+   "x": 1280,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 値段・オファー**\n仕事: K8 値段・オファー\n心理: 1.5万人・合計11.9万ポンドの実績と、60%引き・送料無料を✅で並べて押させる\nビジュアル: 商品の写真（350×225）、✅の7行、ボタン\nコピー: Try Bioma GLP-1 Booster to lose weight and keep it off risk-free / trusted by 15,000+ people who have collectively lost over 119,000 pounds / ✅ 60% off — now $27.09 instead of $67.73 / ✅ Free nationwide shipping / ✅ 4.2 ★ on Trustpilot / Claim your 60% off now\n差を0にする事: 読者だけの得（割引・特典）を同じ位置に置き、値段はうちの本番の店の値で言う"
+  },
+  {
+   "id": "g3_9",
+   "type": "text",
+   "x": 1280,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**9 申込の先: 入口**\n仕事: K12 申込の先\n心理: 「食べ物のことを考えるのは頭でなく腸のせい」と言い、3つの変化を✓で。すぐ下で最初の問い（男か女か）\nビジュアル: 女性の写真に白い字・青とオレンジのボタン\nコピー: The food noise isn't in your head. It's in your gut. / Snack negotiations stop / Check your GLP-1 bacteria balance: Male / Female\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g4",
+   "type": "group",
+   "label": "05 Dinosaurized（Scott Ayres）",
+   "x": 1680,
+   "y": 0,
+   "width": 420,
+   "height": 2870
+  },
+  {
+   "id": "g4_1",
+   "type": "text",
+   "x": 1700,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 保証**\n仕事: K9 保証・急がせ\n心理: 最上部の帯で評価・退役軍人経営・120日返金・送料無料を先に見せ、怪しさを消す\nビジュアル: 帯（文字のみ）＋「Best of 2026 / Editor's Choice / Men's EDC」の札\nコピー: 「⭐ 4.9/5 Rating • 🇺🇸 Veteran Owned • 🔒 120-Day Money Back • 📦 Free Shipping Over $50」\n差を0にする事: 保証の日数・急がせの言い方を同じ位置に置き、日数はうちの本番の保証に替える"
+  },
+  {
+   "id": "g4_2",
+   "type": "text",
+   "x": 1700,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 題**\n仕事: K1 題\n心理: 「35歳以上の賢い男がこっそり乗り換えている」で同じ層の男に、遅れたくない気持ちを起こす\nビジュアル: 正方形の商品写真（358×358、退役軍人のお墨付き）\nコピー: 「Top 5 Sling Bags Smart Men Over 35 Are Quietly Switching To」「The days of stuffing your pockets until you look like a kangaroo are over.」\n差を0にする事: 題は「Top 5＋1つだけ」の形（数・比べた事・1つに絞った事）を残し、商品の種類だけうちに替える"
+  },
+  {
+   "id": "g4_3",
+   "type": "text",
+   "x": 1700,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 書き手の名乗り**\n仕事: K2 書き手の名乗り\n心理: 3児の父・アフガン2回・警官という肩書きで「道具に厳しい男が選んだ」と信じさせる\nビジュアル: 小さな顔写真（60×60）\nコピー: 「By Scott Ayres」Father of 3 · Combat Veteran · Two-Time Afghanistan Deployed · Police Officer\n差を0にする事: 名前・肩書き・日付の3つを題のすぐ下に同じ小ささで置く（肩書きはうちの悩みの専門に替える）"
+  },
+  {
+   "id": "g4_4",
+   "type": "text",
+   "x": 1700,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 物語・体験**\n仕事: K3 入り（選び間違える理由）\n心理: 失敗したバッグ3つの話と「15個を1週間ずつ試した」で、本音の検証だと思わせる\nビジュアル: 文だけ\nコピー: 「Author's Note」「I found four that are fine. And one that's actually good.」\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g4_5",
+   "type": "text",
+   "x": 1700,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 悩みの共感**\n仕事: K3 入り（選び間違える理由）\n心理: 35歳以上は持ち物が増え、リュック・メッセンジャー・ウエストポーチはどれも合わない、を言い当てる\nビジュアル: ポケットがパンパンの写真（358×358）\nコピー: 「Why Men Over 35 Are Done With Backpacks」「Pick the wrong one, and you've wasted another $40.」\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g4_7",
+   "type": "text",
+   "x": 1700,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**7 採点・ランキング**\n仕事: K5 採点・ランキング\n心理: #1だけ「自分の金で買った」と言い切り、#2〜#5はAmazonの他社の欠点を具体的に挙げて1位しか残さない。1位の直後にボタン\nビジュアル: 各商品の写真（約354×340）・点数・評価の札（A+〜D+）・Pros/Cons。1位は使用場面の写真4枚の格子\nコピー: #1 Dragon Sling Bag 9.6 A+「This is the one.」→ Get the Dragon Sling Bag (Up to 65% Off)／#2 OZUKO 8.4 B+／#3 Rcrirth 6.2 C+／#4 WATERFLY 7.6 B−／#5 DOEUTLQ 6.9 D+（#2〜#5は Learn More on Amazon →）\n差を0にする事: 順位の数・点数の札・1位だけ長く褒めて他は欠点で落とす形・商品写真の大きさを同じにする"
+  },
+  {
+   "id": "g4_8",
+   "type": "text",
+   "x": 1700,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**8 比較表**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 8項目の✅❌で1位だけ全部✅を一目で見せ、レーダー図で裏付ける\nビジュアル: 5列の✅❌表＋性能のレーダー図（312×244）\nコピー: 「Side-by-Side Comparison」「Performance Radar」\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g4_9",
+   "type": "text",
+   "x": 1700,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**9 値段・オファー**\n仕事: K8 値段・オファー\n心理: 最大65%オフと「人気色から売り切れる」で今買わせる\nビジュアル: 文字の枠＋ボタン\nコピー: 「🎁 We Found a Deal」「Up to 65% Off Dragon Sling Bag」→ Claim Your Discount Now\n差を0にする事: 読者だけの得（割引・特典）を同じ位置に置き、値段はうちの本番の店の値で言う"
+  },
+  {
+   "id": "g4_10",
+   "type": "text",
+   "x": 1700,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**10 保証**\n仕事: K9 保証・急がせ\n心理: 120日返金で最後の怖さを外し、もう一度押させる\nビジュアル: 盾の絵文字＋リンク\nコピー: 「Try it risk-free with our 120-Day Money Back Guarantee.」👉 Get the Editor's Choice\n差を0にする事: 保証の日数・急がせの言い方を同じ位置に置き、日数はうちの本番の保証に替える"
+  },
+  {
+   "id": "g4_11",
+   "type": "text",
+   "x": 1700,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**11 申込の先: 商品の頭**\n仕事: K12 申込の先\n心理: 商品写真と小さな写真の列、★4.8・18,736件、✓の4行と緑の REVEAL OFFER\nビジュアル: 商品写真・緑のボタン2回\nコピー: Dragon Sling Bag / 4.8/5 Rated by 18,736+ Happy Customers / REVEAL OFFER\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g4_12",
+   "type": "text",
+   "x": 1700,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**12 申込の先: 悩みを問う長い文**\n仕事: K12 申込の先\n心理: 「誰かに荷物を取られたら」「今すぐ銃に手が届くか」「何時間で肩が痛くなるか」の問いの見出しを3つ\nビジュアル: 正方形の写真3枚\nコピー: When's The Last Time You Thought About How Easy It'd Be For Someone To Just... Take Your Stuff?\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g4_13",
+   "type": "text",
+   "x": 1700,
+   "y": 1910,
+   "width": 380,
+   "height": 150,
+   "text": "**13 申込の先: 特典と保証**\n仕事: K9 保証・急がせ\n心理: 今日だけの無料の特典3つ（打ち消し線の値段）・2個から送料無料・120日返金\nビジュアル: 特典の写真3つ・盾の絵\nコピー: BONUS TODAY / PLUS $120 WORTH OF FREE GIFTS / Free Shipping On Pack 2 Or More / Try it RISK-FREE for 120 days\n差を0にする事: 保証の日数・急がせの言い方を同じ位置に置き、日数はうちの本番の保証に替える"
+  },
+  {
+   "id": "g5",
+   "type": "group",
+   "label": "06 Emily Johnson",
+   "x": 2100,
+   "y": 0,
+   "width": 420,
+   "height": 2530
+  },
+  {
+   "id": "g5_1",
+   "type": "text",
+   "x": 2120,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題**\n仕事: K1 題\n心理: 「453ドル払って全部試した人の結論」なら自分は損せず答えだけ取れる、と読み始めさせる\nビジュアル: 書き手の丸い顔写真（50px）＋商品の本の写真（360px角）\nコピー: I Spent $453 Testing Every \"Complete\" Ethiopian Bible on the Market. Only ONE Was Actually Real. / here's what actually holds up in 2026\n差を0にする事: 題は「Top 5＋1つだけ」の形（数・比べた事・1つに絞った事）を残し、商品の種類だけうちに替える"
+  },
+  {
+   "id": "g5_2",
+   "type": "text",
+   "x": 2120,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 書き手の名乗り**\n仕事: K2 書き手の名乗り\n心理: 無料でもらった人の評価ではない、自腹の普通の人だと信じさせる\nビジュアル: 文字だけ（署名・更新日・閲覧数の行）\nコピー: By Emily Johnson, Christian Researcher / 125,000+ Page Views / stop reading reviews written by people who got free products. this cost me $453 / I'm 34. Not some seminary scholar\n差を0にする事: 名前・肩書き・日付の3つを題のすぐ下に同じ小ささで置く（肩書きはうちの悩みの専門に替える）"
+  },
+  {
+   "id": "g5_3",
+   "type": "text",
+   "x": 2120,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 物語・体験**\n仕事: K3 入り（選び間違える理由）\n心理: 自分の聖書は22書が欠けているかもしれない、という恐れと、自分も同じく偽物を買いかねないという身近さ\nビジュアル: 文字だけ\nコピー: Your faith is built on a foundation that may be missing 22 books / Books that weren't lost. They were left out / $44. Two months. Pages falling apart / Most Ethiopian Bibles sold online are censored counterfeits / Four months. Seven different editions\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g5_4",
+   "type": "text",
+   "x": 2120,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 今までのやり方を切る**\n仕事: K3 入り（選び間違える理由）\n心理: Amazonの「エチオピア聖書」はほぼ偽物、と買う前の基準を3つ持たせる\nビジュアル: 文字だけ（Red Flag の見出し3つ）\nコピー: The Brutal Truth: 6 Out Of The 7 Publishers I Tested Were Terrible! / Red Flag #1: Censorship / #2: The \"Yahweh\" Trap / #3: Extra Books But Small Print\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g5_5",
+   "type": "text",
+   "x": 2120,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 採点・ランキング**\n仕事: K5 採点・ランキング\n心理: 1位だけ9点、他は2点・6点・0点で、比べた結果「これしかない」と思わせる。1位の中に90日読んだ体験（2週・4〜6週・8週）を入れて実感させる\nビジュアル: 「CLEAR WINNER」の札＋各社の本の写真（142px角）×4、1位に PROS/CONS の箱\nコピー: 🏆「CLEAR WINNER」 / 1. The Faith Made Ethiopian Bible (The Only One Worth Buying) 9/10 / All 88 books, 9.3 pt type, \"Yahweh,\" not \"Lord\" / CONS: Sells out more often than it should / 2: The Living Word 2/10 A complete scam / 3: Solomon's Gatepress 6/10 / 4: \"The Ethiopica\" 0/10 rip off scam\n差を0にする事: 順位の数・点数の札・1位だけ長く褒めて他は欠点で落とす形・商品写真の大きさを同じにする"
+  },
+  {
+   "id": "g5_6",
+   "type": "text",
+   "x": 2120,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 商品の紹介**\n仕事: K6 1位の理由のまとめ\n心理: 1位の良さを3点に絞って決めやすくする\nビジュアル: 商品の本の写真（328px角）\nコピー: My Top Recommendation After Months of Testing / 88 Authentic Books / 9.3 pt Type / \"Yahweh\", not \"Lord.\"\n差を0にする事: 1位を選んだ理由を同じ数の短い行でまとめ直す"
+  },
+  {
+   "id": "g5_7",
+   "type": "text",
+   "x": 2120,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 保証**\n仕事: K9 保証・急がせ\n心理: 365日返せるので買って外れても損しない\nビジュアル: 文字だけ\nコピー: 365-day money-back guarantee: return it in good condition within 365 days for a full refund\n差を0にする事: 保証の日数・急がせの言い方を同じ位置に置き、日数はうちの本番の保証に替える"
+  },
+  {
+   "id": "g5_9",
+   "type": "text",
+   "x": 2120,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**9 申込のボタン**\n仕事: K10 申込のボタン\n心理: 「なぜ最初からここで買わなかったのか」で背中を押してボタンへ\nビジュアル: ボタン（GRAB… / VISIT SITE）＋ PROS の箱の再掲\nコピー: GRAB FAITH MADE ETHIOPIAN BIBLE / Why didn't I just grab it from The Faith Made? / VISIT SITE / PROS（再掲）\n差を0にする事: ボタンの文と数を同じにし、1位だけ申込の先へ飛ばす"
+  },
+  {
+   "id": "g5_10",
+   "type": "text",
+   "x": 2120,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**10 申込の先: 2本目の記事**\n仕事: K12 申込の先\n心理: 1位の店の中の「6つの理由」のリスティクルへ送る（ランキングの後にもう1本の記事）。上に残り時間のタイマーと57%OFFの帯\nビジュアル: タイマー（時・分・秒）・正方形の絵6枚\nコピー: FALL SALE Shop Now and Get Up To 57% Off / 6 Reasons Why The Ethiopian Bible Belongs in Every Christian's Home\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g5_11",
+   "type": "text",
+   "x": 2120,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**11 申込の先: まとめ買いの選択**\n仕事: K12 申込の先\n心理: 1冊・2冊・3冊の値段と、無料の特典3つ（音声本・電子本・ほか1つ）、365日返金\nビジュアル: 値段の箱3つ・打ち消し線\nコピー: $49.95 ($99.95) / $89.95 ($199.90) / $127.95 ($299.85) / FREE $29.99 / 365-DAY MONEY-BACK GUARANTEE\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g6",
+   "type": "group",
+   "label": "07 AI Profit Pilot（Easy Influencer）",
+   "x": 2520,
+   "y": 0,
+   "width": 420,
+   "height": 3890
+  },
+  {
+   "id": "g6_1",
+   "type": "text",
+   "x": 2540,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題**\n仕事: K1 題\n心理: 「5つ試して本当に効く物」で、怪しい副業の広告に疲れた人に答えだけ取れると思わせる\nビジュアル: ノートPCで調べる写真（330×220）、署名・更新日・8 min read の行\nコピー: We Tested the 5 Most Popular AI Side Hustles of 2026. Here's What Actually Works. / By the Research Team\n差を0にする事: 題は「Top 5＋1つだけ」の形（数・比べた事・1つに絞った事）を残し、商品の種類だけうちに替える"
+  },
+  {
+   "id": "g6_2",
+   "type": "text",
+   "x": 2540,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 悩みの共感**\n仕事: K3 入り（選び間違える理由）\n心理: 「AIで稼ぐ」広告は全部同じに聞こえる、という疑いを代わりに言い、会社勤めで技術の無い人の目線で3か月比べたと示す\nビジュアル: 文字だけ\nコピー: \"Make money with AI.\" \"Quit your job in 30 days.\" / They're everywhere. And they all sound the same. / Over the past 3 months, we evaluated / one stood out so far ahead of the rest\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g6_3",
+   "type": "text",
+   "x": 2540,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 その他: 採点の基準**\n仕事: K4 採点の基準\n心理: 5つの物差しを先に決めて見せ、後の順位を公平だと思わせる\nビジュアル: AIの絵とグッズの写真（272×181）\nコピー: How We Evaluated Each Side Hustle / 1. Startup Cost / 2. Time to First Revenue / 3. Daily Time Commitment / 4. Technical Skill Required / 5. Done-For-You vs. DIY\n差を0にする事: 基準の数と並びを同じにし、どの基準も1位だけが満たす形にする"
+  },
+  {
+   "id": "g6_4",
+   "type": "text",
+   "x": 2540,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 採点・ランキング**\n仕事: K5 採点・ランキング\n心理: 5位から2位まで、同じ4つの数字（元手・稼ぐまで・1日の時間・技術）と良い点・悪い点で並べ、どれも「時間がかかる・技術が要る」で落とす\nビジュアル: 各案の写真（272×181）、4つの数字の箱、Pros / Cons の箱×4\nコピー: #5 AI Art + Print on Demand... $50-100/month / #4 AI-Powered Freelancing... still trading time for money / #3 AI-Enhanced Dropshipping... $500-2,000+ / #2 Faceless YouTube Channels... 1,000 subscribers and 4,000 watch hours\n差を0にする事: 順位の数・点数の札・1位だけ長く褒めて他は欠点で落とす形・商品写真の大きさを同じにする"
+  },
+  {
+   "id": "g6_5",
+   "type": "text",
+   "x": 2540,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 隠れた原因**\n仕事: K6 1位の理由のまとめ\n心理: 4つとも失敗する理由は同じ「仕組みを自分で作らされる」と名前を付け、失敗したのは自分のせいではないと思わせる\nビジュアル: 文字だけ、最後に「🏆 #1 Pick」の札\nコピー: The Pattern Nobody Talks About / Every single one sells you education and then expects you to build the infrastructure yourself / the infrastructure gap / Not because the person was lazy or stupid\n差を0にする事: 1位を選んだ理由を同じ数の短い行でまとめ直す"
+  },
+  {
+   "id": "g6_6",
+   "type": "text",
+   "x": 2540,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 商品の紹介**\n仕事: K6 1位の理由のまとめ\n心理: 1位は27ドル・1日15分・24時間で組んでもらえる、と4つと逆の数字を見せ、売る物も客の対応も要らないと楽さを想像させる\nビジュアル: スマホでSNSの数字を見せる写真（270×180）、4つの数字の箱\nコピー: AI Influencer Portfolio (Done-For-You Model) / $27 one-time / 24-72 hours / 15 minutes / you choose your influencer... it gets built for you / 9 content creation systems / an AI coach built into the portal / the offer catalog\n差を0にする事: 1位を選んだ理由を同じ数の短い行でまとめ直す"
+  },
+  {
+   "id": "g6_7",
+   "type": "text",
+   "x": 2540,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 仕組み・成分**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 講座は買った時点で儲かるが、これは売れた時だけ払われる、と作り手の得を逆にして信じさせる\nビジュアル: 文字だけ\nコピー: Why This Model Actually Works (The Mechanism Most People Miss) / Your $997 or $2,997 hits their account on day one / This model flips that completely. / You are paid on results.\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g6_8",
+   "type": "text",
+   "x": 2540,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**8 保証**\n仕事: K9 保証・急がせ\n心理: 普通は30日、これは180日。成功を期待していない会社には出せない、で保証を自信の印にする\nビジュアル: 文字だけ\nコピー: Why This One Has a Reason to Care Whether You Succeed / This one runs for 180 days / The refund rate is 0.6% across more than 22,000 sales / That is one variable instead of six\n差を0にする事: 保証の日数・急がせの言い方を同じ位置に置き、日数はうちの本番の保証に替える"
+  },
+  {
+   "id": "g6_9",
+   "type": "text",
+   "x": 2540,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**9 研究・数字**\n仕事: K9 保証・急がせ\n心理: 2.2万件で返金0.6%（業界8〜15%）と、月1,000〜2,000ドルの現実的な見込みを正直に出して信じさせる\nビジュアル: 文字だけ\nコピー: The Numbers That Back This Up / more than 22,000 sales at a 0.6% refund rate / $1,000 to $2,000+ a month per AI Influencer / Plenty never get there because they stop posting in week two\n差を0にする事: 保証の日数・急がせの言い方を同じ位置に置き、日数はうちの本番の保証に替える"
+  },
+  {
+   "id": "g6_10",
+   "type": "text",
+   "x": 2540,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**10 その他: 向く人・向かない人**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 会社員と親の2つを挙げて「自分のことだ」と思わせ、向かない人を先に外して誠実さを見せる\nビジュアル: 文字だけ\nコピー: Who This Is For (and Who It's Not For) / People with full-time jobs. Parents who have 15-20 minutes / It's not for people who want to build a personal brand / not a \"get rich quick\" scheme\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g6_11",
+   "type": "text",
+   "x": 2540,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**11 使い方**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 火曜の朝にコーヒーを淹れる間の7分、という1日を見せて自分の生活に入る絵を描かせる\nビジュアル: 文字だけ\nコピー: What This Actually Looks Like Day to Day / You wake up on a Tuesday / That takes about 7 minutes / You didn't build a funnel. You didn't write sales copy.\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g6_12",
+   "type": "text",
+   "x": 2540,
+   "y": 1910,
+   "width": 380,
+   "height": 150,
+   "text": "**12 商品の紹介**\n仕事: K6 1位の理由のまとめ\n心理: 1位の Pros 7行と Cons 4行を並べ、正直さを見せてから詳しいページへ送る\nビジュアル: Pros / Cons の箱、ボタン\nコピー: $27 to start (lowest cost by far) / 180-day money-back guarantee / Cons: You earn on the offer, you do not own the product / See the Full Breakdown of the #1 Pick\n差を0にする事: 1位を選んだ理由を同じ数の短い行でまとめ直す"
+  },
+  {
+   "id": "g6_13",
+   "type": "text",
+   "x": 2540,
+   "y": 2080,
+   "width": 380,
+   "height": 150,
+   "text": "**13 その他: 無料ガイドの登録**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: まだ決めない人を無料のガイドでメールに取る\nビジュアル: メールの入力欄\nコピー: Not Ready to Dive In Yet? / Get our free AI Side Hustle Starter Guide / the 3 biggest mistakes beginners make\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g6_14",
+   "type": "text",
+   "x": 2540,
+   "y": 2250,
+   "width": 380,
+   "height": 150,
+   "text": "**14 比較表**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 5つを1枚の表に並べ、1位だけ全部 ✅ で他は ❌ DIY と一目で差を見せる\nビジュアル: 5行×6列の表（✅ / ❌）\nコピー: Side-by-Side Summary / #1 AI Influencer Portfolio $27 24-72 hrs 15 min ✅ Full / #2 Faceless YouTube ❌ DIY / Only one model scored above a 4/5 on every criteria\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g6_15",
+   "type": "text",
+   "x": 2540,
+   "y": 2420,
+   "width": 380,
+   "height": 150,
+   "text": "**15 FAQ**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 詐欺では・技術は要るか・いつ結果が出るか・なぜ27ドルか、の4つの疑いを消す\nビジュアル: 文字だけ（質問の見出し4つ）\nコピー: Common Questions We Get / \"Is the AI influencer model a scam?\" / \"Do I need any tech skills?\" / \"How long until I see results?\" / \"Why is it only $27?\"\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g6_16",
+   "type": "text",
+   "x": 2540,
+   "y": 2590,
+   "width": 380,
+   "height": 150,
+   "text": "**16 申込のボタン**\n仕事: K10 申込のボタン\n心理: 27ドル1回・180日保証・24時間で組む、の3つを1行にして押させる\nビジュアル: ボタン\nコピー: Check Out the #1 AI Side Hustle / $27 one-time. 180-day guarantee. Your AI influencer built for you within 24 hours.\n差を0にする事: ボタンの文と数を同じにし、1位だけ申込の先へ飛ばす"
+  },
+  {
+   "id": "g6_17",
+   "type": "text",
+   "x": 2540,
+   "y": 2760,
+   "width": 380,
+   "height": 150,
+   "text": "**17 客の声**\n仕事: K11 客の声\n心理: 他の副業で損した人・看護師のシングルマザー・返金をもらった友人の話で、疑いと時間の不安を消す\nビジュアル: コメント5件（頭文字の丸・何日前・👍の数）\nコピー: 💬 12 Comments / \"burned by three different 'online business' programs that cost me over $4,000... Got my first sale on day 4\" / \"Earned $11.42 from AdSense\" / \"the 180-day guarantee is real\" / \"Single mom, two kids, full-time nurse\"\n差を0にする事: コメント欄の件数・名前・日時の形を同じにし、うちの客の声に替える"
+  },
+  {
+   "id": "g6_18",
+   "type": "text",
+   "x": 2540,
+   "y": 2930,
+   "width": 380,
+   "height": 150,
+   "text": "**18 申込の先: 申込のページ**\n仕事: K12 申込の先\n心理: 上に「67%OFF・月曜で終わり・残り2枠」の赤い帯、大きな字の約束、すぐ下に $27 と名前・メールの入力欄2つ・180日返金\nビジュアル: 黒地に黄と白の極太の字・入力欄2つ・紫のボタン\nコピー: 67% OFF SALE ENDS MONDAY / $27 ONE-TIME PAYMENT / First Name / Email Address / Send My Access / 180-DAY MONEY-BACK GUARANTEE\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g7",
+   "type": "group",
+   "label": "08 The Daily Vital Check（Markus Weber）",
+   "x": 2940,
+   "y": 0,
+   "width": 420,
+   "height": 3380
+  },
+  {
+   "id": "g7_1",
+   "type": "text",
+   "x": 2960,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題**\n仕事: K1 題\n心理: 「90%のリストバンドは体を誤解している」と今の道具を疑わせ、2026年のテストとして読ませる\nビジュアル: 横長の写真（370×247）＋小さな商品画像\nコピー: Fitness Tracker Test 2026: No more guesswork – Why 90% of wristbands misunderstand the body\n差を0にする事: 題は「Top 5＋1つだけ」の形（数・比べた事・1つに絞った事）を残し、商品の種類だけうちに替える"
+  },
+  {
+   "id": "g7_2",
+   "type": "text",
+   "x": 2960,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 書き手の名乗り**\n仕事: K2 書き手の名乗り\n心理: 名前つきの技術編集部と名乗り、売り手でなく審査する側として読ませる\nビジュアル: 文字だけ\nコピー: By Markus Weber , Tech Editorial Team\n差を0にする事: 名前・肩書き・日付の3つを題のすぐ下に同じ小ささで置く（肩書きはうちの悩みの専門に替える）"
+  },
+  {
+   "id": "g7_3",
+   "type": "text",
+   "x": 2960,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 悩みの共感**\n仕事: K3 入り（選び間違える理由）\n心理: 8時間寝ても疲れている、全部正しくやっているのに、と自分の毎日を写す\nビジュアル: 文字だけ\nコピー: Eight hours of sleep and still exhausted? / you are doing everything right … and yet you still feel drained\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g7_4",
+   "type": "text",
+   "x": 2960,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 今までのやり方を切る**\n仕事: K3 入り（選び間違える理由）\n心理: 歩数は見栄えだけの数字、Whoopは自分の体に家賃を払う月額、と両方を切る\nビジュアル: 文字だけ\nコピー: They flood users with vanity metrics / Knowing you walked 10,000 steps tells you nothing / you essentially pay rent for your own body\n差を0にする事: 選び間違える理由（今の解決策が効かない訳）を同じ長さで言い、うちの客の今の対策の名前に替える"
+  },
+  {
+   "id": "g7_5",
+   "type": "text",
+   "x": 2960,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 その他: 採点の基準**\n仕事: K4 採点の基準\n心理: 4つの審査項目を先に見せ、公平に比べたと思わせる\nビジュアル: チェック印の箇条\nコピー: Our rigorous testing protocol: ✓ Data depth ✓ Sensor precision ✓ Meaning not Metrics ✓ Subscription-free\n差を0にする事: 基準の数と並びを同じにし、どの基準も1位だけが満たす形にする"
+  },
+  {
+   "id": "g7_6",
+   "type": "text",
+   "x": 2960,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 採点・ランキング**\n仕事: K5 採点・ランキング\n心理: 1位を9.8点・テストの勝者・メダルで大きく見せ、項目点と長所（月額なし・8.6g・45日返金）と弱点ぽい2つ（3〜4日の慣らし・品薄）まで正直に出す\nビジュアル: 大きな点数9.8、メダルの小さな画像（80×66）、点数のバー3本＋在庫ありの札とボタン\nコピー: 🏆Test winner 2026. 「Quality grade: VERY GOOD」 / The Hume Band 2.0 / Measurement accuracy 9.9 / 10 / 45-day risk-free trial / 「High demand: … stock sells out regularly」 / • In stock (Limited) Go to Test winner\n差を0にする事: 順位の数・点数の札・1位だけ長く褒めて他は欠点で落とす形・商品写真の大きさを同じにする"
+  },
+  {
+   "id": "g7_7",
+   "type": "text",
+   "x": 2960,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 仕組み・成分**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: HRVは神経の温度計で、1秒100回測るから病気や練習のし過ぎを先に知れる、と1位の強みの理由を教える\nビジュアル: 文字だけの囲み\nコピー: Expert knowledge: Why HRV is the most important value / samples it 100 times per second\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g7_8",
+   "type": "text",
+   "x": 2960,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**8 比較表**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 普通の歩数計と1位を左右に並べ、「データだけ」か「答えがくる」かの差を見せる\nビジュアル: 2つの箱を並べた比較\nコピー: Standard Tracker (Step Counter) \"You walked 5km today.\" / ✓ Hume Band 2.0 (Metabolism) \"Sleep more, your stress markers are elevated\"\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g7_9",
+   "type": "text",
+   "x": 2960,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**9 採点・ランキング**\n仕事: K5 採点・ランキング\n心理: 2〜5位を点数つきで並べ、良い所を認めつつ月額・指輪のずれ・時計の寝にくさの欠点で1位へ戻す\nビジュアル: 順位の札と商品の正方形画像（200×200）＋点数＋長所短所の箇条＋Shop now\nコピー: 2nd place 9.0 Whoop 4.0 TOP TECHNOLOGY, BUT ONLY FOR RENT (around $239/year) / 3rd 8.8 RingConn Gen 2 / 4th 8.4 Oura Ring 4 / 5th 7.6 Withings ScanWatch 2\n差を0にする事: 順位の数・点数の札・1位だけ長く褒めて他は欠点で落とす形・商品写真の大きさを同じにする"
+  },
+  {
+   "id": "g7_11",
+   "type": "text",
+   "x": 2960,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**11 申込のボタン**\n仕事: K10 申込のボタン\n心理: 「在庫がある間」で今押させる\nビジュアル: 文字の帯＋ボタン\nコピー: Hume Band 2.0 : The test winner / Subscription-free … while stock lasts. / Go to test winner →\n差を0にする事: ボタンの文と数を同じにし、1位だけ申込の先へ飛ばす"
+  },
+  {
+   "id": "g7_12",
+   "type": "text",
+   "x": 2960,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**12 比較表**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: 3年の総額で病院の検査（約1,800€）・月額（約792€）・1位（199€一度だけ）を並べ、一番安いと思わせる\nビジュアル: 3行の表\nコピー: Investment & VALUE Analysis (calculated over 3 years) / approx. 1,800€ / approx. €792 / €199 (one-time) No recurring fees\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g7_13",
+   "type": "text",
+   "x": 2960,
+   "y": 1910,
+   "width": 380,
+   "height": 150,
+   "text": "**13 FAQ**\n仕事: K7 買う前の指南・比較表・FAQ\n心理: Whoopと同じ精度か・痩せるのに役立つか・スマホが要るか、の3問で最後の反論を潰す\nビジュアル: 文字だけ\nコピー: Frequently asked questions before you buy / within a 2% deviation / Do I always need my phone nearby? No.\n差を0にする事: 指南・比較表・FAQ を参考と同じ種類・同じ数で置く"
+  },
+  {
+   "id": "g7_14",
+   "type": "text",
+   "x": 2960,
+   "y": 2080,
+   "width": 380,
+   "height": 150,
+   "text": "**14 客の声**\n仕事: K11 客の声\n心理: 読者の書き込み7件（元Whoopの人・夫婦・64歳・マラソン走者）に編集者の返事も混ぜ、本物の会話に見せる\nビジュアル: 頭文字の丸アイコンつきのコメント欄\nコピー: Reader discussion 18 posts / Daniel K. \"I was a Whoop user for three years (easily wasted €900)\" / Felix L. \"By Wednesday, I was laid up with the flu.\" / Renate G. \"I'm 64\"\n差を0にする事: コメント欄の件数・名前・日時の形を同じにし、うちの客の声に替える"
+  },
+  {
+   "id": "g7_15",
+   "type": "text",
+   "x": 2960,
+   "y": 2250,
+   "width": 380,
+   "height": 150,
+   "text": "**15 申込の先: 商品ページの頭**\n仕事: K12 申込の先\n心理: 開くと「3枚そろえると当たり」のくじの窓、その後に★4.8・3.4万件と大きな約束\nビジュアル: 白い窓に？のカード6枚\nコピー: Try Your Luck Match 3 cards to see what you win. / 4.8 stars / 34.2K+ reviews / One band. A complete picture of your future Health.\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g7_16",
+   "type": "text",
+   "x": 2960,
+   "y": 2420,
+   "width": 380,
+   "height": 150,
+   "text": "**16 申込の先: 月額との比べと申込**\n仕事: K12 申込の先\n心理: 月額$30の他社と、1回払いの比べ。値段・分割・45日返金の札・Add to Cart\nビジュアル: 比べの表・青い枠の返金の札\nコピー: No Monthly Fees to Access Your Own Health / One-time purchase / ¥29,120 / 18 payments / 45-day money-back guarantee / Add to Cart\n差を0にする事: 申込の先の部品（窓・まとめ買いの箱・特典・保証）を同じ順で作り、値段は本番の店の値"
+  },
+  {
+   "id": "g0_v1",
+   "type": "text",
+   "x": 20,
+   "y": 2290,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 順位の数**（K5）\n測った値: 5（#1〜#5）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g0_v2",
+   "type": "text",
+   "x": 20,
+   "y": 2440,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 1位の点数**（K5）\n測った値: A+ 9.7／2位 B+ 8.4（差 1.3）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g0_v3",
+   "type": "text",
+   "x": 20,
+   "y": 2590,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 採点の基準**（K4）\n測った値: 5つ（成分の組み合わせ・量・届け方・表示・客の声）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g0_v4",
+   "type": "text",
+   "x": 20,
+   "y": 2740,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 特典**（K8）\n測った値: 1か月分無料・保証 60日・ボタン 3回（Visit Site×2・Claim）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g0_v5",
+   "type": "text",
+   "x": 20,
+   "y": 2890,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 申込の先**（K12）\n測った値: まとめ買い 3箱（1・3・6か月。1個 $34.95→$14.99）・真ん中に 「BEST SELLER」の札\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g1_v1",
+   "type": "text",
+   "x": 440,
+   "y": 2290,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 順位の数**（K5）\n測った値: 5\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g1_v2",
+   "type": "text",
+   "x": 440,
+   "y": 2440,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 1位の点数**（K5）\n測った値: A+ 9.8／2位 B+ 8.3（差 1.5）・5位 C- 6.3\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g1_v3",
+   "type": "text",
+   "x": 440,
+   "y": 2590,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 採点の基準**（K4）\n測った値: 6つ\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g1_v4",
+   "type": "text",
+   "x": 440,
+   "y": 2740,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 特典**（K8）\n測った値: 最大25%OFF・保証 90日・ボタン 3回\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g1_v5",
+   "type": "text",
+   "x": 440,
+   "y": 2890,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 申込の先**（K12）\n測った値: 3箱（Buy 1・Buy 2 Get 1・Buy 3 Get 2）＋定期20%OFF・先に10%OFF の窓\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g2_v1",
+   "type": "text",
+   "x": 860,
+   "y": 1950,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 順位の数**（K5）\n測った値: 5（5位→1位の順に、菌の数と成分が増える）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g2_v2",
+   "type": "text",
+   "x": 860,
+   "y": 2100,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 点数**（K5）\n測った値: 無し（並び順だけで差を出す）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g2_v3",
+   "type": "text",
+   "x": 860,
+   "y": 2250,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 書き手**（K2）\n測った値: 泌尿婦人科の医師・20年\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g2_v4",
+   "type": "text",
+   "x": 860,
+   "y": 2400,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 特典**（K8）\n測った値: 60%OFF・送料無料・特典3つ・返金保証。ボタン 3回（頭の帯・本文・最後）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g2_v5",
+   "type": "text",
+   "x": 860,
+   "y": 2550,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 客の声**（K11）\n測った値: コメント 3件（名前・日時）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g2_v6",
+   "type": "text",
+   "x": 860,
+   "y": 2700,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 申込の先**（K12）\n測った値: 12問のクイズ（2 of 12 の進み具合）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g3_v1",
+   "type": "text",
+   "x": 1280,
+   "y": 1440,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 順位の数**（K5）\n測った値: 5\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g3_v2",
+   "type": "text",
+   "x": 1280,
+   "y": 1590,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 差の出し方**（K5）\n測った値: 平均の減量 34・24・20・18・13 ポンド\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g3_v3",
+   "type": "text",
+   "x": 1280,
+   "y": 1740,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 試し方**（K4）\n測った値: 65人・4か月・毎週の体重測定・測った項目 4つ\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g3_v4",
+   "type": "text",
+   "x": 1280,
+   "y": 1890,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 値段**（K8）\n測った値: $27.09（60%OFF・元 $67.73）。1位の悪い点は「よく売り切れる」だけ\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g3_v5",
+   "type": "text",
+   "x": 1280,
+   "y": 2040,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 客の声**（K11）\n測った値: コメント 4件\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g4_v1",
+   "type": "text",
+   "x": 1700,
+   "y": 2120,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 順位の数**（K5）\n測った値: 5（2〜5位のボタンは Amazon へ）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g4_v2",
+   "type": "text",
+   "x": 1700,
+   "y": 2270,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 1位の点数**（K5）\n測った値: 9.6 A+／2位 8.4 B+（差 1.2）・5位 D+ 6.9\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g4_v3",
+   "type": "text",
+   "x": 1700,
+   "y": 2420,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 採点の基準**（K4）\n測った値: 5つ（01〜05の番号）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g4_v4",
+   "type": "text",
+   "x": 1700,
+   "y": 2570,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 比較表**（K7）\n測った値: 8項目の✅❌・レーダー図 1枚\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g4_v5",
+   "type": "text",
+   "x": 1700,
+   "y": 2720,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 保証**（K9）\n測った値: 120日・最大65%OFF・頭の帯に評価 4.9/5\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g5_v1",
+   "type": "text",
+   "x": 2120,
+   "y": 1780,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 順位の数**（K5）\n測った値: 4（1位 9/10・他 2・6・0）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g5_v2",
+   "type": "text",
+   "x": 2120,
+   "y": 1930,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 書き手**（K2）\n測った値: 34歳・自腹 $453・4か月で7冊\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g5_v3",
+   "type": "text",
+   "x": 2120,
+   "y": 2080,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 切る基準**（K4）\n測った値: Red Flag 3つ\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g5_v4",
+   "type": "text",
+   "x": 2120,
+   "y": 2230,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 保証**（K9）\n測った値: 365日・急がせ（売り切れ）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g5_v5",
+   "type": "text",
+   "x": 2120,
+   "y": 2380,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 申込の先**（K12）\n測った値: 2本目の記事（6つの理由）→ 1・2・3冊の値段（$49.95・$89.95・$127.95）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g6_v1",
+   "type": "text",
+   "x": 2540,
+   "y": 3140,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 順位の数**（K5）\n測った値: 5（5位→2位、最後に1位）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g6_v2",
+   "type": "text",
+   "x": 2540,
+   "y": 3290,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 各順位の数字の箱**（K5）\n測った値: 4つ（元手・稼ぐまで・1日の時間・技術）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g6_v3",
+   "type": "text",
+   "x": 2540,
+   "y": 3440,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 採点の基準**（K4）\n測った値: 5つ\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g6_v4",
+   "type": "text",
+   "x": 2540,
+   "y": 3590,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 保証**（K9）\n測った値: 180日・返金率 0.6%（2.2万件）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g6_v5",
+   "type": "text",
+   "x": 2540,
+   "y": 3740,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 比較表**（K7）\n測った値: 5行×6列・FAQ 4問・コメント 5件\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g7_v1",
+   "type": "text",
+   "x": 2960,
+   "y": 2630,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 順位の数**（K5）\n測った値: 5\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g7_v2",
+   "type": "text",
+   "x": 2960,
+   "y": 2780,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 1位の点数**（K5）\n測った値: 9.8／2位 9.0（差 0.8）・5位 7.6\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g7_v3",
+   "type": "text",
+   "x": 2960,
+   "y": 2930,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 採点の基準**（K4）\n測った値: 4つ（✓の箇条）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g7_v4",
+   "type": "text",
+   "x": 2960,
+   "y": 3080,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 比べ**（K7）\n測った値: 3年の総額の表 3行・保証 45日\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  },
+  {
+   "id": "g7_v5",
+   "type": "text",
+   "x": 2960,
+   "y": 3230,
+   "width": 380,
+   "height": 130,
+   "color": "4",
+   "text": "**変数 FAQ**（K7）\n測った値: 3問・コメント 7件（18 posts の表示）\n差を0にする事: うちも同じ値にそろえる（数・並び）。値段・日数・割引はうちの本番の店の値に替え、数と置き場は同じ"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e_g0_1_g0_2",
+   "fromNode": "g0_1",
+   "fromSide": "bottom",
+   "toNode": "g0_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_2_g0_3",
+   "fromNode": "g0_2",
+   "fromSide": "bottom",
+   "toNode": "g0_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_3_g0_4",
+   "fromNode": "g0_3",
+   "fromSide": "bottom",
+   "toNode": "g0_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_4_g0_5",
+   "fromNode": "g0_4",
+   "fromSide": "bottom",
+   "toNode": "g0_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_5_g0_6",
+   "fromNode": "g0_5",
+   "fromSide": "bottom",
+   "toNode": "g0_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_6_g0_7",
+   "fromNode": "g0_6",
+   "fromSide": "bottom",
+   "toNode": "g0_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_7_g0_8",
+   "fromNode": "g0_7",
+   "fromSide": "bottom",
+   "toNode": "g0_8",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_8_g0_9",
+   "fromNode": "g0_8",
+   "fromSide": "bottom",
+   "toNode": "g0_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_9_g0_10",
+   "fromNode": "g0_9",
+   "fromSide": "bottom",
+   "toNode": "g0_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_10_g0_11",
+   "fromNode": "g0_10",
+   "fromSide": "bottom",
+   "toNode": "g0_11",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_11_g0_12",
+   "fromNode": "g0_11",
+   "fromSide": "bottom",
+   "toNode": "g0_12",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_12_g0_14",
+   "fromNode": "g0_12",
+   "fromSide": "bottom",
+   "toNode": "g0_14",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_1_g1_2",
+   "fromNode": "g1_1",
+   "fromSide": "bottom",
+   "toNode": "g1_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_2_g1_3",
+   "fromNode": "g1_2",
+   "fromSide": "bottom",
+   "toNode": "g1_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_3_g1_4",
+   "fromNode": "g1_3",
+   "fromSide": "bottom",
+   "toNode": "g1_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_4_g1_5",
+   "fromNode": "g1_4",
+   "fromSide": "bottom",
+   "toNode": "g1_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_5_g1_6",
+   "fromNode": "g1_5",
+   "fromSide": "bottom",
+   "toNode": "g1_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_6_g1_7",
+   "fromNode": "g1_6",
+   "fromSide": "bottom",
+   "toNode": "g1_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_7_g1_8",
+   "fromNode": "g1_7",
+   "fromSide": "bottom",
+   "toNode": "g1_8",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_8_g1_9",
+   "fromNode": "g1_8",
+   "fromSide": "bottom",
+   "toNode": "g1_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_9_g1_10",
+   "fromNode": "g1_9",
+   "fromSide": "bottom",
+   "toNode": "g1_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_10_g1_11",
+   "fromNode": "g1_10",
+   "fromSide": "bottom",
+   "toNode": "g1_11",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_11_g1_12",
+   "fromNode": "g1_11",
+   "fromSide": "bottom",
+   "toNode": "g1_12",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_12_g1_13",
+   "fromNode": "g1_12",
+   "fromSide": "bottom",
+   "toNode": "g1_13",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_1_g2_2",
+   "fromNode": "g2_1",
+   "fromSide": "bottom",
+   "toNode": "g2_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_2_g2_3",
+   "fromNode": "g2_2",
+   "fromSide": "bottom",
+   "toNode": "g2_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_3_g2_5",
+   "fromNode": "g2_3",
+   "fromSide": "bottom",
+   "toNode": "g2_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_5_g2_6",
+   "fromNode": "g2_5",
+   "fromSide": "bottom",
+   "toNode": "g2_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_6_g2_7",
+   "fromNode": "g2_6",
+   "fromSide": "bottom",
+   "toNode": "g2_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_7_g2_9",
+   "fromNode": "g2_7",
+   "fromSide": "bottom",
+   "toNode": "g2_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_9_g2_10",
+   "fromNode": "g2_9",
+   "fromSide": "bottom",
+   "toNode": "g2_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_10_g2_11",
+   "fromNode": "g2_10",
+   "fromSide": "bottom",
+   "toNode": "g2_11",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_11_g2_12",
+   "fromNode": "g2_11",
+   "fromSide": "bottom",
+   "toNode": "g2_12",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_12_g2_13",
+   "fromNode": "g2_12",
+   "fromSide": "bottom",
+   "toNode": "g2_13",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_1_g3_2",
+   "fromNode": "g3_1",
+   "fromSide": "bottom",
+   "toNode": "g3_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_2_g3_3",
+   "fromNode": "g3_2",
+   "fromSide": "bottom",
+   "toNode": "g3_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_3_g3_4",
+   "fromNode": "g3_3",
+   "fromSide": "bottom",
+   "toNode": "g3_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_4_g3_5",
+   "fromNode": "g3_4",
+   "fromSide": "bottom",
+   "toNode": "g3_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_5_g3_6",
+   "fromNode": "g3_5",
+   "fromSide": "bottom",
+   "toNode": "g3_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_6_g3_7",
+   "fromNode": "g3_6",
+   "fromSide": "bottom",
+   "toNode": "g3_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_7_g3_9",
+   "fromNode": "g3_7",
+   "fromSide": "bottom",
+   "toNode": "g3_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_1_g4_2",
+   "fromNode": "g4_1",
+   "fromSide": "bottom",
+   "toNode": "g4_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_2_g4_3",
+   "fromNode": "g4_2",
+   "fromSide": "bottom",
+   "toNode": "g4_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_3_g4_4",
+   "fromNode": "g4_3",
+   "fromSide": "bottom",
+   "toNode": "g4_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_4_g4_5",
+   "fromNode": "g4_4",
+   "fromSide": "bottom",
+   "toNode": "g4_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_5_g4_7",
+   "fromNode": "g4_5",
+   "fromSide": "bottom",
+   "toNode": "g4_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_7_g4_8",
+   "fromNode": "g4_7",
+   "fromSide": "bottom",
+   "toNode": "g4_8",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_8_g4_9",
+   "fromNode": "g4_8",
+   "fromSide": "bottom",
+   "toNode": "g4_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_9_g4_10",
+   "fromNode": "g4_9",
+   "fromSide": "bottom",
+   "toNode": "g4_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_10_g4_11",
+   "fromNode": "g4_10",
+   "fromSide": "bottom",
+   "toNode": "g4_11",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_11_g4_12",
+   "fromNode": "g4_11",
+   "fromSide": "bottom",
+   "toNode": "g4_12",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g4_12_g4_13",
+   "fromNode": "g4_12",
+   "fromSide": "bottom",
+   "toNode": "g4_13",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g5_1_g5_2",
+   "fromNode": "g5_1",
+   "fromSide": "bottom",
+   "toNode": "g5_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g5_2_g5_3",
+   "fromNode": "g5_2",
+   "fromSide": "bottom",
+   "toNode": "g5_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g5_3_g5_4",
+   "fromNode": "g5_3",
+   "fromSide": "bottom",
+   "toNode": "g5_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g5_4_g5_5",
+   "fromNode": "g5_4",
+   "fromSide": "bottom",
+   "toNode": "g5_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g5_5_g5_6",
+   "fromNode": "g5_5",
+   "fromSide": "bottom",
+   "toNode": "g5_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g5_6_g5_7",
+   "fromNode": "g5_6",
+   "fromSide": "bottom",
+   "toNode": "g5_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g5_7_g5_9",
+   "fromNode": "g5_7",
+   "fromSide": "bottom",
+   "toNode": "g5_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g5_9_g5_10",
+   "fromNode": "g5_9",
+   "fromSide": "bottom",
+   "toNode": "g5_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g5_10_g5_11",
+   "fromNode": "g5_10",
+   "fromSide": "bottom",
+   "toNode": "g5_11",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_1_g6_2",
+   "fromNode": "g6_1",
+   "fromSide": "bottom",
+   "toNode": "g6_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_2_g6_3",
+   "fromNode": "g6_2",
+   "fromSide": "bottom",
+   "toNode": "g6_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_3_g6_4",
+   "fromNode": "g6_3",
+   "fromSide": "bottom",
+   "toNode": "g6_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_4_g6_5",
+   "fromNode": "g6_4",
+   "fromSide": "bottom",
+   "toNode": "g6_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_5_g6_6",
+   "fromNode": "g6_5",
+   "fromSide": "bottom",
+   "toNode": "g6_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_6_g6_7",
+   "fromNode": "g6_6",
+   "fromSide": "bottom",
+   "toNode": "g6_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_7_g6_8",
+   "fromNode": "g6_7",
+   "fromSide": "bottom",
+   "toNode": "g6_8",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_8_g6_9",
+   "fromNode": "g6_8",
+   "fromSide": "bottom",
+   "toNode": "g6_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_9_g6_10",
+   "fromNode": "g6_9",
+   "fromSide": "bottom",
+   "toNode": "g6_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_10_g6_11",
+   "fromNode": "g6_10",
+   "fromSide": "bottom",
+   "toNode": "g6_11",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_11_g6_12",
+   "fromNode": "g6_11",
+   "fromSide": "bottom",
+   "toNode": "g6_12",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_12_g6_13",
+   "fromNode": "g6_12",
+   "fromSide": "bottom",
+   "toNode": "g6_13",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_13_g6_14",
+   "fromNode": "g6_13",
+   "fromSide": "bottom",
+   "toNode": "g6_14",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_14_g6_15",
+   "fromNode": "g6_14",
+   "fromSide": "bottom",
+   "toNode": "g6_15",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_15_g6_16",
+   "fromNode": "g6_15",
+   "fromSide": "bottom",
+   "toNode": "g6_16",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_16_g6_17",
+   "fromNode": "g6_16",
+   "fromSide": "bottom",
+   "toNode": "g6_17",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g6_17_g6_18",
+   "fromNode": "g6_17",
+   "fromSide": "bottom",
+   "toNode": "g6_18",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_1_g7_2",
+   "fromNode": "g7_1",
+   "fromSide": "bottom",
+   "toNode": "g7_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_2_g7_3",
+   "fromNode": "g7_2",
+   "fromSide": "bottom",
+   "toNode": "g7_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_3_g7_4",
+   "fromNode": "g7_3",
+   "fromSide": "bottom",
+   "toNode": "g7_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_4_g7_5",
+   "fromNode": "g7_4",
+   "fromSide": "bottom",
+   "toNode": "g7_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_5_g7_6",
+   "fromNode": "g7_5",
+   "fromSide": "bottom",
+   "toNode": "g7_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_6_g7_7",
+   "fromNode": "g7_6",
+   "fromSide": "bottom",
+   "toNode": "g7_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_7_g7_8",
+   "fromNode": "g7_7",
+   "fromSide": "bottom",
+   "toNode": "g7_8",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_8_g7_9",
+   "fromNode": "g7_8",
+   "fromSide": "bottom",
+   "toNode": "g7_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_9_g7_11",
+   "fromNode": "g7_9",
+   "fromSide": "bottom",
+   "toNode": "g7_11",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_11_g7_12",
+   "fromNode": "g7_11",
+   "fromSide": "bottom",
+   "toNode": "g7_12",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_12_g7_13",
+   "fromNode": "g7_12",
+   "fromSide": "bottom",
+   "toNode": "g7_13",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_13_g7_14",
+   "fromNode": "g7_13",
+   "fromSide": "bottom",
+   "toNode": "g7_14",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_14_g7_15",
+   "fromNode": "g7_14",
+   "fromSide": "bottom",
+   "toNode": "g7_15",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g7_15_g7_16",
+   "fromNode": "g7_15",
+   "fromSide": "bottom",
+   "toNode": "g7_16",
+   "toSide": "top"
+  }
+ ]
+}

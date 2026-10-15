@@ -1,0 +1,11 @@
+{
+ "fbtoken": {
+  "ok": 1,
+  "fail": 0,
+  "created": "2026-09-18",
+  "js": "const s=document.documentElement.innerHTML; const t=(s.match(/EAA[A-Za-z0-9]{80,}/)||[])[0]; return t",
+  "note": "",
+  "updated": "2026-09-18",
+  "lastOk": "2026-09-18"
+ }
+}

@@ -1,0 +1,22 @@
+# 道具名。「<名前>で」「<名前>から」と使っているのに触り方が無い時に C が鳴る。1行1つ。増やしてよい
+GetHookd
+広告ライブラリ
+Microsoft Clarity
+Meta MCP
+Shopify
+Notion
+NotebookLM
+Apify
+Higgsfield
+Palmier
+楽天
+Amazon.co.jp
+知恵袋
+ガルちゃん
+Google Trends
+SimilarWeb
+Alibaba
+dia
+Playwright
+ffmpeg
+whisper

@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ここちドライ 欄のCSS</title>
+<!--
+  ここちドライ advertorial-08 / advertorial-05 から、欄の HTML と CSS を「そのまま」抜き出した物（2026-10-09 取得）。
+  ・08 の欄は .a08 の中、05 の欄は .a05 の中に入れてある。2本の CSS がぶつからないよう、セレクタの頭に .a08 / .a05 を足しただけで、値は1つも変えていない。
+  ・画像は本番の URL を直接読む（ここちドライの CDN）。
+  ・各欄の上のコメントに「どの部品でできているか」を書いた。
+-->
+<style>
+body{margin:0;background:#eee;font-family:sans-serif}
+.label{max-width:720px;margin:28px auto 6px;padding:0 16px;font:700 13px/1.4 sans-serif;color:#555}
+
+/* ============ advertorial-08（ピンク・ゴシック） ============ */
+.a08{
+  --ink:#2f2226;--sub:#6b5a60;--line:#f1dde3;--bg:#fff;--soft:#fdf3f6;
+  --mark:#f9c6d4;--green:#e5738d;--green-d:#c2567a;--red:#d93025;--blue:#ed8499;
+  --pink:#fdeaef;--pink-d:#c2567a;--cream:#fdf3f6;
+  background:var(--bg);color:var(--ink);font-family:"Noto Sans JP","Hiragino Sans",sans-serif;font-size:17px;line-height:1.85;letter-spacing:.01em;
+  max-width:720px;margin:0 auto;padding:4px 16px 20px;box-sizing:border-box
+}
+.a08 *{box-sizing:border-box}
+.a08 img{max-width:100%;height:auto;display:block}
+.a08 p{margin:0 0 1.1em}
+@media (max-width:480px){.a08{font-size:16.5px}}
+
+/* 08 星と評価数（H1 の真下） */
+.a08 .stars{display:flex;align-items:center;gap:8px;font-size:15px;color:#2b7a9e;margin-bottom:14px}
+.a08 .stars .s{color:#f5a623;font-size:19px;letter-spacing:2px}
+
+/* 08 誰が紹介しているか（byline）
+   部品: 丸い顔写真48px ＋ 太字1行「取材協力：名前 医師（肩書き）」＋ 緑の丸チェック ＋ 改行「文：編集部名」＋ 改行・灰色斜体「更新：日付」 */
+.a08 .byline{display:flex;gap:12px;align-items:center;margin:18px 0 22px;font-size:14px;line-height:1.6}
+.a08 .byline img{width:48px;height:48px;border-radius:50%;object-fit:cover}
+.a08 .byline b{font-weight:700}
+.a08 .byline .ok{display:inline-block;width:16px;height:16px;border-radius:50%;background:#1f9d3a;color:#fff;font-size:11px;text-align:center;line-height:16px;vertical-align:-2px;margin-left:4px}
+.a08 .byline .d{color:#888;font-style:italic;font-size:13px}
+.a08 .byline img.dr{border-radius:50%;object-fit:cover}
+
+/* 08 読む時間と「今のまま続けると」の箱（byline の直前） */
+.a08 .warn{border:1px solid #f5c2cf;background:#fff;border-radius:8px;padding:10px 12px;font-size:14px;line-height:1.7;margin:14px 0}
+.a08 .warn b{color:var(--red)}
+
+/* 08 マーカー（本文の強調） */
+.a08 mark{background:linear-gradient(transparent 8%,var(--mark) 8%);color:inherit;padding:0 2px;font-weight:700}
+
+/* 08 客の声・医者の言葉（同じ blockquote を使う） */
+.a08 blockquote{margin:20px 0;padding:12px 16px;border-left:4px solid var(--blue);background:var(--soft);font-size:16px;line-height:1.8}
+.a08 blockquote cite{display:block;margin-top:6px;font-size:13px;color:#7a7a7a;font-style:normal}
+
+/* 08 まとめの ✕ 表 */
+.a08 .check{border:2px solid var(--ink);border-radius:8px;padding:14px 16px;margin:24px 0}
+.a08 .check .t{font-weight:900;font-size:18px;margin-bottom:6px}
+.a08 .check .row{display:flex;gap:10px;padding:7px 0;border-top:1px dashed var(--line);line-height:1.6}
+.a08 .check .row:first-of-type{border-top:0}
+.a08 .check .x{color:var(--red);font-weight:900;flex:none}
+.a08 .check .row b{flex:none}
+
+/* 08 値段の段：価格の箱 → セット3枚のカード */
+.a08 .price{border:3px solid var(--blue);background:#fff;border-radius:10px;text-align:center;padding:16px;margin:22px 0}
+.a08 .price .tag{display:inline-block;background:var(--green);color:#fff;font-weight:900;padding:2px 12px;border-radius:4px;font-size:15px}
+.a08 .price .p{font-size:17px;margin:8px 0 2px}
+.a08 .price .p s{color:#888}
+.a08 .price .p b{font-size:28px;color:var(--red)}
+.a08 .price small{font-size:13px;color:#555}
+.a08 .sets{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:22px 0 10px}
+.a08 .set{display:block;text-decoration:none;color:inherit;border:2px solid var(--line);border-radius:10px;padding:14px 8px 12px;text-align:center;position:relative;background:#fff}
+.a08 .set.pop{border-color:var(--green);background:var(--pink)}
+.a08 .set .badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--green);color:#fff;font-size:11px;font-weight:900;padding:2px 8px;border-radius:10px;white-space:nowrap}
+.a08 .set .n{font-weight:900;font-size:17px}
+.a08 .set .y{font-weight:900;font-size:20px;color:var(--red);margin:4px 0}
+.a08 .set .u{font-size:12px;color:#555;line-height:1.5}
+.a08 .set .go{margin-top:8px;font-size:13px;font-weight:900;color:var(--pink-d)}
+@media (max-width:480px){.a08 .sets{gap:6px}.a08 .set{padding:14px 4px 10px}.a08 .set .y{font-size:17px}}
+
+/* 08 ボタン（下に4pxの濃い影＝押せる形） */
+.a08 .cta{display:block;background:var(--green);color:#fff;text-align:center;text-decoration:none;font-weight:900;font-size:19px;padding:17px 14px;border-radius:6px;box-shadow:0 4px 0 var(--green-d);margin:28px 0 8px}
+.a08 .cta-note{text-align:center;font-size:14px;color:#444;margin:0 0 28px;line-height:1.6}
+
+/* 08 保証：メダル画像150px ＋ 大きい1行 ＋ 2行の説明 ＋ 小さい条件 */
+.a08 .guar{background:var(--pink);border-radius:10px;padding:20px 18px;text-align:center;margin:22px 0}
+.a08 .guar img{width:150px;margin:0 auto 8px}
+.a08 .guar .big{font-size:22px;font-weight:900;color:var(--pink-d)}
+.a08 .guar p{margin:6px 0;font-size:15px}
+.a08 .badges{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:18px 0}
+.a08 .badges div{background:var(--pink);color:var(--pink-d);border-radius:8px;text-align:center;font-size:12px;font-weight:700;padding:10px 4px;line-height:1.5}
+@media (max-width:480px){.a08 .badges{grid-template-columns:repeat(2,1fr)}}
+
+/* ============ advertorial-05（プラム・明朝見出し） ============ */
+.a05{
+  --paper:#fffdfb;--ink:#241b20;--plum:#6e2a47;--plum-d:#4e1c32;--ac:#c14a73;--ac-d:#a33359;
+  --gold:#c8a45c;--line:#ead7de;--mute:#6f6669;--sub:#9a7b8a;
+  --sans:"Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",Meiryo,sans-serif;
+  --serif:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
+  background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.85;
+  max-width:680px;margin:0 auto;padding:4px 16px 20px;box-sizing:border-box
+}
+.a05 *{box-sizing:border-box}
+.a05 img{max-width:100%}
+.a05 p{margin:0 0 18px}
+@media(min-width:768px){.a05{font-size:17px}}
+
+/* 05 誰が紹介しているか（author-box）
+   部品: 上下に細い線 ＋ 丸い顔写真72px（3pxの薄ピンク縁）＋ 太字「取材協力｜名前 医師」＋ 灰色12.5pxの経歴2〜3行（肩書き→この話との関係→以来していること） */
+.a05 .author-box{display:flex;gap:14px;align-items:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0;margin:20px 0}
+.a05 .author-box img{width:72px;height:72px;object-fit:cover;border-radius:50%;flex:0 0 72px;border:3px solid #f5e7ee}
+.a05 .author-box .nm{font-weight:800;font-size:15px;margin:0 0 3px}
+.a05 .author-box .role{font-size:12.5px;color:var(--mute);line-height:1.65}
+
+/* 05 取材者の行（H1 写真の下）：左に「取材｜媒体名」、右に Share アイコン */
+.a05 .share-row{display:flex;align-items:center;gap:14px;margin:0 0 18px;font-family:var(--sans);font-size:14px;color:var(--mute)}
+.a05 .share-row .byline{margin-right:auto;font-size:12px;color:var(--sub)}
+.a05 .share-row .sh-label{font-size:13px}
+.a05 .share-row a{color:var(--plum);background:none;border:0;padding:4px;display:inline-flex;align-items:center}
+
+/* 05 媒体のヘッダー（ロゴ丸＋媒体名＋キャッチ＋日付） */
+.a05 .sitebar{display:flex;align-items:center;justify-content:space-between;min-height:62px;padding:8px 0;border-bottom:1px solid var(--line);background:rgba(255,253,251,.96)}
+.a05 .sitebar .logo{display:flex;align-items:center;gap:8px;color:var(--plum);font-family:var(--serif);font-size:20px;font-weight:700;letter-spacing:.12em}
+.a05 .sitebar .logo .mk{width:36px;height:36px;border-radius:50%;background:var(--plum);color:#fff;display:flex;align-items:center;justify-content:center;font-size:15px;letter-spacing:0}
+.a05 .sitebar .logo span{display:block;margin:0;color:var(--sub);font-family:var(--sans);font-size:10px;letter-spacing:.08em}
+.a05 .sitebar .date{font-family:var(--sans);font-size:11px;color:var(--sub);letter-spacing:.06em}
+
+/* 05 強調2種 */
+.a05 .emph{font-weight:700;box-decoration-break:clone;-webkit-box-decoration-break:clone;background:linear-gradient(transparent 72%,#f7d3e0 72%,#f7d3e0 90%,transparent 90%)}
+.a05 .key-underline{font-weight:700;box-decoration-break:clone;-webkit-box-decoration-break:clone;background:linear-gradient(transparent 78%,#f3dbc4 78%,#f3dbc4 92%,transparent 92%)}
+.a05 b{color:var(--plum)}
+
+/* 05 医者の言葉（大きい明朝の引用）と、第三者の言葉（小さい箱） */
+.a05 .big-quote{font-family:var(--serif);font-size:clamp(17px,4.6vw,21px);text-wrap:pretty;font-weight:700;line-height:1.75;border-left:4px solid var(--ac);padding:10px 0 10px 16px;margin:24px 0;color:var(--plum)}
+.a05 .quote{border-left:4px solid var(--ac);background:#fdf6f9;padding:12px 14px;margin:0 0 16px;font-size:14.5px;line-height:1.75}
+.a05 .quote .src{display:block;font-size:12px;color:var(--mute);margin-top:6px}
+
+/* 05 客の声カード
+   部品: 頭文字の丸アイコン34px ＋ 太字「どんな人だったか」＋ 小さく「出どころ」＋ 右端「購入後の投稿」
+         → プラム地の白文字「★★★★★ 購入者の声」→ 太字の見出し1行（本人の言葉）→ 本文2文 → 色付きで「名字さん・年齢」 */
+.a05 .voices{margin:22px 0}
+.a05 .vcard{border:1px solid var(--line);background:#fff;padding:14px;margin-bottom:12px}
+.a05 .vcard .hd{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.a05 .vcard .av{flex:none;width:34px;height:34px;border-radius:50%;background:var(--plum);color:#fff;font-weight:800;font-size:15px;display:flex;align-items:center;justify-content:center}
+.a05 .vcard .who b{display:block;font-size:14px;font-weight:800;line-height:1.3;color:inherit}
+.a05 .vcard .who span{font-size:11.5px;color:var(--mute)}
+.a05 .vcard .tagr{margin-left:auto;font-size:11px;color:var(--mute)}
+.a05 .vcard .stars{display:inline-block;background:var(--plum);color:#fff;font-size:11.5px;font-weight:800;padding:3px 9px;letter-spacing:.06em;margin-bottom:8px}
+.a05 .vcard .ttl{font-size:16px;font-weight:800;color:var(--plum);line-height:1.6;margin:0 0 6px}
+.a05 .vcard p{font-size:14.5px;margin:0 0 8px;line-height:1.8}
+.a05 .vcard .note{font-size:13px;font-weight:800;color:var(--ac-d);margin:0}
+
+/* 05 値段の段：表 → セット2枚のカード（それぞれにボタン） */
+.a05 .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.a05 table{width:100%;border-collapse:collapse;font-size:13px;margin:14px 0 18px;min-width:340px}
+.a05 th{border-bottom:2px solid var(--ac);padding:8px 4px;text-align:left;font-weight:800;background:#fff;vertical-align:bottom;color:var(--plum);font-size:12px}
+.a05 td{border-bottom:1px solid var(--line);padding:9px 4px;vertical-align:top;line-height:1.5}
+.a05 td.c{text-align:center;font-weight:800;font-size:15px;white-space:nowrap}
+.a05 tr.best td{background:#fdf0f4}
+.a05 .ctabox{margin:30px 0;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center}
+.a05 .ctabox .cta-lead{font-family:var(--serif);font-size:19px;font-weight:800;line-height:1.6;color:var(--plum);margin:0 0 12px}
+.a05 .ctabox .cta-note{font-size:13px;color:var(--mute);margin:9px 0 0}
+.a05 .bundle-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 14px}
+.a05 .b-item{border:1px solid var(--line);background:#fff;padding:12px 8px;text-align:center}
+.a05 .b-item.pick{border:2px solid var(--ac)}
+.a05 .b-item p{margin:0;line-height:1.4}
+.a05 .b-tag{font-size:12px;font-weight:800;color:var(--ac-d)}
+.a05 .b-price{font-family:var(--serif);font-size:24px;font-weight:900;color:var(--plum)}
+.a05 .b-per{font-size:13px;color:var(--mute)}
+.a05 .b-use{font-size:12px;color:var(--mute);margin:4px 0 10px!important}
+.a05 .btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;width:100%;max-width:520px;border-radius:50px;padding:15px 16px;font-weight:800;font-size:17px;line-height:1.25;text-align:center;position:relative;margin:8px auto;text-decoration:none;background:var(--ac);color:#fff;border:2px solid var(--ac)}
+.a05 .btn small{display:block;font-size:11px;font-weight:400;margin-top:2px;opacity:.95}
+.a05 .btn:after{content:"›";position:absolute;right:16px;font-size:22px;line-height:1}
+.a05 .b-item .btn{font-size:15px;padding:12px 8px;margin:0}
+.a05 .b-item .btn:after{right:10px}
+
+/* 05 保証：金の二重枠の「券」。左右に半円の切り欠き、右上に傾いた30DAYSの判子（520px以下では消える） */
+.a05 .guarantee-ticket{position:relative;overflow:hidden;margin:22px 0 30px;padding:25px 20px 22px;background:#fffbf4;border:2px solid var(--gold);box-shadow:inset 0 0 0 5px #fffbf4,inset 0 0 0 6px #e8d5ab}
+.a05 .guarantee-ticket:before,.a05 .guarantee-ticket:after{content:"";position:absolute;width:26px;height:26px;background:var(--paper);border:2px solid var(--gold);border-radius:50%;top:50%;transform:translateY(-50%)}
+.a05 .guarantee-ticket:before{left:-15px}
+.a05 .guarantee-ticket:after{right:-15px}
+.a05 .ticket-kicker{color:#926d26;text-align:center;font-size:12px;font-weight:800;letter-spacing:.12em;margin:0 0 8px}
+.a05 .ticket-title{font-family:var(--serif);font-size:23px;font-weight:900;text-align:center;color:#7a5a17;margin:0 0 9px}
+.a05 .ticket-note{text-align:center;color:var(--mute);font-size:12.5px;line-height:1.7;margin:0}
+.a05 .ticket-list{list-style:none;margin:14px 0 0;padding:14px 0 0;border-top:1px dashed var(--gold)}
+.a05 .ticket-list li{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;line-height:1.7;margin-bottom:8px;text-align:left}
+.a05 .ticket-list li:last-child{margin-bottom:0}
+.a05 .ticket-list .ck{flex:none;width:20px;height:20px;border-radius:50%;background:#8a6a1f;color:#fff;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:3px}
+.a05 .ticket-list b{color:inherit}
+.a05 .ticket-seal{position:absolute;right:16px;top:14px;width:62px;height:62px;border-radius:50%;border:2px solid var(--gold);color:#8a6a1f;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:900;line-height:1.15;transform:rotate(-8deg);background:#fffdf6}
+.a05 .ticket-seal b{font-size:17px;color:inherit}
+.a05 .ticket-seal span{font-size:9px;letter-spacing:.08em}
+@media(max-width:520px){.a05 .ticket-seal{display:none}}
+</style>
+</head>
+<body>
+
+<p class="label">08｜星と評価数 → 読む時間の箱 → byline（誰が紹介しているか）</p>
+<div class="a08">
+  <div class="stars"><span class="s">★★★★★</span><span>4.7｜2,657件の評価</span></div>
+  <div class="warn">この記事は約6分で読めます。今のまま続けると：<br>薄いパッド → 怖くて1枚足す → お尻のあたりがふくらむ → 脱衣所で分かる → <b>温泉も旅行も断る</b>。<br>止められるのは、まだ「小さじ1杯」のもれの人です。</div>
+  <div class="byline">
+    <img class="dr" src="https://kokochidry.shop/cdn/shop/t/26/assets/kdadv-02_200x.jpg?v=92692475079850824551789583476" alt="高瀬真紀 医師" width="96" height="96">
+    <div><b>取材協力：高瀬 真紀 医師（泌尿器科専門医）</b><span class="ok">✓</span><br>文：くらし取材室 編集部<br><span class="d">更新：2026年9月25日</span></div>
+  </div>
+  <p><mark>干す時、自分の下着だけタオルの陰に隠していませんか。</mark>（mark の見本）</p>
+</div>
+
+<p class="label">08｜客の声（他社レビューを原文ママで引く形）と、医者の言葉</p>
+<div class="a08">
+  <blockquote>「パット部分の色が違うので、洗濯して干すときなど目立ち過ぎて恥ずかしいです。身生地と同色にして欲しいです！」<cite>楽天レビュー（他社の吸水ショーツについて・原文ママ）</cite></blockquote>
+  <blockquote>「母が隠していたのは、尿もれじゃないんです。あの見た目のものを使っている自分を、隠していたんです」</blockquote>
+</div>
+
+<p class="label">08｜まとめの ✕ 表</p>
+<div class="a08">
+  <div class="check">
+    <div class="t">ここまでのまとめ</div>
+    <div class="row"><span class="x">✕</span><div><b>薄いパッド：</b>怖くて1枚足すと、段差が出る</div></div>
+    <div class="row"><span class="x">✕</span><div><b>パッド2枚：</b>お尻のあたりがふくらむ</div></div>
+    <div class="row"><span class="x">✕</span><div><b>紙パンツ：</b>干せない。脱げば形が見える</div></div>
+  </div>
+</div>
+
+<p class="label">08｜値段 → セット → ボタン → 保証 → 4つの安心</p>
+<div class="a08">
+  <div class="price">
+    <span class="tag">サマーセール 40%OFF</span>
+    <div class="p">15枚セット <s>¥49,890</s> → <b>¥29,890</b>（税込）</div>
+    <small>メール登録でさらに2,000円OFF（¥27,890）・洗濯ネット3個と送料は無料</small>
+  </div>
+  <div class="sets">
+    <a class="set" href="#"><div class="n">5枚</div><div class="y">¥17,890</div><div class="u">登録後 ¥15,890<br>1枚あたり ¥3,178<br>ネット1個・送料無料</div><div class="go">選ぶ ›</div></a>
+    <a class="set" href="#"><div class="n">10枚</div><div class="y">¥23,890</div><div class="u">登録後 ¥21,890<br>1枚あたり ¥2,189<br>ネット2個・送料無料</div><div class="go">選ぶ ›</div></a>
+    <a class="set pop" href="#"><span class="badge">いちばんお得</span><div class="n">15枚</div><div class="y">¥29,890</div><div class="u">登録後 ¥27,890<br>1枚あたり ¥1,859<br>1日約76円・ネット3個</div><div class="go">選ぶ ›</div></a>
+  </div>
+  <a class="cta" href="#">もう、干す時に隠さない毎日へ ›</a>
+  <p class="cta-note">15枚セットがいちばんお得・40%OFF・メール登録でさらに2,000円OFF</p>
+  <div class="guar">
+    <img src="https://kokochidry.shop/cdn/shop/t/26/assets/kd2-medal-30_900x.png?v=42200052855952170801789583435" alt="30日間返金保証" width="280" height="280">
+    <div class="big">30日間の返金保証があります</div>
+    <p>はいて、洗って、干して、人の前で着替えてみてください。</p>
+    <p>納得できなければ、お問い合わせフォームから1通送るだけです。</p>
+    <p style="font-size:12.5px;color:#6b5a60">くわしい条件は、返金ポリシーをご覧ください。</p>
+  </div>
+  <div class="badges"><div>30日間<br>返金保証</div><div>安全な<br>支払い</div><div>全国<br>送料無料</div><div>サイズ交換<br>30日以内</div></div>
+</div>
+
+<p class="label">05｜媒体ヘッダー → 取材者の行 → author-box（誰が紹介しているか）</p>
+<div class="a05">
+  <div class="sitebar">
+    <span class="logo"><span class="mk">く</span>くらし取材室<span>女性のからだの悩みを、取材でほどく</span></span>
+    <span class="date">2026.09.16</span>
+  </div>
+  <div class="share-row" style="margin-top:14px">
+    <span class="byline">取材｜くらし取材室</span>
+    <span class="sh-label">Share :</span>
+    <a aria-label="Xでシェア"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M18.9 2H22l-7.2 8.2L23 22h-6.6l-5.1-6.7L5.4 22H2.3l7.7-8.8L2 2h6.8l4.6 6.1L18.9 2zm-1.2 18h1.8L7.4 3.9H5.5L17.7 20z"/></svg></a>
+  </div>
+  <div class="author-box">
+    <img src="https://kokochidry.shop/cdn/shop/t/26/assets/kdadv-02_900x.jpg?v=92692475079850824551789583476" alt="高瀬真紀 医師">
+    <div>
+      <p class="nm">取材協力｜高瀬 真紀 医師</p>
+      <span class="role">泌尿器科専門医。母が最後まで誰にも言わなかったことを、遺品の片づけで知る。以来、尿もれに悩む女性の「はく物」を見てきた。</span>
+    </div>
+  </div>
+  <p>ここで大事なのは、<span class="emph">今まで試した物が悪かったわけではない</span>ことです。<b>太字はプラム色</b>。<span class="key-underline">1946年のノーベル化学賞</span>（key-underline）。</p>
+</div>
+
+<p class="label">05｜医者の言葉（big-quote）と第三者の言葉（quote）</p>
+<div class="a05">
+  <p class="big-quote">「母が隠していたのは、尿もれじゃないんです。あの見た目のものを使っている自分を、隠していたんです」</p>
+  <div class="quote">「根本的な治療に取り組む私たちにも、治療が実を結ぶまでの間の恥ずかしさまでは、軽くしてあげられませんでした。それが心残りでした。だからこそ、その時間を支える下着を、ここちドライ様と本気で開発しました」<span class="src">── 泌尿器科専門機関 一同より</span></div>
+</div>
+
+<p class="label">05｜客の声カード</p>
+<div class="a05">
+  <div class="voices">
+    <div class="vcard">
+      <div class="hd"><span class="av">井</span><span class="who"><b>旅行を断っていた方</b><span>公式ページに寄せられた声</span></span><span class="tagr">購入後の投稿</span></div>
+      <span class="stars">★★★★★　購入者の声</span>
+      <p class="ttl">「今度の旅行は、断りません」</p>
+      <p>着替えを見られるのが、前ほど怖くないんです。同じ部屋で泊まっても、気にならなくなりました。</p>
+      <p class="note">井上さん・48歳</p>
+    </div>
+    <div class="vcard">
+      <div class="hd"><span class="av">娘</span><span class="who"><b>お母さまに贈った方</b><span>公式ページに寄せられた声</span></span><span class="tagr">購入後の投稿</span></div>
+      <span class="stars">★★★★★　購入者の声</span>
+      <p class="ttl">「新しい下着だよ、と言って渡しました」</p>
+      <p>紙パンツは絶対にはかないと言っていた母が、次の日から自分ではいていました。何も聞かれませんでした。</p>
+      <p class="note">購入した人・58歳（お母さま86歳）</p>
+    </div>
+  </div>
+</div>
+
+<p class="label">05｜値段の表 → セット2枚 → 保証の券</p>
+<div class="a05">
+  <div class="tablewrap">
+  <table>
+    <tr><th>セット</th><th>価格</th><th>1枚あたり</th><th>1日あたり</th></tr>
+    <tr><td>5枚</td><td class="c">¥15,890</td><td class="c">¥3,178</td><td class="c">約14円</td></tr>
+    <tr><td>10枚</td><td class="c">¥21,890</td><td class="c">¥2,189</td><td class="c">約9円</td></tr>
+    <tr class="best"><td>15枚（おすすめ）</td><td class="c">¥27,890</td><td class="c">¥1,859</td><td class="c">約5円</td></tr>
+  </table>
+  </div>
+  <div class="ctabox">
+    <p class="cta-lead">出かける日も、家で過ごす日も。<br>引き出しから、いつもの下着を出すだけ。</p>
+    <div class="bundle-row">
+      <div class="b-item"><p class="b-tag">洗い替えまで</p><p class="b-price">10枚</p><p class="b-per">1枚あたり ¥2,189</p><p class="b-use">毎日はいて回せる枚数</p><a class="btn" href="#">10枚にする</a></div>
+      <div class="b-item pick"><p class="b-tag">いちばんお得</p><p class="b-price">15枚</p><p class="b-per">1枚あたり ¥1,859</p><p class="b-use">母の分・色違いまで</p><a class="btn" href="#">15枚にする</a></div>
+    </div>
+    <p class="cta-note">30日間返金保証・全国送料無料・XSから4XLまで8サイズ</p>
+  </div>
+  <div class="guarantee-ticket">
+    <div class="ticket-seal"><b>30</b><span>DAYS</span></div>
+    <p class="ticket-kicker">RISK FREE</p>
+    <p class="ticket-title">30日間 返金保証</p>
+    <p class="ticket-note">玄関で一度はいただけで決めなくて大丈夫です。<br>出かけた日に試して、帰った夜に確かめてから決めてください。</p>
+    <ul class="ticket-list">
+      <li><span class="ck">✓</span><span><b>はいたあとでも返金できます。</b>洗ってしまったあとでも受け付けます。</span></li>
+      <li><span class="ck">✓</span><span><b>サイズが合わなければ、交換可能。</b>30日以内なら、返送も要りません。</span></li>
+      <li><span class="ck">✓</span><span><b>箱の外側に、中身が分かる表示はありません。</b>受け取る人以外には分かりません。</span></li>
+      <li><span class="ck">✓</span><span><b>連絡は1通のメールだけ。</b>注文番号を書いて送るだけで手続きが始まります。</span></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

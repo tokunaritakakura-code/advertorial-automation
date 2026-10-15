@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "brands": {
+    "リサーチ": {
+      "account_id": "",
+      "owners": [
+        "owner"
+      ],
+      "approval_max_seconds": 0,
+      "max_daily_budget": 0,
+      "asset_roots": [
+        "~/Claude Code/ec-harness/data/brands/リサーチ/assets"
+      ],
+      "workspace_root": "~/Claude Code/ec-harness/data/brands/リサーチ/assets",
+      "metrics_path": "~/Claude Code/ec-harness/data/brands/リサーチ/metrics",
+      "state_root": "~/Claude Code/ec-harness/data/brands/リサーチ/state",
+      "read_roots": [
+        "~/Documents/Obsidian Vault/ec"
+      ],
+      "vault_write_roots": [
+        "~/Documents/Obsidian Vault/ec/_リサーチ済み"
+      ],
+      "metrics_source": "unconfigured",
+      "thresholds": {},
+      "read_only": true,
+      "note": "工程1・2のリサーチ（まだブランドが無い商品）。広告口座なし。書けるのは ec/_リサーチ済み/ だけ（2026-10-05）"
+    },
+    "自分のブランド": {
+      "account_id": "",
+      "owners": [
+        "owner"
+      ],
+      "approval_max_seconds": 0,
+      "max_daily_budget": 0,
+      "asset_roots": [
+        "~/Claude Code/ec-harness/data/brands/自分のブランド/assets"
+      ],
+      "workspace_root": "~/Claude Code/ec-harness/data/brands/自分のブランド/assets",
+      "metrics_path": "~/Claude Code/ec-harness/data/brands/自分のブランド/metrics",
+      "state_root": "~/Claude Code/ec-harness/data/brands/自分のブランド/state",
+      "read_roots": [
+        "~/Documents/Obsidian Vault/ec/自分のブランド"
+      ],
+      "vault_write_roots": [
+        "~/Documents/Obsidian Vault/ec/自分のブランド"
+      ],
+      "metrics_source": "unconfigured",
+      "thresholds": {},
+      "read_only": true,
+      "page_id": "",
+      "instagram_id": "",
+      "note": "ひな形。名前を自分のブランド名に替え、account_id・page_id・instagram_id は自分の値を入れる（空のままでも記事の審査は回る）"
+    }
+  }
+}

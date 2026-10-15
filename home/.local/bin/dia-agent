@@ -1,0 +1,15 @@
+#!/bin/bash
+# dia-agent — 本人のDiaを一切触らずに操作する専用インスタンス(ポート9223・別プロファイル)。
+# 本人のログイン済みセッションが要るときだけ、素の `dia`(9222) を使う。
+export DIA_CDP_PORT=9223
+export DIA_SOCK=/tmp/dia-agent.sock
+export DIA_W="${DIA_W:-1280}"
+export DIA_H="${DIA_H:-900}"
+if ! curl -s -m 1 "http://127.0.0.1:9223/json/version" >/dev/null 2>&1; then
+  open -gna Dia --args --remote-debugging-port=9223 --user-data-dir="$HOME/.dia-agent" >/dev/null 2>&1
+  for i in $(seq 1 15); do
+    curl -s -m 1 "http://127.0.0.1:9223/json/version" >/dev/null 2>&1 && break
+    sleep 0.4
+  done
+fi
+exec node "$HOME/.claude/skills/surasura/scripts/dia.mjs" "$@"

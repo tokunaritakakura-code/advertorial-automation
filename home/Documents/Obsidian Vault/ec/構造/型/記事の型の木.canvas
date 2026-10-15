@@ -1,0 +1,298 @@
+{
+	"nodes": [
+		{
+			"id": "ed712c990efe0f2d",
+			"type": "group",
+			"x": 3800,
+			"y": -160,
+			"width": 1880,
+			"height": 2380,
+			"label": "Solution Aware"
+		},
+		{
+			"id": "143979519e1e7b9b",
+			"type": "group",
+			"x": 1880,
+			"y": -160,
+			"width": 1880,
+			"height": 2150,
+			"label": "Problem Aware"
+		},
+		{
+			"id": "3aabce4725906a80",
+			"type": "group",
+			"x": -40,
+			"y": -160,
+			"width": 1880,
+			"height": 2150,
+			"label": "Unaware"
+		},
+		{
+			"id": "7c44e096de966eb4",
+			"type": "text",
+			"text": "# 記事の型の木\n入口（広告の種類）→ Awareness level → 記事の型（段階ごとに1つ）→ その型のフォーマット（見せ方）。🟩 実物が通った／🟨 作っている／🟥 参考だけ／⬜ 候補\n\n| 言葉 | 意味 |\n|---|---|\n| フォーマット | 同じ型（段の並び）の中の見せ方の違い。入口の広告で変わる |\n| 英語の記事 | 勝ち広告の棚の英語の実物と同じ見た目（字とデザインは日本風・ここちドライに寄せる） |\n| 日本版 | 会社で権威・短い行と赤字・値段はアンケート3問のお礼・申込はチャット（`quiz-jp-copy`） |",
+			"x": 0,
+			"y": -560,
+			"width": 2400,
+			"height": 300,
+			"color": "6"
+		},
+		{
+			"id": "e39abf2dbaeede12",
+			"type": "text",
+			"text": "## 入口: VSL（動画の広告）\n見終わった人の状態（認知の段階・15の事の塗り・広告が言わなかった問い）で型を決める。誰が話しているかでは選ばない（日本の広告は、この3つのどれかの入口＋「日本版」のフォーマット）",
+			"x": 0,
+			"y": -380,
+			"width": 1400,
+			"height": 150,
+			"color": "2"
+		},
+		{
+			"id": "ef434ee53864b180",
+			"type": "text",
+			"text": "## 入口: static（画像1枚の広告）\n画像の中の字が1行目。最初の3行で段階を決める（日本の広告は、この3つのどれかの入口＋「日本版」のフォーマット）",
+			"x": 1500,
+			"y": -380,
+			"width": 1400,
+			"height": 150,
+			"color": "2"
+		},
+		{
+			"id": "8cb98069b0180f33",
+			"type": "text",
+			"text": "## 入口: ネイティブ広告（長い文の広告）\n本文の最初の3行で段階を決める（日本の広告は、この3つのどれかの入口＋「日本版」のフォーマット）",
+			"x": 3000,
+			"y": -380,
+			"width": 1400,
+			"height": 150,
+			"color": "2"
+		},
+		{
+			"id": "cfadaf1b2bf83be2",
+			"type": "text",
+			"text": "## Unaware\n悩みの名前を出さず、物語・驚き・別の話題から入る",
+			"x": 0,
+			"y": -120,
+			"width": 1800,
+			"height": 150,
+			"color": "4"
+		},
+		{
+			"id": "b1353715dece365b",
+			"type": "text",
+			"text": "## Problem Aware\n悩み・症状の名前から入り、解決策の名前はまだ出さない",
+			"x": 1920,
+			"y": -120,
+			"width": 1800,
+			"height": 150,
+			"color": "4"
+		},
+		{
+			"id": "e0595b0e007b6877",
+			"type": "text",
+			"text": "## Solution Aware\n今ある解決策（他の商品・やり方）の名前を出して比べるか切る",
+			"x": 3840,
+			"y": -120,
+			"width": 1800,
+			"height": 150,
+			"color": "4"
+		},
+		{
+			"id": "9682ba9f8f6223dc",
+			"type": "text",
+			"text": "## Product Aware\n商品ページ直行。記事は作らない（決めたこと 2026-10-11）",
+			"x": 5760,
+			"y": -120,
+			"width": 800,
+			"height": 150
+		},
+		{
+			"id": "3a31cd887080f104",
+			"type": "text",
+			"text": "## 型: 物語の記事\n3人称の主人公が原因にたどり着く物語。芯: 題→物語→隠れた原因→切る→仕組み→商品→値段→保証\n\n**フォーマット**\n- 🟩 **英語の記事**: 参考 [Calmwise Journal → Everly（3人称の Karen が原因にたどり着く物語）](https://shopeverly.shop/pages/tired-of-hair-shedding-sleepless-nights-sudden-urges-this-natural-seed-oil-is-quietly-tr\n  - 実物: [arukoto-story（アルコット）](https://arukoto-story.vercel.app)\n  - 今: 済み\n- 🟩 **漫画（日本版。心の声は青い吹き出し・申込はチャット）**: 参考 [YURiiRO 83q（全部漫画で1人の物語。心の声は青い吹き出し）](https://sb-yuriiro-oil.newsanything.tokyo/ab/yuri-f3-83q-fk01)（約40本）\n  - 実物: [kokochi-manga（同窓会の恋）](https://kokochi-manga.vercel.app)\n  - 今: 済み（漫画は「最後まで読んでほしい」を入れない）\n- ⬜ **応援の記事（候補。実物1本・型にしない）**: 参考 \n\n型の資料: `runs/arukoto-4/`・`runs/yuriiro-manga/`　子スキル: `05 記事を作る.md` の道・`quiz-jp-copy`\nnative・static の Unaware は別に作らない（2026-10-12 本人）",
+			"x": 0,
+			"y": 120,
+			"width": 1800,
+			"height": 508,
+			"color": "4"
+		},
+		{
+			"id": "66fae161127e5bfa",
+			"type": "text",
+			"text": "## 型: 原因の暴露（権威の暴露記事）\n権威が「本当の原因」を名指しし、今の対策を切り、仕組みの後で商品。芯: 題→名乗り→物語→隠れた原因→切る→仕組み→商品→客の声→値段→保証\n\n**フォーマット**\n- 🟩 **英語の記事**: 参考 [Inno Glam（育毛ブラシ。医者の1人語りで見落とされた原因を明かす）](https://innoglam.com/pages/advert-2)・[Chicken Health（鶏の羽抜け・獣医）](https://roostys.co/pages/feather-loss)\n  - 実物: [arukoto-bakuro（アルコット）](https://arukoto-bakuro.vercel.app)・針マット3本\n  - 今: 済み\n- 🟩 **長い物語の広告の受け（ネイティブの形: 題の上に帯・職と年数の名乗り・比較表・60%OFF・日数つき保証）**: 参考 morningvitality の同じブランド3本（ミネラルのサプリ。[肩 bt1bsh](https://health.morningvitality.com/ga/bt1bsh/)・[膝 bt1kn-c](https://health.morningvitality.com/ga/bt1kn-c/)・[ED bt1ed](https:\n  - 実物: [yorumie-night（油膜取り・夜の運転）](https://yorumie-night.vercel.app)・[kokochi-bakuro（ここちドライ）](https://kokochi-bakuro.vercel.app)\n  - 今: 済み。次に作る時はこの3本を参考にする\n- 🟨 **画像広告の受け（入口が画像1枚。段の並びは同じ）**: 参考 [try-clearvision adv-accdnt-1（フロントガラスの油膜取り。夜の運転の事故の話から隠れた原因を明かす）](https://try-clearvision.com/pages/adv-accdnt-1)\n  - 実物: 0（ネイティブ広告から入る版は yorumie-night がある）\n  - 今: static 担当が今日作る（商品は本人 OK 待ち）\n- 🟩 **日本版（会社で権威・短い行と赤字・アンケート3問のお礼で値段・チャットの申込）**: 参考 [BODY-VO](https://sb.bodyvotw.com/ab/bdvo-f3-02q-fb60)・[てんらい黄望皇](https://sb.tenrai26-kibo.com/ab/kibo-f3-20aq-fk71)・[生漢煎 防風通聖散](https://sb-jfd-beauty.discover-news.tokyo/\n  - 実物: [ハリネル（腰が伸びない）](https://harinel-quiz-koshi.vercel.app)・[ここちドライ（パッドの敵）](https://kokochi-quiz-padteki.vercel.app)・[アルコット（かかとのクッション）](https://arukoto-quiz.vercel.app)\n  - 今: 済み\n- 🟩 **7問診断（診断の画像広告の受け。好みの7問→褒めるタイプ名→解説→チャットの申込）**: 参考 YURiiRO 49bq・49q（日本20本）。好みの7問→褒めるタイプ名→12段の解説→チャットの申込\n  - 実物: [kokochi-shindan-anshin（ここちドライ）](https://kokochi-shindan-anshin.vercel.app)\n  - 今: 済み\n\n型の資料: `runs/bakuro-native/`・`runs/quiz-jp/`　子スキル: `bakuro-copy`・`quiz-jp-copy`",
+			"x": 1920,
+			"y": 120,
+			"width": 1800,
+			"height": 898,
+			"color": "4"
+		},
+		{
+			"id": "b62f9d402b027767",
+			"type": "text",
+			"text": "## 型: リスティクル（理由の列挙）\n理由を番号で並べ、1つで今の対策を切る。芯: 題→理由の列挙→値段→客の声→保証。画像広告からも作る（2026-10-12 本人）\n\n**フォーマット**\n- 🟩 **英語の記事（10の理由）**: 参考 [Mason Genie（10の理由）](https://masongenie.com/pages/mason-genie)・[Jade & Lotus（10の理由）](https://try.luxeresearchlab.com/adv-1-v2)・[Novelia（マイクロニードルパッチ・7つの理由）](https://mynove\n  - 実物: [arukoto-listicle（アルコット）](https://arukoto-listicle.vercel.app)\n  - 今: 済み\n- 🟩 **長い物語の広告の受け（ネイティブの形）**: 実物 https://asaichi-5reasons.vercel.app （アサイチ。2026-10-12 PASS・本人0手）。: 参考 [trytubo 5-reasons（風呂の塩素除去フィルター「5つの理由」）](https://trytubo.com/pages/5-reasons)　月間 **24,124**（US 54%。月10万の線に届かない。採用するかは本人）\n  - 実物: 0\n  - 今: native 担当が今日作る\n- 🟩 **比較リスト**（試した物を値段の順に実名で並べ、最後の1枚だけ人づての推薦）: 実物 https://arukoto-hikaku.vercel.app （アルコット。広告7本の飛び先）\n  - 今: 画像広告からの実物はまだ\n\n子スキル: `listicle-copy`",
+			"x": 1920,
+			"y": 1270,
+			"width": 1800,
+			"height": 508,
+			"color": "4"
+		},
+		{
+			"id": "3b4d5a1d44b1f341",
+			"type": "text",
+			"text": "## 型: 比較ランキング・採点ランキング（同じ型の2つの呼び名）\n第三者のレビューサイトの書き手が5つを採点して1位を決める。芯: 題→名乗り→採点の基準→採点・ランキング→商品→値段\n\n**フォーマット**\n- 🟨 **第三者のレビューサイトの採点（白地・署名・#1〜#5 の札）**: 参考 [healthinsider「GLP-1 サプリ5つを4か月テスト」（第三者のレビューサイト。#1〜#5 の札）](https://healthinsider.news/we-tested-5-top-rated-glp-1-supplements-for-4-months-which-one-is-1-in-2026-gut-suppl\n  - 実物: [sleep-earbuds-static（睡眠イヤホン。別の参考で作った物。本人0手で Vercel まで通った）](https://sleep-earbuds-static.vercel.app)\n  - 今: healthinsider を参考にした日本のデザイン版はまだ → static 担当が今日作る（商品は本人 OK 待ち）\n- 🟨 **同じ見た目を動画の広告から受ける**: 参考 [healthinsider「GLP-1 サプリ5つを4か月テストして1位を決めた」（第三者のレビューサイトの採点）](https://healthinsider.news/we-tested-5-top-rated-glp-1-supplements-for-4-months-which-one-is-1-in-2026-gut-sup\n  - 実物: VSL からの物はまだ（static から入る睡眠イヤホンはある）\n  - 今: vsl 担当が入れ歯洗浄機で作っている（10:36〜）\n  - 2026-10-12 本人「VSL に採点ランキングを足す」\n- 🟩 **同じ見た目を長い物語の広告から受ける**: 実物 https://asaichi-ranking.vercel.app （アサイチ。2026-10-12 PASS・本人0手）。: 参考 [spnutrition consumer-tested-men-listicle（男性向けサプリを消費者テストで採点）](https://spnutrition-us.com/pages/consumer-tested-men-listicle)　月間 968,771（US 63%・AU 24%）\n  - 実物: 0\n  - 今: native 担当が今日作る\n\n型の資料: `runs/ranking-static/`　子スキル: `ranking-copy`",
+			"x": 3840,
+			"y": 120,
+			"width": 1800,
+			"height": 638,
+			"color": "4"
+		},
+		{
+			"id": "9a2b66b6a17844c9",
+			"type": "text",
+			"text": "## 型: 原因の暴露（Solution Aware の入り）\n最初の3行で今の解決策を名指しで切ってから原因へ。段の並びは Problem Aware の暴露と同じ（芯 9〜10/10）\n\n**フォーマット**\n- 🟩 **長い物語の広告の受け**: 実物 https://asaichi-bakuro.vercel.app （アサイチ。2026-10-12 PASS・本人0手）。: 参考 [smoothspine tfbm-coc-adv2-ss（腰・坐骨神経の牽引の器具。今ある解決策を切ってから原因を明かす）](https://try.smoothspine.com/tfbm-coc-adv2-ss)　月間 1,774,902（US 93%）\n  - 実物: 0\n  - 今: native 担当が今日作る\n- 🟩 **ここちドライの4本（広告に出した実物。日本語・うちの見た目）**: 4本とも Solution Aware × 原因の暴露。 https://kokochidry.shop/pages/advertorial-05 （広告16本）・ advertorial-06（11本）・ advertorial-07（3本）・ advertorial-08（2本）\n  - 参考 SmoothSpine との差は `ec/ここちドライ/女性用/08 記事/10 4本と参考の差.canvas`（参考に無い勝ち: 恥の反論・出典つきの原因・大きいセットの選ばせ方）\n\n子スキル: `bakuro-copy`（入口が「今ある解決策を切る」の分岐）",
+			"x": 3840,
+			"y": 990,
+			"width": 1800,
+			"height": 430,
+			"color": "4"
+		},
+		{
+			"id": "dd5e1a8eaa09da0b",
+			"type": "text",
+			"text": "## 型: リスティクル（Solution Aware の入り）\n理由の1つで今の解決策を名指しで切る\n\n**フォーマット**\n- 🟩 **長い物語の広告の受け（理由を並べて今の対策を切る）**: 実物 https://asaichi-listicle.vercel.app （アサイチ。2026-10-12 審査役・読み手の目 PASS・本人0手）。: 参考 [metabolae kidney-1（セイロンシナモンのサプリ・腎臓。理由を並べて今の対策を切る）](https://metabolae.com/pages/lp-ceylon-cinnamon-kidney-1)　月間 2,084,334（2026-09・US 95%）\n  - 実物: 0\n  - 今: native 担当が今日作る（商品は OK 待ち）\n\n子スキル: `listicle-copy`（Solution Aware の分岐）",
+			"x": 3840,
+			"y": 1800,
+			"width": 1800,
+			"height": 326,
+			"color": "4"
+		}
+	],
+	"edges": [
+		{
+			"id": "b78e178de19ab7c8",
+			"fromNode": "e39abf2dbaeede12",
+			"fromSide": "bottom",
+			"toNode": "cfadaf1b2bf83be2",
+			"toSide": "top"
+		},
+		{
+			"id": "0fb8469276b7ddab",
+			"fromNode": "e39abf2dbaeede12",
+			"fromSide": "bottom",
+			"toNode": "b1353715dece365b",
+			"toSide": "top"
+		},
+		{
+			"id": "2d89db62a9286466",
+			"fromNode": "e39abf2dbaeede12",
+			"fromSide": "bottom",
+			"toNode": "e0595b0e007b6877",
+			"toSide": "top"
+		},
+		{
+			"id": "26fefb7d7a263db0",
+			"fromNode": "e39abf2dbaeede12",
+			"fromSide": "bottom",
+			"toNode": "9682ba9f8f6223dc",
+			"toSide": "top"
+		},
+		{
+			"id": "7ed0a76e159f919e",
+			"fromNode": "ef434ee53864b180",
+			"fromSide": "bottom",
+			"toNode": "cfadaf1b2bf83be2",
+			"toSide": "top"
+		},
+		{
+			"id": "518f3dd470664536",
+			"fromNode": "ef434ee53864b180",
+			"fromSide": "bottom",
+			"toNode": "b1353715dece365b",
+			"toSide": "top"
+		},
+		{
+			"id": "6c6ee4db5f85ef79",
+			"fromNode": "ef434ee53864b180",
+			"fromSide": "bottom",
+			"toNode": "e0595b0e007b6877",
+			"toSide": "top"
+		},
+		{
+			"id": "a5bef5b451ad825e",
+			"fromNode": "ef434ee53864b180",
+			"fromSide": "bottom",
+			"toNode": "9682ba9f8f6223dc",
+			"toSide": "top"
+		},
+		{
+			"id": "12afcb882dde565d",
+			"fromNode": "8cb98069b0180f33",
+			"fromSide": "bottom",
+			"toNode": "cfadaf1b2bf83be2",
+			"toSide": "top"
+		},
+		{
+			"id": "66b47f34b47e92a6",
+			"fromNode": "8cb98069b0180f33",
+			"fromSide": "bottom",
+			"toNode": "b1353715dece365b",
+			"toSide": "top"
+		},
+		{
+			"id": "d8b9d85b7ea71ddc",
+			"fromNode": "8cb98069b0180f33",
+			"fromSide": "bottom",
+			"toNode": "e0595b0e007b6877",
+			"toSide": "top"
+		},
+		{
+			"id": "4128b6c94c879d46",
+			"fromNode": "8cb98069b0180f33",
+			"fromSide": "bottom",
+			"toNode": "9682ba9f8f6223dc",
+			"toSide": "top"
+		},
+		{
+			"id": "a26e7929d213b63d",
+			"fromNode": "cfadaf1b2bf83be2",
+			"fromSide": "bottom",
+			"toNode": "3a31cd887080f104",
+			"toSide": "top"
+		},
+		{
+			"id": "6e27539bd2172753",
+			"fromNode": "b1353715dece365b",
+			"fromSide": "bottom",
+			"toNode": "66fae161127e5bfa",
+			"toSide": "top"
+		},
+		{
+			"id": "aa644cc54791eb34",
+			"fromNode": "b1353715dece365b",
+			"fromSide": "bottom",
+			"toNode": "b62f9d402b027767",
+			"toSide": "top"
+		},
+		{
+			"id": "63ed4fbab322aa14",
+			"fromNode": "e0595b0e007b6877",
+			"fromSide": "bottom",
+			"toNode": "3b4d5a1d44b1f341",
+			"toSide": "top"
+		},
+		{
+			"id": "1ec60b1c2e23c97d",
+			"fromNode": "e0595b0e007b6877",
+			"fromSide": "bottom",
+			"toNode": "9a2b66b6a17844c9",
+			"toSide": "top"
+		},
+		{
+			"id": "0cd5340d442a6d82",
+			"fromNode": "e0595b0e007b6877",
+			"fromSide": "bottom",
+			"toNode": "dd5e1a8eaa09da0b",
+			"toSide": "top"
+		}
+	]
+}

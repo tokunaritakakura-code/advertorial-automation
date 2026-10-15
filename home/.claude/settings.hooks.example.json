@@ -1,0 +1,44 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$HOME/.claude/hooks/ec-harness-detect.sh\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.claude/skills/skill-creator/references/check-undug.py\" --hook",
+            "timeout": 15,
+            "statusMessage": "掘り残し検査"
+          },
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.claude/hooks/md書式検査.py\"",
+            "timeout": 15,
+            "statusMessage": "md書式検査"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.claude/skills/skill-creator/references/check-undug.py\" --recent",
+            "timeout": 20,
+            "statusMessage": "掘り残し検査（Bash書き込み）"
+          }
+        ]
+      }
+    ]
+  }
+}

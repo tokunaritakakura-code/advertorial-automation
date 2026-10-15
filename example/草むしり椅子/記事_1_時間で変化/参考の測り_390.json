@@ -1,0 +1,2926 @@
+{
+ "参考": "https://roostys.co/pages/feather-loss",
+ "幅": "390",
+ "測った日": "2026-10-15（合格した時の測りを固定）",
+ "測り": {
+  "画像": [
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/6047952e-0890-4103-9a0f-28c3e2f620e7?width=200",
+    "章": 0,
+    "位置": 0,
+    "幅": 0.256,
+    "縦横": 0.47,
+    "px": [
+     100,
+     47
+    ]
+   },
+   {
+    "型": "BG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/0be30069-7c60-49d4-9965-96e320a85e75",
+    "章": 1,
+    "位置": 0.007,
+    "幅": 0.897,
+    "縦横": 0.857,
+    "px": [
+     350,
+     300
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/a6c1e196-25af-4d99-8856-6f52e722180d?width=160",
+    "章": 1,
+    "位置": 0.036,
+    "幅": 0.205,
+    "縦横": 1,
+    "px": [
+     80,
+     80
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/c6f2e078-beec-43c7-b4fe-680e3ca54604?width=820",
+    "章": 3,
+    "位置": 0.079,
+    "幅": 0.897,
+    "縦横": 1.218,
+    "px": [
+     350,
+     426
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/81af8926-1374-4e34-bb08-74efad34d565?width=820",
+    "章": 4,
+    "位置": 0.157,
+    "幅": 0.897,
+    "縦横": 1,
+    "px": [
+     350,
+     350
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/b799c1fa-e1c3-4113-8a74-1b097af7c995?width=820",
+    "章": 5,
+    "位置": 0.257,
+    "幅": 0.887,
+    "縦横": 1,
+    "px": [
+     346,
+     346
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/9470cc74-a857-4da4-adbe-b269ccbfc88f?width=658",
+    "章": 6,
+    "位置": 0.493,
+    "幅": 0.845,
+    "縦横": 1.006,
+    "px": [
+     330,
+     332
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/f4634460-a420-45cf-9245-5add28d6d059?width=820",
+    "章": 6,
+    "位置": 0.579,
+    "幅": 0.887,
+    "縦横": 1,
+    "px": [
+     346,
+     346
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/8e27d71c-f655-4643-bce4-f46076602974?width=820",
+    "章": 7,
+    "位置": 0.65,
+    "幅": 0.887,
+    "縦横": 1.101,
+    "px": [
+     346,
+     381
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/415b717f-2469-4214-a388-b88beeb02d73?width=820",
+    "章": 7,
+    "位置": 0.707,
+    "幅": 0.831,
+    "縦横": 1,
+    "px": [
+     324,
+     324
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/0b688158-fc26-4f9c-8823-fdd1ad6c3fde?width=820",
+    "章": 7,
+    "位置": 0.757,
+    "幅": 0.3,
+    "縦横": 1.906,
+    "px": [
+     117,
+     223
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0524/8866/7330/files/10.png?v=1729073210&width=820",
+    "章": 7,
+    "位置": 0.764,
+    "幅": 0.769,
+    "縦横": 0.733,
+    "px": [
+     300,
+     220
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/df3f5f80-dd9c-4fe3-ac85-52f21f09e993?width=820",
+    "章": 7,
+    "位置": 0.786,
+    "幅": 0.769,
+    "縦横": 0.733,
+    "px": [
+     300,
+     220
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/a30d9aca-2e82-4253-aba1-6b17c348e521/f3e313db-96cc-40a3-bb9a-9efce35e7588?width=820",
+    "章": 7,
+    "位置": 0.807,
+    "幅": 0.769,
+    "縦横": 0.733,
+    "px": [
+     300,
+     220
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/076b1f11-d2d3-4d3a-9773-52a8d667fb12?width=820",
+    "章": 7,
+    "位置": 0.829,
+    "幅": 0.769,
+    "縦横": 0.733,
+    "px": [
+     300,
+     220
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0524/8866/7330/files/6.png?v=1729072249&width=820",
+    "章": 7,
+    "位置": 0.85,
+    "幅": 0.931,
+    "縦横": 0.733,
+    "px": [
+     363,
+     266
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0524/8866/7330/files/10.png?v=1729073210&width=820",
+    "章": 7,
+    "位置": 0.871,
+    "幅": 0.769,
+    "縦横": 0.733,
+    "px": [
+     300,
+     220
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/df3f5f80-dd9c-4fe3-ac85-52f21f09e993?width=820",
+    "章": 7,
+    "位置": 0.871,
+    "幅": 0.769,
+    "縦横": 0.733,
+    "px": [
+     300,
+     220
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/a30d9aca-2e82-4253-aba1-6b17c348e521/f3e313db-96cc-40a3-bb9a-9efce35e7588?width=820",
+    "章": 7,
+    "位置": 0.871,
+    "幅": 0.769,
+    "縦横": 0.733,
+    "px": [
+     300,
+     220
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/076b1f11-d2d3-4d3a-9773-52a8d667fb12?width=820",
+    "章": 7,
+    "位置": 0.871,
+    "幅": 0.769,
+    "縦横": 0.733,
+    "px": [
+     300,
+     220
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0524/8866/7330/files/6.png?v=1729072249&width=820",
+    "章": 7,
+    "位置": 0.871,
+    "幅": 0.931,
+    "縦横": 0.733,
+    "px": [
+     363,
+     266
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0524/8866/7330/files/10.png?v=1729073210&width=820",
+    "章": 7,
+    "位置": 0.871,
+    "幅": 0.769,
+    "縦横": 0.733,
+    "px": [
+     300,
+     220
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://assets.replocdn.com/projects/ee16ea5c-6e3f-4e17-abfe-492b20dd509e/2a4f1a26-9693-43af-a9d4-24e75898b57e?width=220",
+    "章": 7,
+    "位置": 0.871,
+    "幅": 0.282,
+    "縦横": 1.115,
+    "px": [
+     110,
+     123
+    ]
+   },
+   {
+    "型": "IFRAME",
+    "src": "https://loox.io/widget/dpyqqzCXVQ/reviews/7948485230786?h=1792041289182",
+    "章": 8,
+    "位置": 0.964,
+    "幅": 0.949,
+    "縦横": 5.476,
+    "px": [
+     370,
+     2026
+    ]
+   }
+  ],
+  "段": [
+   {
+    "型": "h2",
+    "章": 1,
+    "文": "Feather Loss Could Be A Warning Sign of Parasite Pressure",
+    "字": 32,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "ボタン",
+    "章": 1,
+    "文": "Defend Your Flock",
+    "字": 20,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "Defend Your Flock",
+    "字": 25,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "90-Day Money Back Guarantee",
+    "字": 14,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "Posted By Dr. Valerie Henley",
+    "字": 16,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(239, 232, 205)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "Licensed Poultry Veterinarian | 14 years of experience",
+    "字": 16,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(239, 232, 205)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "\"Our baskets filled up fast with eggs that had golden yolks ",
+    "字": 13,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "Sarah R.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 118, 0)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "GET UP TO",
+    "字": 18,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "50% OFF",
+    "字": 18,
+    "太": true,
+    "色": "rgb(239, 247, 89)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "GET UP TO",
+    "字": 18,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "50% OFF",
+    "字": 18,
+    "太": true,
+    "色": "rgb(239, 247, 89)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "GET UP TO",
+    "字": 18,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "50% OFF",
+    "字": 18,
+    "太": true,
+    "色": "rgb(239, 247, 89)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "GET UP TO",
+    "字": 18,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "50% OFF",
+    "字": 18,
+    "太": true,
+    "色": "rgb(239, 247, 89)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "GET UP TO",
+    "字": 18,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "50% OFF",
+    "字": 18,
+    "太": true,
+    "色": "rgb(239, 247, 89)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "GET UP TO",
+    "字": 18,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "50% OFF",
+    "字": 18,
+    "太": true,
+    "色": "rgb(239, 247, 89)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "GET UP TO",
+    "字": 18,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "50% OFF",
+    "字": 18,
+    "太": true,
+    "色": "rgb(239, 247, 89)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "GET UP TO",
+    "字": 18,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "文": "50% OFF",
+    "字": 18,
+    "太": true,
+    "色": "rgb(239, 247, 89)",
+    "箱": "rgb(77, 170, 87)",
+    "寄せ": "center"
+   },
+   {
+    "型": "h2",
+    "章": 2,
+    "文": "Feather Loss + Scruffy Feathers?",
+    "字": 30,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "h2",
+    "章": 3,
+    "文": "Check For Parasites First",
+    "字": 30,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "文": "Hi, I’m Dr. Henley - a licensed veterinarian specializing in",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "文": "Chicken keeping is hard. Really hard.",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "文": "One day your girls look perfectly healthy...",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "文": "The next? They’re looking patchy, scruffy, tired, or losing ",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "文": "Most keepers blame molting first.",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "文": "And yes - seasonal molting is normal.",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "文": "But when I see feather loss + dull feathers in Spring, one o",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "文": "They can stress the gut, drain nutrients, and leave your hen",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "文": "So yes - molting happens.",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "文": "But don’t ignore what may be happening inside the hen.",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "h2",
+    "章": 4,
+    "文": "Here’s What I Tell Chicken Keepers When Dirty Eggs Start Sho",
+    "字": 30,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "In chickens, there’s this one thing that controls everything",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "When it’s in perfect condition, your flock is healthy - lots",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "When stressed, parasites attach to the gut lining and steal ",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "Studies show 80-90% of backyard chickens have parasites righ",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "By the time you see poopy butts or egg drops, they've been s",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "And spring is when parasites thrive the most in chickens. It",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "Most solutions? They only scratch the surface.",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "❌ Butt baths - won't fix internal gut damage",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "❌ Garlic water - breaks down in hours, zero effect",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "❌ Pumpkin seeds - dose 500x too low",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "❌ Chemical dewormers - kill parasites but don't heal gut (an",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "You need to kill parasites and heal the gut at the same time",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "文": "Luckily, there is one simple solution that you can give to y",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 5,
+    "文": "Here’s What I Recommend To My Patients:",
+    "字": 30,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "文": "Roosty’s Flock Armor - after 14 years, I realised this is th",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "文": "It includes chilli - a spice chickens can't taste, but paras",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "文": "The parasites are literally flushed out of their bodies and ",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "文": "Oregano + garlic protect their gut from stress, inflammation",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "文": "Roosty’s is vet-approved, used by 300,000 customers in the U",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "文": "And the best part? No egg withdrawal. You can eat eggs the s",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "文": "“My girls are fat & sassy! I have 7 hens and get 6 eggs dail",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(201, 218, 248)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "文": "\"I’ve had a hen that has been having digestive problems and ",
+    "字": 20,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(201, 218, 248)",
+    "寄せ": "start"
+   },
+   {
+    "型": "ボタン",
+    "章": 5,
+    "文": "TRANSFORM YOUR CHICKENS' HEALTH",
+    "字": 20,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "文": "TRANSFORM YOUR CHICKENS' HEALTH",
+    "字": 30,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "文": "90-Day Money Back Guarantee",
+    "字": 14,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "h2",
+    "章": 6,
+    "文": "What to Expect From Daily Use of Roosty's",
+    "字": 27,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "1 Week",
+    "字": 24,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Chili (capsaicin) starts eliminating parasites. Chickens may",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(239, 232, 205)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Almost a half of Roosty’s subscribers notice parasites in th",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(239, 232, 205)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "2 Week",
+    "字": 24,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "4 Week",
+    "字": 24,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Instead of 2-5 eggs a day, you’ll notice 10, or even more.",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(239, 232, 205)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "They might start running around full of energy like they use",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(239, 232, 205)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "2 Month",
+    "字": 24,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "3 Month",
+    "字": 24,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Energy returns, feathers stay thick, and chickens look happy",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(239, 232, 205)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Meet Flock Armor",
+    "字": 47,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Nature's Defence for",
+    "字": 26,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Healthier Hens & Eggs",
+    "字": 26,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Our daily chili mix made with six active botanicals to suppo",
+    "字": 16,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Formulated with",
+    "字": 22,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Vet Insight",
+    "字": 22,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Developed alongside poultry experts to support flock health ",
+    "字": 14,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Backed by",
+    "字": 22,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Science",
+    "字": 22,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Built on research-backed principles to support digestion and",
+    "字": 14,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "No Artificial",
+    "字": 22,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Ingredients",
+    "字": 22,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Free from fillers and additives - just clean, natural ingred",
+    "字": 14,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Flock Tested",
+    "字": 22,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "(Chickens Love It!)",
+    "字": 22,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Trusted by backyard keepers - birds happily eat it mixed rig",
+    "字": 14,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "center"
+   },
+   {
+    "型": "ボタン",
+    "章": 6,
+    "文": "Save 50% Today",
+    "字": 20,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "Save 50% Today",
+    "字": 30,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "90-Day Money Back Guarantee",
+    "字": 14,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "h3",
+    "章": 6,
+    "文": "Here Are 7 Signs Your Chickens’ Gut Is In Trouble:",
+    "字": 30,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "If your chickens have any of these signs, you should start p",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "❌ Dirty butts",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "❌ Less eggs than usual",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "❌ Thin shells",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "❌ Lethargy",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "❌ Unhealthy hens",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "❌ Parasites in their eggs",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "❌ Pecking and piling",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "文": "It will get worse. But you can prevent it before it’s too la",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "h2",
+    "章": 7,
+    "文": "Your Chickens’ Deteriorating Health Is Not Your Fault.",
+    "字": 30,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "You’re doing everything: butt baths, garlic water, pumpkin s",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "But here’s the truth:",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Roosty’s is the only thing that stops the damage… at the roo",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "More energy. Healthier hens. Thick feathers. Customers regul",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "That's not just survival. It's thriving all year round.",
+    "字": 17,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "ボタン",
+    "章": 7,
+    "文": "SUPPORT YOUR FLOCK'S GUT",
+    "字": 20,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "SUPPORT YOUR FLOCK'S GUT",
+    "字": 30,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "90-Day Money Back Guarantee",
+    "字": 14,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "BIG SPRING DEAL 🎁",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "FREE GIFTS WITH YOUR ORDER",
+    "字": 12,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "h1",
+    "章": 7,
+    "文": "UP TO 50% OFF FOR A LIMITED TIME ONLY!",
+    "字": 28,
+    "太": true,
+    "色": "rgb(40, 45, 62)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "This limited-time deal is in high demand and stock keeps sel",
+    "字": 13,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "ボタン",
+    "章": 7,
+    "文": "GET 50% OFF",
+    "字": 15,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "GET 50% OFF",
+    "字": 25,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Sell-Out Risk: High",
+    "字": 12,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(255, 246, 238)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "FREE shipping over $65",
+    "字": 12,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(255, 246, 238)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Try it today with a 90-Day Money Back Guarantee!",
+    "字": 12,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "What Other flock owners are saying about Roosty's",
+    "字": 49,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": "rgb(255, 171, 0)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Really Great",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"Chickens love it. Doesn't smell overly like garlic. Can see",
+    "字": 16,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Courtney G.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Healthy, Happy Hens :)",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"Love this all natural product! It keeps my hens healthy and",
+    "字": 15,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Jennifer E.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Our chickens love it!",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"I'm a new chicken dad so I haven't experienced worms yet. B",
+    "字": 16,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Bill B.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Protecting my ladies",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"My girl are doing great we just got hit with are frist snow",
+    "字": 15,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Becca T.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Great chicken supplement",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"Quality, natural ingredients which is what you want since w",
+    "字": 16,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Ben P.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Really Great",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"Chickens love it. Doesn't smell overly like garlic. Can see",
+    "字": 16,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Courtney G.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Healthy, Happy Hens :)",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"Love this all natural product! It keeps my hens healthy and",
+    "字": 15,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Jennifer E.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Our chickens love it!",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"I'm a new chicken dad so I haven't experienced worms yet. B",
+    "字": 16,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Bill B.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Protecting my ladies",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"My girl are doing great we just got hit with are frist snow",
+    "字": 15,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Becca T.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Great chicken supplement",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"Quality, natural ingredients which is what you want since w",
+    "字": 16,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Ben P.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "Really Great",
+    "字": 35,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "\"Chickens love it. Doesn't smell overly like garlic. Can see",
+    "字": 16,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "文": "- Courtney G.",
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 116, 32)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "start"
+   },
+   {
+    "型": "h2",
+    "章": 8,
+    "文": "Roosty’s 90 Day Money-Back Guarantee",
+    "字": 37,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "If your flock doesn’t love their Roosty's Naturals within 90",
+    "字": 19,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "left"
+   },
+   {
+    "型": "ボタン",
+    "章": 8,
+    "文": "See Reviews from 300,000+ Happy Coops",
+    "字": 20,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "See Reviews from 300,000+ Happy Coops",
+    "字": 21,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "left"
+   },
+   {
+    "型": "ボタン",
+    "章": 8,
+    "文": "Support Your Flock Now",
+    "字": 20,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "Support Your Flock Now",
+    "字": 30,
+    "太": false,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 116, 32)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "30-Day Money Back Guarantee",
+    "字": 11,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "Free Shipping over $65",
+    "字": 11,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": null,
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "FREQUENTLY ASKED QUESTIONS",
+    "字": 43,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "HOW LONG DOES SHIPPING TAKE?",
+    "字": 18,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": "rgb(241, 235, 213)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "DO YOU HAVE A GUARANTEE?",
+    "字": 18,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": "rgb(241, 235, 213)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "WHERE ARE YOUR PRODUCTS MADE?",
+    "字": 18,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": "rgb(241, 235, 213)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "WHAT INGREDIENTS DO ROOSTY’S USE?",
+    "字": 18,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": "rgb(241, 235, 213)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "HOW DO THE BUNDLES WORK?",
+    "字": 18,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": "rgb(241, 235, 213)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "HOW DO SUBSCRIPTIONS WORK?",
+    "字": 18,
+    "太": false,
+    "色": "rgb(27, 29, 27)",
+    "箱": "rgb(241, 235, 213)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "Spring",
+    "字": 16,
+    "太": true,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(239, 247, 89)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "Limited Sale",
+    "字": 16,
+    "太": false,
+    "色": "rgb(0, 0, 0)",
+    "箱": "rgb(239, 247, 89)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "Save 50%",
+    "字": 25,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(246, 110, 28)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "Today 🎁",
+    "字": 25,
+    "太": false,
+    "色": "rgba(18, 18, 18, 0.75)",
+    "箱": "rgb(246, 110, 28)",
+    "寄せ": "start"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "文": "Redeem Offer",
+    "字": 18,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(246, 110, 28)",
+    "寄せ": "start"
+   }
+  ],
+  "文": [
+   {
+    "章": 1,
+    "型": "h2",
+    "文": "Feather Loss Could Be A Warning Sign of Parasite Pressure"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "Defend Your Flock"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "90-Day Money Back Guarantee"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "Posted By Dr. Valerie Henley"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "Licensed Poultry Veterinarian | 14 years of experience"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "\"Our baskets filled up fast with eggs that had golden yolks and noticeably stronger shells.\""
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "Sarah R."
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "GET UP TO"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "50% OFF"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "GET UP TO"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "50% OFF"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "GET UP TO"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "50% OFF"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "GET UP TO"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "50% OFF"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "GET UP TO"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "50% OFF"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "GET UP TO"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "50% OFF"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "GET UP TO"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "50% OFF"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "GET UP TO"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "50% OFF"
+   },
+   {
+    "章": 2,
+    "型": "h2",
+    "文": "Feather Loss + Scruffy Feathers?"
+   },
+   {
+    "章": 3,
+    "型": "h2",
+    "文": "Check For Parasites First"
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "Hi, I’m Dr. Henley - a licensed veterinarian specializing in chicken health for over 14 years."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "Chicken keeping is hard. Really hard."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "One day your girls look perfectly healthy..."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "The next? They’re looking patchy, scruffy, tired, or losing feathers in places that don’t look quite right."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "Most keepers blame molting first."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "And yes - seasonal molting is normal."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "But when I see feather loss + dull feathers in Spring, one of the first things I look for is worms or internal parasites."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "They can stress the gut, drain nutrients, and leave your hens without what they need for strong laying, healthy feathers, and good condition."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "So yes - molting happens."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "But don’t ignore what may be happening inside the hen."
+   },
+   {
+    "章": 4,
+    "型": "h2",
+    "文": "Here’s What I Tell Chicken Keepers When Dirty Eggs Start Showing Up:"
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "In chickens, there’s this one thing that controls everything: Their gut."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "When it’s in perfect condition, your flock is healthy - lots of healthy eggs, thick feathers, and clean butts."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "When stressed, parasites attach to the gut lining and steal nutrients meant for your chickens."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "Studies show 80-90% of backyard chickens have parasites right now."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "By the time you see poopy butts or egg drops, they've been stealing nutrients for 4-8 weeks."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "And spring is when parasites thrive the most in chickens. It’s unfortunately going to get worse."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "Most solutions? They only scratch the surface."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "❌ Butt baths - won't fix internal gut damage"
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "❌ Garlic water - breaks down in hours, zero effect"
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "❌ Pumpkin seeds - dose 500x too low"
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "❌ Chemical dewormers - kill parasites but don't heal gut (and most chicken keepers hate the egg withdrawal)"
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "You need to kill parasites and heal the gut at the same time."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "Luckily, there is one simple solution that you can give to your precious hens right now…"
+   },
+   {
+    "章": 5,
+    "型": "h2",
+    "文": "Here’s What I Recommend To My Patients:"
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "Roosty’s Flock Armor - after 14 years, I realised this is the best natural formula to support the hens’ guts & keep parasites away. Here’s why:"
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "It includes chilli - a spice chickens can't taste, but parasites can't stand."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "The parasites are literally flushed out of their bodies and released in the chicken’s poop."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "Oregano + garlic protect their gut from stress, inflammation, and any future health problems."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "Roosty’s is vet-approved, used by 300,000 customers in the US, and rated 4.6 stars across thousands of reviews."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "And the best part? No egg withdrawal. You can eat eggs the same day."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "“My girls are fat & sassy! I have 7 hens and get 6 eggs daily!! Thanks Roosty’s” - Robyn E."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "\"I’ve had a hen that has been having digestive problems and egg production issues for six months now. I gave Roosty's dewormer a try and after a week her swelling has gone down. Week 2, poop is restored to normal and now she is reminding the girls who is at the top of the pecking order” - Sarah W."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "TRANSFORM YOUR CHICKENS' HEALTH"
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "90-Day Money Back Guarantee"
+   },
+   {
+    "章": 6,
+    "型": "h2",
+    "文": "What to Expect From Daily Use of Roosty's"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "1 Week"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Chili (capsaicin) starts eliminating parasites. Chickens may start showing more energy."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Almost a half of Roosty’s subscribers notice parasites in the poop - that’s a sign that chili is already removing these parasites out of their body."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "2 Week"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "4 Week"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Instead of 2-5 eggs a day, you’ll notice 10, or even more."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "They might start running around full of energy like they used to. Garlic and the herbs have already almost healed their gut. No more infections. No more parasites."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "2 Month"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "3 Month"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Energy returns, feathers stay thick, and chickens look happy again - you’ll realize that buying chickens was the best thing you could ever do."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Meet Flock Armor"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Nature's Defence for"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Healthier Hens & Eggs"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Our daily chili mix made with six active botanicals to support gut health and natural balance, helping hens stay resilient and lay better eggs over time."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Formulated with Vet Insight"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Developed alongside poultry experts to help keep your flock healthy from the inside out."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "No Artificial Ingredients"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Free from fillers, synthetics, and additives. Just clean, natural goodness your chickens’ bodies can use and trust."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Backed by Science"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Built on research-backed principles to support digestion and consistent laying."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Flock Tested"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "(Chickens Love It!)"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Trusted by backyard keepers - our birds love it mixed right into their daily feed."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Formulated with"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Vet Insight"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Developed alongside poultry experts to support flock health from the inside out."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Backed by"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Science"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Built on research-backed principles to support digestion and natural defenses."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "No Artificial"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Ingredients"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Free from fillers and additives - just clean, natural ingredients hens can tolerate daily."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Flock Tested"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "(Chickens Love It!)"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Trusted by backyard keepers - birds happily eat it mixed right into their feed."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Save 50% Today"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "90-Day Money Back Guarantee"
+   },
+   {
+    "章": 6,
+    "型": "h3",
+    "文": "Here Are 7 Signs Your Chickens’ Gut Is In Trouble:"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "If your chickens have any of these signs, you should start prevention as soon as possible:"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "❌ Dirty butts"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "❌ Less eggs than usual"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "❌ Thin shells"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "❌ Lethargy"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "❌ Unhealthy hens"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "❌ Parasites in their eggs"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "❌ Pecking and piling"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "It will get worse. But you can prevent it before it’s too late."
+   },
+   {
+    "章": 7,
+    "型": "h2",
+    "文": "Your Chickens’ Deteriorating Health Is Not Your Fault."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "You’re doing everything: butt baths, garlic water, pumpkin seeds, and heat lamps."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "But here’s the truth:"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Roosty’s is the only thing that stops the damage… at the root, so you won't have to worry about your chickens' getting sick ever again."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "More energy. Healthier hens. Thick feathers. Customers regularly see 40% more eggs within weeks."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "That's not just survival. It's thriving all year round."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "SUPPORT YOUR FLOCK'S GUT"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "90-Day Money Back Guarantee"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "JOIN 100,000+ HAPPY KEEPERS"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "BIG SPRING DEAL 🎁"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "FREE GIFTS WITH YOUR ORDER"
+   },
+   {
+    "章": 7,
+    "型": "h1",
+    "文": "UP TO 50% OFF FOR A LIMITED TIME ONLY!"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "This limited-time deal is in high demand and stock keeps selling out. Stock up and protect your girls while it lasts!"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "GET 50% OFF"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Sell-Out Risk: High"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "FREE shipping over $65"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Try it today with a 90-Day Money Back Guarantee!"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "What Other flock owners are saying about Roosty's"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Really Great"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"Chickens love it. Doesn't smell overly like garlic. Can see Niacin in blend. Will protect my birds with the wet summer we're having.\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Courtney G."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Healthy, Happy Hens :)"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"Love this all natural product! It keeps my hens healthy and happy :) i've been using it for months now to support my ladies digestion and protect them from worms and they love it!\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Jennifer E."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Our chickens love it!"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"I'm a new chicken dad so I haven't experienced worms yet. But when I found out this was a possibility, I immediately ordered this product and mix it in with their food. I mix 3 types of feed and put one of these per type (so I use 3 at a time). So far the chickens seem to love it, it smells amazing and NO worms.\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Bill B."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Protecting my ladies"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"My girl are doing great we just got hit with are frist snow of the season and the girl are great thank you for a great product Matt tha chicken dad and the happy Rooster Matthew 🐓. My grandson Quinlan live to watch the lovely lady's too\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Becca T."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Great chicken supplement"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"Quality, natural ingredients which is what you want since we eat the eggs. The cap holds about the amount you need per gallon of water which is handy. And I swear the chickens drink more with this additive in there, they seem to like it.\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Ben P."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Really Great"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"Chickens love it. Doesn't smell overly like garlic. Can see Niacin in blend. Will protect my birds with the wet summer we're having.\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Courtney G."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Healthy, Happy Hens :)"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"Love this all natural product! It keeps my hens healthy and happy :) i've been using it for months now to support my ladies digestion and protect them from worms and they love it!\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Jennifer E."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Our chickens love it!"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"I'm a new chicken dad so I haven't experienced worms yet. But when I found out this was a possibility, I immediately ordered this product and mix it in with their food. I mix 3 types of feed and put one of these per type (so I use 3 at a time). So far the chickens seem to love it, it smells amazing and NO worms.\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Bill B."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Protecting my ladies"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"My girl are doing great we just got hit with are frist snow of the season and the girl are great thank you for a great product Matt tha chicken dad and the happy Rooster Matthew 🐓. My grandson Quinlan live to watch the lovely lady's too\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Becca T."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Great chicken supplement"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"Quality, natural ingredients which is what you want since we eat the eggs. The cap holds about the amount you need per gallon of water which is handy. And I swear the chickens drink more with this additive in there, they seem to like it.\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Ben P."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Really Great"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "\"Chickens love it. Doesn't smell overly like garlic. Can see Niacin in blend. Will protect my birds with the wet summer we're having.\""
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "- Courtney G."
+   },
+   {
+    "章": 8,
+    "型": "h2",
+    "文": "Roosty’s 90 Day Money-Back Guarantee"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "If your flock doesn’t love their Roosty's Naturals within 90 days, just email us. No returns, no guilt, no hassle."
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "See Reviews from 300,000+ Happy Coops"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "Support Your Flock Now"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "30-Day Money Back Guarantee"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "Free Shipping over $65"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "FREQUENTLY ASKED QUESTIONS"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "HOW LONG DOES SHIPPING TAKE?"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "DO YOU HAVE A GUARANTEE?"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "WHERE ARE YOUR PRODUCTS MADE?"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "WHAT INGREDIENTS DO ROOSTY’S USE?"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "HOW DO THE BUNDLES WORK?"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "HOW DO SUBSCRIPTIONS WORK?"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "Spring"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "Limited Sale"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "Save 50%"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "Today 🎁"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "Redeem Offer"
+   }
+  ]
+ }
+}

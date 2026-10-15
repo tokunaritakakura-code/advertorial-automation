@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>チームの部屋</title>
+<style>
+:root{
+  --bg:#f5f6f8; --rail:#eeeff2; --side:#eeeff2; --ink:#111827; --sub:#5d5d5d; --line:#ececec;
+  --bubble:#f0f0f0; --mine:#2f8cff; --mine-ink:#ffffff; --hover:#ececec; --sel:#e8e8e8;
+  --pill:#e9f2ff; --pill-ink:#1f6fd6; --ng:#d4442f; --ok:#10a37f; --warn:#b26a00;
+  --glass-bg:linear-gradient(180deg,#ffffff 0%,#fbfbfc 55%,#f6f7f9 100%);
+  --glass-brd:rgba(255,255,255,1);
+  --glass-shadow:0 0 0 1px rgba(17,24,39,.06),0 1px 1px rgba(17,24,39,.03),0 4px 10px -2px rgba(17,24,39,.06),0 14px 28px -12px rgba(17,24,39,.10),inset 0 1px 0 #fff,inset 0 -2px 4px rgba(17,24,39,.025);
+  --glass-shadow-hi:0 0 0 1px rgba(17,24,39,.07),0 2px 3px rgba(17,24,39,.04),0 8px 18px -4px rgba(17,24,39,.09),0 22px 40px -14px rgba(17,24,39,.16),inset 0 1px 0 #fff,inset 0 -2px 4px rgba(17,24,39,.025);
+  --pane-bg:linear-gradient(180deg,#ffffff,#fafbfc);
+  --side-glass:#eeeff2; --canvas:#f5f6f8; --dot:rgba(17,24,39,.09);
+  --blob1:rgba(120,150,255,.16); --blob2:rgba(255,170,190,.12);
+  --edge:rgba(15,23,42,.26); --live:#2f6fe0; --live-soft:rgba(47,111,224,.12);
+  --ok-soft:rgba(16,163,127,.12); --warn-soft:rgba(178,106,0,.12); --ng-soft:rgba(212,68,47,.11);
+  --send:linear-gradient(180deg,#5aa4ff,#2f8cff 55%,#1f74e0);
+  font-family:ui-sans-serif,-apple-system,system-ui,"Segoe UI",Helvetica,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Apple Color Emoji",Arial,sans-serif; -webkit-font-smoothing:antialiased; color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#212121; --rail:#171717; --side:#171717; --ink:#ececec; --sub:#9b9b9b; --line:#2f2f2f;
+    --bubble:#303030; --mine:#2f8cff; --hover:#262626; --sel:#2f2f2f; --pill:#1f2f45; --pill-ink:#7db4ff; color-scheme:dark;
+    --glass-bg:linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,.04));
+    --glass-brd:rgba(255,255,255,.12);
+    --glass-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 0 1px rgba(0,0,0,.35),0 8px 22px -10px rgba(0,0,0,.6);
+    --glass-shadow-hi:inset 0 1px 0 rgba(255,255,255,.16),0 0 0 1px rgba(0,0,0,.4),0 16px 36px -12px rgba(0,0,0,.7);
+    --pane-bg:linear-gradient(180deg,rgba(40,40,44,.82),rgba(28,28,32,.78));
+    --side-glass:rgba(23,23,23,.62); --canvas:#18191c; --dot:rgba(255,255,255,.08);
+    --blob1:rgba(90,120,255,.16); --blob2:rgba(40,170,150,.12);
+    --edge:rgba(255,255,255,.24); --live:#6ea2ff; --live-soft:rgba(110,162,255,.16);
+    --ok-soft:rgba(16,163,127,.18); --warn-soft:rgba(230,150,40,.16); --ng-soft:rgba(240,90,70,.16); --warn:#e8a23a; }
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{height:100%;margin:0}
+body{background:radial-gradient(1100px 700px at 100% -10%,var(--blob1),transparent 60%),radial-gradient(900px 640px at 20% 115%,var(--blob2),transparent 60%),var(--bg)!important}
+body{background:var(--bg);color:var(--ink);font-size:16px;line-height:1.5;display:grid;grid-template-columns:60px 280px 1fr;height:100%;overflow:hidden}
+button{font:inherit;color:inherit}
+svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* ダイヤの顔（役のアイコン） */
+.ava{--c:#3d8bff;--s:28px;width:var(--s);height:var(--s);position:relative;flex:none;display:inline-grid;place-items:center}
+.ava::before{content:"";position:absolute;inset:12%;background:var(--c);border-radius:28%;transform:rotate(45deg);box-shadow:inset 0 -3px 6px rgba(0,0,0,.12)}
+.ava i{position:relative;display:flex;gap:calc(var(--s)*.14);margin-top:-6%}
+.ava i::before,.ava i::after{content:"";width:calc(var(--s)*.1);height:calc(var(--s)*.14);border-radius:50%;background:#1b2a3a}
+.ava.busy::before{animation:bob 1.4s ease-in-out infinite}
+@keyframes bob{50%{transform:rotate(45deg) scale(.9)}}
+@media (prefers-reduced-motion: reduce){.ava.busy::before{animation:none}}
+.grp{display:inline-flex}
+.grp .ava{margin-left:-8px}
+
+/* 左端の帯 */
+.rail{background:var(--side-glass);backdrop-filter:blur(20px) saturate(160%);-webkit-backdrop-filter:blur(20px) saturate(160%);display:flex;flex-direction:column;align-items:center;gap:6px;padding:14px 0;border-right:1px solid var(--line)}
+.rail button{width:40px;height:40px;border:0;background:none;border-radius:10px;display:grid;place-items:center;cursor:pointer;color:var(--sub)}
+.rail button[aria-current="true"]{background:var(--sel);color:var(--ink)}
+.rail button:hover{background:var(--hover)}
+.rail .me{margin-top:auto;width:30px;height:30px;border-radius:50%;background:#e8622c;color:#fff;font-size:13px;font-weight:700;display:grid;place-items:center}
+
+/* サイドバー */
+.side{background:var(--side-glass);backdrop-filter:blur(20px) saturate(160%);-webkit-backdrop-filter:blur(20px) saturate(160%);display:flex;flex-direction:column;min-height:0;border-right:1px solid var(--line)}
+.side .top{display:flex;align-items:center;gap:4px;padding:14px 12px 8px 18px}
+.side .top h1{font-size:18px;font-weight:600;margin:0;flex:1;font-weight:700}
+.icon{width:34px;height:34px;border:0;background:none;border-radius:8px;display:grid;place-items:center;cursor:pointer;color:var(--ink);position:relative}
+.icon:hover{background:var(--hover)}
+.badge{position:absolute;top:3px;right:3px;min-width:16px;height:16px;border-radius:8px;background:var(--ng);color:#fff;font-size:10px;font-weight:700;display:grid;place-items:center;padding:0 4px}
+.list{overflow:auto;padding:4px 10px 16px;display:flex;flex-direction:column;gap:2px}
+.item{display:flex;align-items:center;gap:10px;width:100%;border:0;background:none;text-align:left;padding:7px 10px;border-radius:10px;cursor:pointer;font-size:14px}
+.item .two{flex:1;min-width:0;display:flex;flex-direction:column;line-height:1.35}
+.item .two .nm{flex:none}
+.item .two small{font-size:12px;color:var(--sub);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.item .two small.on{color:var(--ok)}
+.item:hover{background:var(--hover)}
+.item[aria-current="true"]{background:var(--sel)}
+.item .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.item .st{font-size:12px;color:var(--sub);white-space:nowrap}
+.item .st.on{color:var(--ok)}
+.item .hash{width:28px;height:28px;border-radius:8px;background:var(--hover);display:grid;place-items:center;flex:none;font-weight:700;color:var(--sub)}
+.sec{font-size:13px;color:var(--sub);padding:16px 10px 6px;font-weight:500}
+.now{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-width:920px}
+.now .chip{font-size:13px;padding:5px 12px;align-self:auto}
+.now .chip b{font-weight:600}
+.wait{font-size:13.5px}
+.wait .nm{white-space:normal}
+
+/* 本文 */
+main{display:grid;grid-template-rows:1fr auto;min-width:0;min-height:0;position:relative}
+#scroll{overflow:auto;padding:0 24px}
+.head{display:flex;flex-direction:column;align-items:center;gap:6px;padding:22px 0 14px;position:sticky;top:0;z-index:2;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);-webkit-mask-image:linear-gradient(#000 82%,transparent);mask-image:linear-gradient(#000 82%,transparent)}
+.head .nm{background:var(--glass-bg);box-shadow:var(--glass-shadow);border:1px solid var(--glass-brd);border-radius:999px;padding:2px 14px;font-weight:600;font-size:15px}
+.head .sub{font-size:12.5px;color:var(--sub)}
+#log{max-width:920px;margin:0 auto;display:flex;flex-direction:column;gap:8px;padding-bottom:28px}
+.who{display:flex;align-items:center;gap:8px;margin:14px 0 2px;font-size:13px;color:var(--sub);border:0;background:none;padding:0;cursor:pointer;align-self:flex-start}
+.who b{color:var(--ink);font-weight:600}
+.who:hover b{text-decoration:underline}
+.bub{background:var(--bubble);border-radius:24px;padding:10px 20px;line-height:1.75;max-width:min(720px,88%);align-self:flex-start;white-space:pre-wrap;word-break:break-word}
+.bub b{font-weight:700}
+.mine{align-self:flex-end;background:var(--mine);color:var(--mine-ink)}
+.deliv{align-self:flex-end;font-size:12px;color:var(--sub);margin-top:-2px}
+.chip{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;background:var(--pill);color:var(--pill-ink);border:0;border-radius:999px;padding:8px 16px;cursor:pointer;font-size:14.5px}
+.chip svg{width:18px;height:18px}
+.acts{align-self:flex-start;max-width:min(720px,88%)}
+.acts summary{list-style:none;cursor:pointer;font-size:13px;color:var(--sub);padding:2px 6px;border-radius:8px;display:inline-flex;gap:6px;align-items:center}
+.acts summary:hover{background:var(--hover)}
+.acts summary::after{content:"›";transition:transform .15s}
+.acts[open] summary::after{transform:rotate(90deg)}
+.acts ul{margin:6px 0 4px;padding:0 0 0 14px;border-left:2px solid var(--line)}
+.acts li{list-style:none;font-size:13px;color:var(--sub);padding:1px 0}
+.hand{align-self:flex-start;display:flex;flex-direction:column;gap:6px;max-width:min(720px,88%)}
+.hand .bub{font-size:14.5px}
+.card{align-self:flex-start;background:var(--bubble);border-radius:22px;padding:14px 20px;max-width:min(720px,88%);display:flex;flex-direction:column;gap:10px}
+.card .t{font-size:13px;color:var(--warn);font-weight:700}
+.card details{font-size:12.5px;color:var(--sub)}
+.card pre{white-space:pre-wrap;word-break:break-all;margin:6px 0 0;font-size:12px}
+.card .row{display:flex;gap:8px;flex-wrap:wrap}
+.card .no{background:none;border:1px solid var(--line);color:var(--ink)}
+.done{font-size:13.5px;font-weight:600}
+.done.承認{color:var(--ok)} .done.却下,.done.止めた{color:var(--ng)}
+.err{align-self:center;font-size:12.5px;color:var(--ng)}
+.typing{align-self:flex-start;display:flex;align-items:center;gap:10px;color:var(--sub);font-size:13px}
+.typing .bub{display:flex;gap:4px;padding:14px 18px}
+.typing .bub span{width:7px;height:7px;border-radius:50%;background:var(--sub);animation:dots 1.2s infinite}
+.typing .bub span:nth-child(2){animation-delay:.2s}.typing .bub span:nth-child(3){animation-delay:.4s}
+@keyframes dots{30%{opacity:.25}}
+.typing button{border:0;background:none;color:var(--ng);cursor:pointer;font-size:12.5px}
+.hello{align-self:center;color:var(--sub);text-align:center;max-width:46ch;padding:30px 0}
+
+/* 入力 */
+form{padding:10px 24px 18px}
+.box{max-width:920px;margin:0 auto;display:flex;align-items:flex-end;gap:6px;border:1px solid var(--line);border-radius:28px;padding:6px 8px 6px 6px;background:var(--bg);box-shadow:0 2px 10px rgba(0,0,0,.05);position:relative}
+.box textarea{flex:1;border:0;outline:0;background:none;color:var(--ink);font:inherit;font-size:16px;resize:none;padding:10px 4px;max-height:30vh;line-height:1.45}
+.send{width:40px;height:40px;border-radius:50%;border:0;background:var(--mine);color:#fff;display:grid;place-items:center;cursor:pointer;flex:none}
+.send:disabled{opacity:.4;cursor:default}
+.plus{width:40px;height:40px;border-radius:50%;border:0;background:none;display:grid;place-items:center;cursor:pointer;flex:none}
+.plus:hover{background:var(--hover)}
+.pop{position:absolute;bottom:56px;left:6px;background:var(--bg);border:1px solid var(--line);border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.12);padding:6px;display:flex;flex-direction:column;min-width:240px;z-index:5}
+:focus-visible{outline:2px solid var(--mine);outline-offset:2px}
+
+/* ガラスのボタン（部屋の全部のボタン。2026-10-07 本人「全てのボタンをグラスチックに」） */
+.glass,.rail button,.icon,.item,.chip,.plus,.typing button,.acts summary,#verification button,.pop .item,.card .no{
+  background:var(--glass-bg);border:1px solid var(--glass-brd);box-shadow:var(--glass-shadow);
+  backdrop-filter:blur(16px) saturate(170%);-webkit-backdrop-filter:blur(16px) saturate(170%);
+  transition:box-shadow .15s ease,transform .15s ease,background .15s ease;cursor:pointer;color:var(--ink)}
+.glass:hover,.rail button:hover,.icon:hover,.item:hover,.chip:hover,.plus:hover,.typing button:hover,.acts summary:hover,#verification button:hover{background:var(--glass-bg);box-shadow:var(--glass-shadow-hi);transform:translateY(-1px)}
+.glass:active,.rail button:active,.icon:active,.item:active,.chip:active,.plus:active{transform:translateY(0);box-shadow:var(--glass-shadow)}
+.glass[aria-current="true"],.rail button[aria-current="true"],.item[aria-current="true"]{background:var(--glass-bg);box-shadow:var(--glass-shadow-hi),inset 0 0 0 1px var(--live-soft)}
+.list .item:not([aria-current="true"]):not(:hover){background:transparent;border-color:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+.list .item{margin:1px 0}
+.glass{border-radius:14px}
+#f select,#f input,#f details textarea{font:inherit;font-size:13.5px;color:var(--ink);padding:6px 10px;border-radius:10px;background:var(--glass-bg);border:1px solid var(--glass-brd);box-shadow:var(--glass-shadow);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);outline:0}
+#f label{font-size:13px;color:var(--sub);display:inline-flex;align-items:center;gap:6px}
+#f details summary{font-size:13px;color:var(--sub);cursor:pointer;padding:3px 2px;list-style:none}
+#f details summary::before{content:"›";display:inline-block;margin-right:6px;transition:transform .15s}
+#f details[open] summary::before{transform:rotate(90deg)}
+#f details textarea{width:100%;margin:6px 0}
+.chip{color:var(--pill-ink)}
+.typing button{color:var(--ng);border-radius:999px;padding:3px 10px}
+.acts summary{border-radius:999px;padding:3px 12px}
+#verification button{border-radius:12px;padding:7px 14px;font-size:13px}
+.card .no{color:var(--ink)}
+.send{background:var(--send);box-shadow:inset 0 1px 0 rgba(255,255,255,.45),inset 0 -2px 4px rgba(0,0,0,.12),0 4px 12px -4px rgba(47,140,255,.6);border:1px solid rgba(255,255,255,.25)}
+.send:not(:disabled):hover{transform:translateY(-1px)}
+.box{background:var(--glass-bg);border:1px solid var(--glass-brd);box-shadow:var(--glass-shadow-hi);backdrop-filter:blur(18px) saturate(170%);-webkit-backdrop-filter:blur(18px) saturate(170%)}
+.pop{background:var(--pane-bg);border:1px solid var(--glass-brd);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)}
+.rail button{border-radius:12px}
+@media (max-width:860px){body{grid-template-columns:1fr}.rail,.side{display:none}#scroll,form{padding-left:14px;padding-right:14px}}
+</style>
+<link rel="stylesheet" href="/flow.css">
+</head>
+<body>
+<nav class="rail" aria-label="切り替え">
+  <button id="r-home" aria-current="true" title="チーム"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></button>
+  <button id="r-flow" title="流れ（ブランドごとの工程の木）"><svg viewBox="0 0 24 24"><rect x="3" y="9" width="6" height="6" rx="1.5"/><rect x="15" y="3" width="6" height="6" rx="1.5"/><rect x="15" y="15" width="6" height="6" rx="1.5"/><path d="M9 12h2.5a2 2 0 0 0 2-2V8a2 2 0 0 1 1.5-2M11.5 12a2 2 0 0 1 2 2v2a2 2 0 0 0 1.5 2"/></svg></button>
+  <button id="r-wait" title="承認待ち"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></button>
+  <div class="me" title="本人">本</div>
+</nav>
+<aside class="side">
+  <div class="top"><h1>チームの部屋</h1>
+    <button class="icon" id="bell" title="承認待ち"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 8 3 8H3s3-1 3-8"/><path d="M10 20a2 2 0 0 0 4 0"/></svg><span class="badge" id="badge" hidden></span></button>
+  </div>
+  <div class="list" id="list"></div>
+</aside>
+<main>
+  <div id="scroll"><div class="head" id="head"></div><div id="log" aria-live="polite"></div></div>
+  <form id="f">
+    <section id="verification" hidden style="font-size:14px;padding:8px 0">
+      <p>検証モード：Metaの接続・実績確認と、ローカル保存の検査ができます。</p>
+      <button type="button" id="verify-meta">Metaの接続と先月実績を確認</button>
+      <button type="button" id="verify-local">ローカル保存を検査</button>
+      <p id="verification-result" role="status"></p>
+      <p id="operations-result" role="status"></p>
+    </section>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
+      <label>ブランド <select id="brand"><option value="">選んでください</option></select></label>
+      <label>案件ID <input id="job_id" placeholder="必須・英数字" maxlength="100"></label>
+      <label>成果物版 <input id="revision" type="number" min="1" step="1" placeholder="必須"></label>
+    </div>
+    <details><summary>編集長へ独立レビューを頼むときの成果物と基準</summary>
+      <textarea id="review" rows="3" placeholder='{"artifacts":[{"path":"/絶対パス","revision":1,"sha256":"64文字"}],"rules":"検査基準"}'></textarea>
+    </details>
+    <details><summary>本人が実行内容を承認待ちにする</summary><textarea id="action_job" rows="3" placeholder="検査・独立レビューを含むライブ案件JSON"></textarea><label>実行承認の期限（省略時は案件期限とブランド上限の短い方）<input id="approval_expires_at" placeholder="2026-10-03T03:00:00+09:00"></label><button type="button" id="propose_action">内容を承認カードにする</button></details>
+    <div id="error" role="alert" style="color:#a33"></div>
+    <div class="box">
+      <button type="button" class="plus" id="plus" title="メンバーを呼ぶ"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button>
+      <div class="pop" id="pop" hidden></div>
+      <textarea id="t" rows="1" placeholder="メッセージを送る"></textarea>
+      <button type="submit" class="send" id="send" disabled title="送る"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+    </div>
+  </form>
+</main>
+<script>
+const S = { context: null, events: null, channels: [], roles: {}, cur: null, status: {}, msgs: [], waits: [] };
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const md = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+const hhmm = (ts) => new Date(ts).toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit" });
+const col = (r) => S.roles[r]?.色 || "#8f8f8f";
+const ava = (r, s = 28, busy = false) => `<span class="ava ${busy ? "busy" : ""}" style="--c:${col(r)};--s:${s}px" aria-hidden="true"><i></i></span>`;
+const isDm = () => S.cur.startsWith("dm:");
+const view = () => isDm() ? { id: S.cur, name: S.cur.slice(3), lead: S.cur.slice(3), members: [], dm: true } : S.channels.find((c) => c.id === S.cur);
+
+async function boot() {
+  const st = await (await fetch("/api/state")).json();
+  S.csrf=st.csrf_token;
+  S.verification=st.verification?.mode==="verification";
+  if(S.verification){$("verification").hidden=false;$("t").disabled=true;$("t").placeholder="制作・承認は運用切替後に有効になります";}
+  S.channels = st.channels; S.roles = st.roles;
+  if(S.verification){const refresh=async()=>{try{const v=await(await fetch("/api/verification/status")).json(),o=v.operations;$("operations-result").textContent=o?.brands ? "自動運転：保存済み実績を検証中。Meta定期取得は課金条件確認待ち。制作・配信は承認待ち。 " + Object.entries(o.brands).map(([b,x])=>b+":"+(x.status==="awaiting_business_inputs"?"次指示の下書きあり":x.status==="waiting_report"?"実績待ち":"停止・実績を再確認")).join(" / ") : "自動運転："+(o?.status==="heartbeat_stale"?"更新停止・確認が必要":"起動状態を確認中");}catch{$("operations-result").textContent="自動運転：接続停止・復旧待ち";}};refresh();setInterval(refresh,15000);}
+  $("brand").insertAdjacentHTML("beforeend",st.brands.map(b=>`<option value="${esc(b)}">${esc(b)}</option>`).join(""));
+  const want = decodeURIComponent(location.hash.slice(1));
+  S.cur = (want && (S.channels.some((c) => c.id === want) || (want.startsWith("dm:") && S.roles[want.slice(3)]))) ? want : S.channels[0].id;
+  drawSide();
+  for (const id of ["brand","job_id","revision"]) $(id).addEventListener("change", async()=> {
+    S.context = {brand:$("brand").value,job_id:$("job_id").value.trim(),revision:Number($("revision").value)};
+    S.events?.close(); S.msgs=[]; S.status={}; S.waits=[];
+    if (contextReady()) { connectEvents(); await load(); await loadWaits(); }
+    drawSide(); drawLog(); grow();
+  });
+  await load(); drawSide();
+}
+function contextReady() { return !!S.context?.brand && /^[A-Za-z0-9_-]{1,100}$/.test(S.context.job_id) && (Number.isSafeInteger(S.context.revision) && S.context.revision>0); }
+function scopedURL(base) { return base + (base.includes("?") ? "&" : "?") + new URLSearchParams(S.context || {}).toString(); }
+function connectEvents() {
+  const es = S.events = new EventSource(scopedURL("/api/events"));
+  es.onmessage = (e) => {
+    const ev=JSON.parse(e.data);
+    if (ev.type === "status") { S.status=ev.status; drawSide(); drawLog(false); }
+    if ((ev.type === "message" || ev.type === "update") && belongs(ev.msg)) {
+      const i=S.msgs.findIndex(m=>m.id===ev.msg.id);
+      if(i>=0) S.msgs[i]=ev.msg; else S.msgs.push(ev.msg);
+      if(ev.msg.kind === "approval") loadWaits().then(drawSide);
+      drawLog(ev.type === "message");
+    }
+  };
+}
+
+function belongs(m) {
+  if (!contextReady() || ["brand","job_id","revision"].some(k=>m.meta?.context?.[k] !== S.context[k])) return false;
+  if (!isDm()) return m.channel === S.cur;
+  const r = S.cur.slice(3);
+  return m.channel === S.cur || m.author === r || (m.kind === "handoff" && m.meta?.to === r);
+}
+async function loadWaits() {
+  const all = [];
+  if (!contextReady()) { S.waits=[]; return; }
+  for (const c of [...S.channels.map((c) => c.id), ...Object.keys(S.roles).map((r) => "dm:" + r)]) {
+    const rows = await (await fetch(scopedURL(`/api/messages?channel=${encodeURIComponent(c)}`))).json();
+    for (const m of rows) if (m.kind === "approval" && m.meta?.status === "待ち" && !all.some((x) => x.id === m.id)) all.push(m);
+  }
+  S.waits = all;
+}
+
+function drawSide() {
+  const b = $("badge"); b.hidden = !S.waits.length; b.textContent = S.waits.length;
+  const rows = [];
+  rows.push(`<div class="sec">チーム</div>`);
+  for (const c of S.channels) {
+    const busy = [c.lead, ...c.members].some((r) => S.status[r]?.busy);
+    rows.push(`<button class="item" data-go="${esc(c.id)}" aria-current="${c.id === S.cur}"><span class="hash">#</span><span class="nm">${esc(c.name)}</span><span class="st ${busy ? "on" : ""}">${busy ? "作業中" : ""}</span></button>`);
+  }
+  if (S.waits.length) {
+    rows.push(`<div class="sec">承認待ち</div>`);
+    for (const w of S.waits) rows.push(`<button class="item wait" data-go="${esc(w.channel)}">${ava(w.author, 24)}<span class="nm">${esc(w.author)}：${esc(w.text.slice(0, 40))}</span></button>`);
+  }
+  rows.push(`<div class="sec">メンバー</div>`);
+  for (const r of Object.keys(S.roles)) {
+    const st = S.status[r]; const busy = st?.busy;
+    const sub = busy ? `作業中 ・ ${st.今 || ""}` : st?.最後 ? `待機中 ・ ${hhmm(st.最後)}に終わった` : S.roles[r].手順書 ? "待機中" : "待機中 ・ 手順書なし";
+    rows.push(`<button class="item" data-go="dm:${esc(r)}" aria-current="${S.cur === "dm:" + r}" title="${esc(r)}">${ava(r, 30, busy)}<span class="two"><span class="nm">${esc(r)}</span><small class="${busy ? "on" : ""}">${esc(sub)}</small></span></button>`);
+  }
+  $("list").innerHTML = rows.join("");
+  const v = view();
+  $("head").innerHTML = v.dm
+    ? `${ava(v.name, 64, S.status[v.name]?.busy)}<span class="nm">${esc(v.name)}</span><span class="sub">${esc(S.roles[v.name]?.部 || "")}・この人の発言と頼まれた事が全部ここに出ます</span>`
+    : `<span class="grp">${[v.lead, ...v.members].slice(0, 6).map((r) => ava(r, 40)).join("")}</span><span class="nm"># ${esc(v.name)}</span><span class="sub">リーダー ${esc(v.lead)} ・ ${v.members.length}人</span>`;
+  const who = v.dm ? [v.name] : [v.lead, ...v.members];
+  const busyNow = who.filter((r) => S.status[r]?.busy);
+  if (busyNow.length) $("head").innerHTML += `<div class="now">${busyNow.map((r) => `<button class="chip" data-go="dm:${esc(r)}">${ava(r, 18, true)}<b>${esc(r)}</b>${esc(S.status[r].今 || "")}</button>`).join("")}</div>`;
+  $("r-home").setAttribute("aria-current", "true");
+}
+
+async function load() {
+  S.msgs = contextReady() ? await (await fetch(scopedURL(`/api/messages?channel=${encodeURIComponent(S.cur)}`))).json() : [];
+  drawLog(true);
+}
+
+const chName = (id) => id.startsWith("dm:") ? "1対1" : "#" + (S.channels.find((c) => c.id === id)?.name || id);
+
+function drawLog(scroll) {
+  const sc = $("scroll");
+  const near = sc.scrollHeight - sc.scrollTop - sc.clientHeight < 160;
+  const v = view(); const out = []; let prev = null; let acts = null;
+  const flush = () => { if (acts) { out.push(`<details class="acts"><summary>${esc(acts.a)}の作業 ${acts.items.length}件</summary><ul>${acts.items.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></details>`); acts = null; } };
+  const head = (m) => {
+    const showName = !(v.dm && m.author === v.name);
+    const where = v.dm && m.channel !== S.cur ? ` ・ ${esc(chName(m.channel))}` : "";
+    if (showName && prev !== m.author + m.channel) out.push(`<button class="who" data-go="dm:${esc(m.author)}">${ava(m.author, 22)}<b>${esc(m.author)}</b>${where} ・ ${hhmm(m.ts)}</button>`);
+    prev = m.author + m.channel;
+  };
+  let lastMine = -1;
+  S.msgs.forEach((m, i) => { if (m.author === "本人") lastMine = i; });
+  S.msgs.forEach((m, i) => {
+    if (m.kind === "activity") { if (!acts || acts.a !== m.author) { flush(); acts = { a: m.author, items: [] }; } acts.items.push(m.text); return; }
+    flush();
+    if (m.kind === "error") { out.push(`<div class="err">${esc(m.text)}</div>`); prev = null; return; }
+    if (m.author === "本人") {
+      out.push(`<div class="bub mine">${md(m.text)}</div>`);
+      if (i === lastMine) out.push(`<div class="deliv">送信済み ・ ${hhmm(m.ts)}</div>`);
+      prev = null; return;
+    }
+    head(m);
+    if (m.kind === "handoff") {
+      const to = m.meta?.to; const body = m.text.replace(/^@\S+\s*/, "");
+      out.push(`<div class="hand"><button class="chip" data-go="dm:${esc(to)}">${ava(to, 20)} ${esc(to)}に頼んだ <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button><div class="bub">${md(body)}</div></div>`);
+    } else if(m.kind === "runtime_result") {
+      const r=m.meta?.result, latest=S.msgs.filter(x=>x.kind==="runtime_result"&&x.meta?.result?.request_id===r?.request_id).at(-1)?.meta?.result;
+      out.push(`<div class="bub">${md(m.text)}${r?.request_id&&["partial","error","cancelled"].includes(r.status)&&latest?.status!=="success"?`<div><button class="chip" data-resume="${esc(r.request_id)}">再開</button></div>`:""}</div>`);
+    } else if (m.kind === "approval") {
+      const st = m.meta?.status;
+      out.push(`<div class="card"><div class="t">承認してください</div><div>${md(m.text)}</div>
+        <details><summary>中身を見る</summary><pre>${esc(m.meta?.input)}</pre></details>
+        ${st === "待ち" ? `<div class="row"><button class="chip" data-ok="${m.id}">承認する</button><button class="chip no" data-ng="${m.id}">却下する</button></div>` : `<div class="done ${esc(st)}">${esc(st)}</div>`}</div>`);
+    } else {
+      out.push(`<div class="bub">${md(m.text)}</div>`);
+    }
+  });
+  flush();
+  const working = (v.dm ? [v.name] : [v.lead, ...v.members]).filter((r) => S.status[r]?.busy && (v.dm || S.status[r]?.channel === S.cur));
+  for (const r of working) out.push(`<div class="typing">${ava(r, 22, true)}<div class="bub"><span></span><span></span><span></span></div>${esc(r)}：${esc(S.status[r]?.今 || "作業中")}<button data-stop="${esc(r)}">止める</button></div>`);
+  if (!S.msgs.length && !working.length) out.push(`<div class="hello">${v.dm ? `${esc(v.name)}と1対1で話せます。` : `ここに書くとリーダーの${esc(v.lead)}が受けて、メンバーに振ります。左下の＋からメンバーを直接呼べます。`}</div>`);
+  $("log").innerHTML = out.join("");
+  if (scroll || near) sc.scrollTop = sc.scrollHeight;
+}
+
+function drawPop() {
+  const v = view();
+  const who = v.dm ? [] : v.members;
+  $("pop").innerHTML = who.length ? who.map((r) => `<button type="button" class="item" data-at="${esc(r)}">${ava(r, 24)}<span class="nm">${esc(r)}</span></button>`).join("") : `<div class="item" style="cursor:default;color:var(--sub)">1対1の会話です</div>`;
+}
+
+document.addEventListener("click", async (e) => {
+  const b = e.target.closest("button"); if (!b) { $("pop").hidden = true; return; }
+  if (b.dataset.go) { S.cur = b.dataset.go; location.hash = encodeURIComponent(S.cur); drawSide(); await load(); $("t").focus(); }
+  if (b.id === "plus") { drawPop(); $("pop").hidden = !$("pop").hidden; return; }
+  if (b.dataset.at) { const t = $("t"); t.value = `@${b.dataset.at} ` + t.value; $("pop").hidden = true; t.focus(); grow(); }
+  if(b.id === "propose_action") {
+    try {
+      const job=JSON.parse($("action_job").value);
+      const res=await fetch("/api/action-proposal",{method:"POST",headers:{"x-team-token":S.csrf},body:JSON.stringify({channel:S.cur,context:S.context,job,approval_expires_at:$("approval_expires_at").value.trim() || null})});
+      const result=await res.json(); if(!res.ok) throw Error(result.error);
+      $("error").textContent="承認カードを作成しました。内容を確認してから承認してください。";
+    } catch(e) { $("error").textContent=e.message; }
+  }
+  if(b.dataset.resume) {
+    b.disabled=true;
+    try{const res=await fetch("/api/resume",{method:"POST",headers:{"x-team-token":S.csrf},body:JSON.stringify({request_id:b.dataset.resume,context:S.context})});const result=await res.json();if(!res.ok)throw Error(result.error);$("error").textContent=`再開: ${result.status}`;await load();}catch(e){$("error").textContent=e.message;}finally{b.disabled=false;}
+  }
+  if (b.dataset.stop) await fetch("/api/stop", { method: "POST", headers:{"x-team-token":S.csrf}, body: JSON.stringify({ role: b.dataset.stop, context:S.context }) });
+  if (b.dataset.ok || b.dataset.ng) {
+    const id=Number(b.dataset.ok || b.dataset.ng), card=S.msgs.find(m=>m.id===id) || S.waits.find(m=>m.id===id);
+    const res=await fetch("/api/approve", {method:"POST",headers:{"x-team-token":S.csrf},body:JSON.stringify({id,decision:b.dataset.ok ? "approve":"reject",manifest_hash:card?.meta?.manifest_hash,context:S.context})});
+    if(!res.ok) $("error").textContent=(await res.json()).error;
+  }
+  if (b.id === "bell" || b.id === "r-wait") { const w = S.waits[0]; if (w) { S.cur = w.channel; location.hash = encodeURIComponent(S.cur); drawSide(); await load(); } }
+  if (!b.closest(".pop") && b.id !== "plus") $("pop").hidden = true;
+});
+const grow = () => { const t = $("t"); t.style.height = "auto"; t.style.height = t.scrollHeight + "px"; $("send").disabled = S.verification || !t.value.trim() || !contextReady(); };
+$("t").addEventListener("input", grow);
+$("t").addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); $("f").requestSubmit(); } });
+$("f").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  if(S.verification)return;
+  const text = $("t").value.trim(); if (!text) return;
+  if (!contextReady()) return;
+  let review=null;
+  try { if($("review").value.trim()) review=JSON.parse($("review").value); } catch { $("error").textContent="レビューJSONが不正"; return; }
+  const res=await fetch("/api/post", {method:"POST",headers:{"x-team-token":S.csrf},body:JSON.stringify({channel:S.cur,text,context:S.context,review})});
+  if(!res.ok) { $("error").textContent=(await res.json()).error; return; }
+  $("error").textContent=""; $("t").value=""; grow();
+});
+for(const kind of ["meta","local"])$("verify-"+kind).addEventListener("click",async()=>{
+  const buttons=[$("verify-meta"),$("verify-local")],out=$("verification-result"),brand=$("brand").value;
+  if(!brand){out.textContent="ブランドを選んでください";return;}
+  buttons.forEach(b=>b.disabled=true);out.textContent="確認中です";
+  try{
+    const body={brand};if(kind==="meta"){const now=new Date(),a=new Date(Date.UTC(now.getFullYear(),now.getMonth()-1,1)),b=new Date(Date.UTC(now.getFullYear(),now.getMonth(),0));body.since=a.toISOString().slice(0,10);body.until=b.toISOString().slice(0,10);}
+    const res=await fetch("/api/verification/"+kind,{method:"POST",headers:{"x-team-token":S.csrf,"content-type":"application/json"},body:JSON.stringify(body)}),r=await res.json();if(!res.ok)throw Error(r.error);
+    if(kind==="meta")out.textContent=`${r.brand}: 接続確認済み / ${r.account_name} / ${r.period.since}〜${r.period.until} / 広告費 ${r.amount_spent.toLocaleString()} ${r.currency}`;
+    else{out.textContent="ローカルの作業記録を保存・照合できました";$("job_id").value=r.context.job_id;$("revision").value=r.context.revision;$("job_id").dispatchEvent(new Event("change"));}
+  }catch(e){out.textContent=e.message;}finally{buttons.forEach(b=>b.disabled=false);}
+});
+boot();
+</script>
+<script src="/flow.js"></script>
+<script src="/favicon.js"></script>
+</body>
+</html>

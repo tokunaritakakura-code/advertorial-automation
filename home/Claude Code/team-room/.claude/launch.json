@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "team-room",
+      "url": "http://127.0.0.1:3200",
+      "port": 3200
+    },
+    {
+      "name": "kusamushi-all",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "3340",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "引き継ぎ/VSL記事リサーチ_資料/草むしり椅子"
+      ],
+      "port": 3340
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# 1行目が参考の URL。2行目から引数（審査を回す.py が読む）
+https://innoglam.com/pages/advert-2
+--移植表
+移植表_腰が責める.md
+--見た目は日本風

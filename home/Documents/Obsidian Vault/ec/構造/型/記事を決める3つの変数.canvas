@@ -1,0 +1,590 @@
+{
+ "nodes": [
+  {
+   "id": "title",
+   "type": "text",
+   "x": -40,
+   "y": -260,
+   "width": 1900,
+   "height": 120,
+   "text": "# 記事を決める物は4つだけ\n**15の事（固定の順）** を、**3つの変数**で着せ替える。頭と尾は動かない。VSL が何であれ、この3つを読めば記事は決まる。"
+  },
+  {
+   "id": "vsl",
+   "type": "text",
+   "x": -40,
+   "y": -110,
+   "width": 300,
+   "height": 110,
+   "text": "**VSL（受ける広告）**\n文字起こし・秒つき"
+  },
+  {
+   "id": "nuri",
+   "type": "text",
+   "x": 320,
+   "y": -110,
+   "width": 300,
+   "height": 110,
+   "text": "**毎回: 15の事で塗る**\n◎ 言い切った → 記事は言い直す\n○ 名前だけ → 中身を足す\n× 言っていない → 全部書く",
+   "color": "6"
+  },
+  {
+   "id": "v1",
+   "type": "text",
+   "x": 680,
+   "y": -110,
+   "width": 340,
+   "height": 110,
+   "text": "**変数1 どこから登るか**\n＝認知の段階（最初の3行）\n→ 書き始める番号が決まる",
+   "color": "1"
+  },
+  {
+   "id": "v2",
+   "type": "text",
+   "x": 1060,
+   "y": -110,
+   "width": 340,
+   "height": 110,
+   "text": "**変数2 誰が語るか**\n＝語り手\n→ ④a ④b ⑤ ⑧ の着せ方が決まる",
+   "color": "2"
+  },
+  {
+   "id": "v3",
+   "type": "text",
+   "x": 1440,
+   "y": -110,
+   "width": 340,
+   "height": 110,
+   "text": "**変数3 解決策の形**\n＝型（フォーマット）\n→ ⑥ ⑦ ⑨ の着せ方が決まる",
+   "color": "4"
+  },
+  {
+   "id": "g15",
+   "type": "group",
+   "x": -60,
+   "y": 20,
+   "width": 420,
+   "height": 1440,
+   "label": "15の事（順番は固定。どの型でも全部通す）"
+  },
+  {
+   "id": "k⓪",
+   "type": "text",
+   "x": -40,
+   "y": 80,
+   "width": 380,
+   "height": 60,
+   "text": "**⓪ この痛みは私の事**"
+  },
+  {
+   "id": "k①",
+   "type": "text",
+   "x": -40,
+   "y": 160,
+   "width": 380,
+   "height": 60,
+   "text": "**① 試した物は効かない**"
+  },
+  {
+   "id": "k②",
+   "type": "text",
+   "x": -40,
+   "y": 240,
+   "width": 380,
+   "height": 60,
+   "text": "**② 本当の原因は別にある**"
+  },
+  {
+   "id": "k③",
+   "type": "text",
+   "x": -40,
+   "y": 320,
+   "width": 380,
+   "height": 60,
+   "text": "**③ 放っておくと怖い所へ**"
+  },
+  {
+   "id": "k④a",
+   "type": "text",
+   "x": -40,
+   "y": 400,
+   "width": 380,
+   "height": 60,
+   "text": "**④a 信じられる人がいる**"
+  },
+  {
+   "id": "k④b",
+   "type": "text",
+   "x": -40,
+   "y": 480,
+   "width": 380,
+   "height": 60,
+   "text": "**④b その人も苦しんで抜けた**"
+  },
+  {
+   "id": "k⑤",
+   "type": "text",
+   "x": -40,
+   "y": 560,
+   "width": 380,
+   "height": 60,
+   "text": "**⑤ 聞いた事が無い理由**"
+  },
+  {
+   "id": "k⑥",
+   "type": "text",
+   "x": -40,
+   "y": 640,
+   "width": 380,
+   "height": 60,
+   "text": "**⑥ 原因を直す仕組み**"
+  },
+  {
+   "id": "k⑦",
+   "type": "text",
+   "x": -40,
+   "y": 720,
+   "width": 380,
+   "height": 60,
+   "text": "**⑦ 私と同じ人に効いた**"
+  },
+  {
+   "id": "k⑧",
+   "type": "text",
+   "x": -40,
+   "y": 800,
+   "width": 380,
+   "height": 60,
+   "text": "**⑧ 作るのが難しかった**"
+  },
+  {
+   "id": "k⑨",
+   "type": "text",
+   "x": -40,
+   "y": 880,
+   "width": 380,
+   "height": 60,
+   "text": "**⑨ 商品はそれを詰めた物**"
+  },
+  {
+   "id": "k⑩",
+   "type": "text",
+   "x": -40,
+   "y": 960,
+   "width": 380,
+   "height": 60,
+   "text": "**⑩ 値段は小さい**"
+  },
+  {
+   "id": "k⑪",
+   "type": "text",
+   "x": -40,
+   "y": 1040,
+   "width": 380,
+   "height": 60,
+   "text": "**⑪ 損はしない**"
+  },
+  {
+   "id": "k⑫",
+   "type": "text",
+   "x": -40,
+   "y": 1120,
+   "width": 380,
+   "height": 60,
+   "text": "**⑫ 今じゃないと無い**"
+  },
+  {
+   "id": "k⑬",
+   "type": "text",
+   "x": -40,
+   "y": 1200,
+   "width": 380,
+   "height": 60,
+   "text": "**⑬ 決めなくていい**"
+  },
+  {
+   "id": "k⑭",
+   "type": "text",
+   "x": -40,
+   "y": 1280,
+   "width": 380,
+   "height": 60,
+   "text": "**⑭ 最後の引っかかり**"
+  },
+  {
+   "id": "k⑮",
+   "type": "text",
+   "x": -40,
+   "y": 1360,
+   "width": 380,
+   "height": 60,
+   "text": "**⑮ 動かない方が怖い**"
+  },
+  {
+   "id": "ghead",
+   "type": "group",
+   "x": -80,
+   "y": 0,
+   "width": 460,
+   "height": 440,
+   "label": "頭（固定）題・最悪の結末の枠・問いを口に出すリード・名乗り・最初の写真"
+  },
+  {
+   "id": "gtail",
+   "type": "group",
+   "x": -80,
+   "y": 940,
+   "width": 460,
+   "height": 540,
+   "label": "尾（固定）値段 A・保証・コメント欄 E・FAQ・一押し・未来の写真 F"
+  },
+  {
+   "id": "gv1",
+   "type": "group",
+   "x": 660,
+   "y": 20,
+   "width": 380,
+   "height": 380,
+   "label": "変数1 認知の段階 → 書き始める所",
+   "color": "1"
+  },
+  {
+   "id": "v1_0",
+   "type": "text",
+   "x": 680,
+   "y": 80,
+   "width": 340,
+   "height": 60,
+   "text": "**Unaware 気づいていない**\n⓪ から全部"
+  },
+  {
+   "id": "v1_1",
+   "type": "text",
+   "x": 680,
+   "y": 160,
+   "width": 340,
+   "height": 60,
+   "text": "**Problem Aware 問題を知っている**\n① から（①は言い直し）"
+  },
+  {
+   "id": "v1_2",
+   "type": "text",
+   "x": 680,
+   "y": 240,
+   "width": 340,
+   "height": 60,
+   "text": "**Solution Aware 解決策を知っている**\n⑥ を「なぜうちか」にして ⑥ から"
+  },
+  {
+   "id": "v1_3",
+   "type": "text",
+   "x": 680,
+   "y": 320,
+   "width": 340,
+   "height": 60,
+   "text": "**Product Aware 商品を知っている**\n⑧ から。値段・保証・今だけを厚く（商品ページ直行）"
+  },
+  {
+   "id": "gv2",
+   "type": "group",
+   "x": 1040,
+   "y": 340,
+   "width": 380,
+   "height": 460,
+   "label": "変数2 語り手 → ④a ④b ⑤ ⑧ の着せ方",
+   "color": "2"
+  },
+  {
+   "id": "v2_rule",
+   "type": "text",
+   "x": 1060,
+   "y": 400,
+   "width": 340,
+   "height": 60,
+   "text": "**VSL に人が立っていればその人を継ぐ**\n無ければ名乗りの段で商品に合う人を立てる"
+  },
+  {
+   "id": "v2_0",
+   "type": "text",
+   "x": 1060,
+   "y": 480,
+   "width": 340,
+   "height": 60,
+   "text": "**作った人**\n④b 自分が苦しんで作った／⑤ 大手は作らない／⑧ 試作の回数と失敗"
+  },
+  {
+   "id": "v2_1",
+   "type": "text",
+   "x": 1060,
+   "y": 560,
+   "width": 340,
+   "height": 60,
+   "text": "**専門家（医者・技術者）**\n④b 患者・現場を見て気づいた／⑤ 業界が隠した・科学が新しい／⑧ 作れる工場の数を書く（何社中何社か）"
+  },
+  {
+   "id": "v2_2",
+   "type": "text",
+   "x": 1060,
+   "y": 640,
+   "width": 340,
+   "height": 60,
+   "text": "**第三者（記者・試した客）**\n④b 自分で試して回った／⑤ 誰も教えてくれなかった／⑧ 作り手に聞いた話"
+  },
+  {
+   "id": "gv3",
+   "type": "group",
+   "x": 1420,
+   "y": 500,
+   "width": 380,
+   "height": 460,
+   "label": "変数3 解決策の形 → ⑥ ⑦ ⑨ の着せ方（真ん中だけ）",
+   "color": "4"
+  },
+  {
+   "id": "v3_0",
+   "type": "text",
+   "x": 1440,
+   "y": 560,
+   "width": 340,
+   "height": 60,
+   "text": "**原因1つ → 仕組み1つ**\n原因の暴露（権威の暴露記事）。⑥ を研究と喩えで深く"
+  },
+  {
+   "id": "v3_1",
+   "type": "text",
+   "x": 1440,
+   "y": 640,
+   "width": 340,
+   "height": 60,
+   "text": "**得・理由が複数**\nリスティクル。⑥⑦⑨ を「N の理由」に割って並べる"
+  },
+  {
+   "id": "v3_2",
+   "type": "text",
+   "x": 1440,
+   "y": 720,
+   "width": 340,
+   "height": 60,
+   "text": "**比べる物が複数**\n比較ランキング。⑥ を採点の基準、⑨ を1位の理由に"
+  },
+  {
+   "id": "v3_3",
+   "type": "text",
+   "x": 1440,
+   "y": 800,
+   "width": 340,
+   "height": 60,
+   "text": "**1人の変化の物語**\n物語の記事。⑥⑦⑨ を時間の順に語りで通す"
+  },
+  {
+   "id": "v3_note",
+   "type": "text",
+   "x": 1440,
+   "y": 880,
+   "width": 340,
+   "height": 60,
+   "text": "段の数や並びは型で変えない。変わるのは ⑥⑦⑨ の着せ方だけ（本人 2026-10-12）",
+   "color": "4"
+  },
+  {
+   "id": "gvis",
+   "type": "group",
+   "x": -60,
+   "y": 1520,
+   "width": 1860,
+   "height": 300,
+   "label": "見た目の部品（15の事それぞれに1つ。揃っていない所が残りの穴）",
+   "color": "5"
+  },
+  {
+   "id": "vis_0",
+   "type": "text",
+   "x": -40,
+   "y": 1560,
+   "width": 250,
+   "height": 230,
+   "text": "**頭 B**\n⓪〜④a。題で試した数と「1つだけ」・最悪の結末の枠・共有ボタン\n\n状態: 済"
+  },
+  {
+   "id": "vis_1",
+   "type": "text",
+   "x": 225,
+   "y": 1560,
+   "width": 250,
+   "height": 230,
+   "text": "**研究の数字 G**\n②⑥。学術誌・年・人数→結果2行→出典。棒グラフの札\n\n状態: 済"
+  },
+  {
+   "id": "vis_2",
+   "type": "text",
+   "x": 490,
+   "y": 1560,
+   "width": 250,
+   "height": 230,
+   "text": "**語り手の写真**\n④a④b。丸い写真は最初の1回だけ。試作を横に並べた1枚（⑧）\n\n状態: ⑧ 未"
+  },
+  {
+   "id": "vis_3",
+   "type": "text",
+   "x": 755,
+   "y": 1560,
+   "width": 250,
+   "height": 230,
+   "text": "**効いた人 ⑦**\n客の声・顔写真・数の証拠。VSLの数字を記事で分け置き\n\n状態: 部品なし"
+  },
+  {
+   "id": "vis_4",
+   "type": "text",
+   "x": 1020,
+   "y": 1560,
+   "width": 250,
+   "height": 230,
+   "text": "**値段 A**\n⑩〜⑬。高い枠→定価→今日→1日あたり→セット。硬貨の写真\n\n状態: 済"
+  },
+  {
+   "id": "vis_5",
+   "type": "text",
+   "x": 1285,
+   "y": 1560,
+   "width": 250,
+   "height": 230,
+   "text": "**未来の写真 F**\n⑮。左＝使わないまま／右＝使った後。リスティクル以外\n\n状態: 済"
+  },
+  {
+   "id": "vis_6",
+   "type": "text",
+   "x": 1550,
+   "y": 1560,
+   "width": 250,
+   "height": 230,
+   "text": "**コメント欄 E**\n⑭。アングルの人の反論を潰すコメント。一押しはコメントの末尾に置く\n\n状態: 済"
+  },
+  {
+   "id": "links",
+   "type": "text",
+   "x": 700,
+   "y": -260,
+   "width": 1160,
+   "height": 120,
+   "text": "元の図と表: `記事の型の木.canvas`（段階→型）・`買うまでの構造.canvas`（15の事の詳細）・`_VSLから型を選ぶ.md`（段階の見分け方と型の表）・`_仕掛けの棚.md`（部品 A〜G）。この1枚はそれらを4つの物に畳んだ物。2026-10-15"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e0",
+   "fromNode": "vsl",
+   "fromSide": "right",
+   "toNode": "nuri",
+   "toSide": "left"
+  },
+  {
+   "id": "e1",
+   "fromNode": "nuri",
+   "fromSide": "right",
+   "toNode": "v1",
+   "toSide": "left"
+  },
+  {
+   "id": "e2",
+   "fromNode": "v1",
+   "fromSide": "right",
+   "toNode": "v2",
+   "toSide": "left"
+  },
+  {
+   "id": "e3",
+   "fromNode": "v2",
+   "fromSide": "right",
+   "toNode": "v3",
+   "toSide": "left"
+  },
+  {
+   "id": "e_v1_0",
+   "fromNode": "v1_0",
+   "fromSide": "right",
+   "toNode": "k⓪",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e_v1_1",
+   "fromNode": "v1_1",
+   "fromSide": "right",
+   "toNode": "k①",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e_v1_2",
+   "fromNode": "v1_2",
+   "fromSide": "right",
+   "toNode": "k⑥",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e_v1_3",
+   "fromNode": "v1_3",
+   "fromSide": "right",
+   "toNode": "k⑧",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e_v2_④a",
+   "fromNode": "gv2",
+   "fromSide": "left",
+   "toNode": "k④a",
+   "toSide": "right",
+   "color": "2"
+  },
+  {
+   "id": "e_v2_④b",
+   "fromNode": "gv2",
+   "fromSide": "left",
+   "toNode": "k④b",
+   "toSide": "right",
+   "color": "2"
+  },
+  {
+   "id": "e_v2_⑤",
+   "fromNode": "gv2",
+   "fromSide": "left",
+   "toNode": "k⑤",
+   "toSide": "right",
+   "color": "2"
+  },
+  {
+   "id": "e_v2_⑧",
+   "fromNode": "gv2",
+   "fromSide": "left",
+   "toNode": "k⑧",
+   "toSide": "right",
+   "color": "2"
+  },
+  {
+   "id": "e_v3_⑥",
+   "fromNode": "gv3",
+   "fromSide": "left",
+   "toNode": "k⑥",
+   "toSide": "right",
+   "color": "4"
+  },
+  {
+   "id": "e_v3_⑦",
+   "fromNode": "gv3",
+   "fromSide": "left",
+   "toNode": "k⑦",
+   "toSide": "right",
+   "color": "4"
+  },
+  {
+   "id": "e_v3_⑨",
+   "fromNode": "gv3",
+   "fromSide": "left",
+   "toNode": "k⑨",
+   "toSide": "right",
+   "color": "4"
+  }
+ ]
+}

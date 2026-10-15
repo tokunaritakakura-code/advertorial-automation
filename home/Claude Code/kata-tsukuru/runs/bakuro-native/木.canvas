@@ -1,0 +1,1030 @@
+{
+ "nodes": [
+  {
+   "id": "g0",
+   "type": "group",
+   "label": "01 ClearVision",
+   "x": 0,
+   "y": 0,
+   "width": 880,
+   "height": 2270
+  },
+  {
+   "id": "g0_1",
+   "type": "text",
+   "x": 20,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題**\n仕事: 「目でも天気でもない本当の原因」で、夜の雨の運転が怖い50歳以上に「自分の目のせいじゃないかも」という希望と好奇心を起こす。調査報道の体裁で広告に見せない\n心理: 上に「HIGH DEMAND」「BUNDLE & SAVE UP TO 60%」の帯、「AUTOMOTIVE SAFETY INVESTIGATION • 2026」、雨の夜の事故現場の正方形写真（358）\nビジュアル: 「17,000 Nighttime Crashes Last Year Had Nothing to Do With Bad Eyes or Bad Weather. A Highway Patrol Investigation Exposed the Real Cause.」/ 視力も正常、ワイパーも動く、なのに事故\nコピー: 1〜2（前半）\n差を0にする事: 同じ順の同じ位置に1段で置き、「「目でも天気でもない本当の原因」で、夜の雨の運転が怖い50歳以上に「」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_2",
+   "type": "text",
+   "x": 20,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 書き手の名乗り**\n仕事: 22年の高速警察官という肩書で、事故を何百件も見た人の話として信じさせる\n心理: 小さい顔写真（56）\nビジュアル: By David Mitchell / Highway Patrol Officer · 22 Years of Service / Updated: February 11, 2026\nコピー: 2（中）\n差を0にする事: 同じ順の同じ位置に1段で置き、「22年の高速警察官という肩書で、事故を何百件も見た人の話として信じさ」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_3",
+   "type": "text",
+   "x": 20,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 物語・体験**\n仕事: 自分の父が同じ事故を起こした場面（11:47 PM、ガードレール、毛布で震える）で感情を動かし、「目は正常だった」で謎を深める\n心理: 文字だけ\nビジュアル: Then my father had the same crash. / \"It was like looking through frosted glass. The headlights turned everything white.\" / So what was really happening?\nコピー: 2（後半）\n差を0にする事: 同じ順の同じ位置に1段で置き、「自分の父が同じ事故を起こした場面（11:47 PM、ガードレール、毛」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_4",
+   "type": "text",
+   "x": 20,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 研究・数字**\n仕事: 10年分の事故記録と17,000件の数字で、個人の話を社会の問題にする\n心理: 大きい数字「17,000+」\nビジュアル: I Started Pulling Accident Data. The Pattern Was Undeniable. / 17,000+ Nighttime rain-related crashes / 運転者の言葉3つ\nコピー: 3〜4（前半）\n差を0にする事: 同じ順の同じ位置に1段で置き、「10年分の事故記録と17,000件の数字で、個人の話を社会の問題にす」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_5",
+   "type": "text",
+   "x": 20,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 隠れた原因**\n仕事: 指でざらつき、スマホのライトで見える膜という自分で確かめられる発見で、原因は「ガラスに化学的に結合した汚れ」だと分からせる。7秒で600フィート見えないと恐怖を足す\n心理: スマホのライトで膜を照らす写真（358）、大きい数字「600 FT」\nビジュアル: There it was. A thick, invisible layer… / bonded contamination / Glass cleaner can't remove it. Rain-X can't… / 600 FT Distance covered during 7 seconds of blindness\nコピー: 4（後半）〜6\n差を0にする事: 同じ順の同じ位置に1段で置き、「指でざらつき、スマホのライトで見える膜という自分で確かめられる発見で」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_6",
+   "type": "text",
+   "x": 20,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 その他: 誰も言わない理由**\n仕事: 上司・安全委員会・洗車業界・医者が動かない理由を見せ、「隠されていた」という怒りと、自分は悪くないという安心を起こす。黄色いメガネも効かないと切る\n心理: 文字だけ\nビジュアル: Why Nobody Tells You About This / \"Current windshield maintenance recommendations remain unchanged.\" / A multi-billion dollar industry / \"Night vision declines with age. It's normal.\"\nコピー: 7\n差を0にする事: 同じ順の同じ位置に1段で置き、「上司・安全委員会・洗車業界・医者が動かない理由を見せ、「隠されていた」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_7",
+   "type": "text",
+   "x": 20,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 今までのやり方を切る**\n仕事: 「掃除」と「除染」は別物と教え、比較表でガラスクリーナー・Rain-X・スポンジを全部切る。Rain-Xは汚れを閉じ込めて悪化させると言う\n心理: 2列の比較表（文字）＋ボタン\nビジュアル: The Difference Nobody Explains: Cleaning vs. Decontaminating / GLASS CLEANERS / RAIN-X / SPONGES vs DECONTAMINATION TECHNOLOGY / WHY RAIN-X MAKES IT WORSE / SEE THE SOLUTION →\nコピー: 8\n差を0にする事: 同じ順の同じ位置に1段で置き、「「掃除」と「除染」は別物と教え、比較表でガラスクリーナー・Rain-」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_8",
+   "type": "text",
+   "x": 20,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**8 仕組み・成分**\n仕事: プロの洗車業者が知っていたやり方を家で、という流れで、2つの手順（除染→結合）の理屈を渡し、そこで商品名を出す\n心理: 大きい番号「01」「02」、使っている動画12.9秒・1カット（358）\nビジュアル: Then I Found the One Product That Actually Addressed It / Molecular Bonding Technology / 01 Decontaminate / 02 Bond / The product is called ClearVision.\nコピー: 9〜13\n差を0にする事: 同じ順の同じ位置に1段で置き、「プロの洗車業者が知っていたやり方を家で、という流れで、2つの手順（除」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_9",
+   "type": "text",
+   "x": 20,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**9 物語・体験**\n仕事: 父の窓から茶色い汚れが流れ、その夜雨の中で「見えた」と泣く場面で、結果を体で想像させる\n心理: 文字だけ\nビジュアル: I Ordered It That Night. Tested It on My Dad's Windshield. / \"David, I could see. In the rain. At night.\" / \"Why didn't anyone tell me my windshield was the problem?\"\nコピー: 14\n差を0にする事: 同じ順の同じ位置に1段で置き、「父の窓から茶色い汚れが流れ、その夜雨の中で「見えた」と泣く場面で、結」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_10",
+   "type": "text",
+   "x": 20,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**10 客の声**\n仕事: 67,000人、他の商品を試してきた人たちの結果と、車の鍵を返してもらえた声（4件）で「自分も」と思わせる。Amazonの偽物に注意させて直販で買う理由も作る\n心理: 前後比較の写真（358）、声の画像（358）、大きい数字3つ\nビジュアル: Over 67,000 Drivers Have Already Made the Switch / Not sold on Amazon / They Were Told They Were Too Old to Drive. They Weren't. / Harold P., 71 ほか4件 / 67,000+ Drivers・3 Months・<0.5% Return Rate\nコピー: 15〜19（前）\n差を0にする事: 同じ順の同じ位置に1段で置き、「67,000人、他の商品を試してきた人たちの結果と、車の鍵を返しても」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_13",
+   "type": "text",
+   "x": 20,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**13 保証**\n仕事: 「効くか払わないか」の二択にして試す怖さを消す\n心理: 「90-DAY GUARANTEE」の札\nビジュアル: 100% Money Back — No Questions Asked / Either it works or you don't pay.\nコピー: 22末〜23\n差を0にする事: 同じ順の同じ位置に1段で置き、「「効くか払わないか」の二択にして試す怖さを消す」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_15",
+   "type": "text",
+   "x": 20,
+   "y": 1910,
+   "width": 380,
+   "height": 150,
+   "text": "**15 その他: まとめ**\n仕事: 「目じゃない、窓だ」を最後に言い切り、原因と答えを1段で思い出させる\n心理: セット商品の写真（266）\nビジュアル: It Was Never Your Eyes. It's Your Windshield. / One 3-minute application. Months of protection. / The problem isn't you. It's your windshield.\nコピー: 25\n差を0にする事: 同じ順の同じ位置に1段で置き、「「目じゃない、窓だ」を最後に言い切り、原因と答えを1段で思い出させる」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_16",
+   "type": "text",
+   "x": 20,
+   "y": 2080,
+   "width": 380,
+   "height": 150,
+   "text": "**16 申込のボタン**\n仕事: 期間限定・在庫限りの割引と保証で最後に押させる\n心理: 割引の箱＋ボタン2つ\nビジュアル: LIMITED TIME OFFER / UP TO 60% OFF WHILE SUPPLIES LAST / GET CLEARVISION NOW → / 60% OFF + FREE SHIPPING / TRY CLEARVISION\nコピー: 25末〜27\n差を0にする事: 同じ順の同じ位置に1段で置き、「期間限定・在庫限りの割引と保証で最後に押させる」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1",
+   "type": "group",
+   "label": "02 Lovy",
+   "x": 420,
+   "y": 0,
+   "width": 880,
+   "height": 2440
+  },
+  {
+   "id": "g1_1",
+   "type": "text",
+   "x": 440,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題**\n仕事: 専門家が「20年まちがっていた」と告白する形で目を引き、子宮を取った女性に「年のせいじゃなかったかも」と気づかせる。女性向け健康誌の特別リポートの体裁で記事に見せる\n心理: 上に「Limited Stock」「Try UroControl Risk-Free」の帯、誌名と「BLADDER HEALTH · SPECIAL REPORT」\nビジュアル: 「I Spent 20 Years Telling Post-Hysterectomy Women Their Bladder Problems Were \"Just Aging.\" I Was Wrong.」/ why post-hysterectomy bladder changes don't respond to standard treatments\nコピー: 1〜2（前）\n差を0にする事: 同じ順の同じ位置に1段で置き、「専門家が「20年まちがっていた」と告白する形で目を引き、子宮を取った」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_2",
+   "type": "text",
+   "x": 440,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 書き手の名乗り**\n仕事: 20年の女性の健康の看護師という肩書で、話を信じさせる\n心理: 小さい顔写真（48）\nビジュアル: Susan Hart, NP / Women's Health · 20 years · February 2025\nコピー: 2（中）\n差を0にする事: 同じ順の同じ位置に1段で置き、「20年の女性の健康の看護師という肩書で、話を信じさせる」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_4",
+   "type": "text",
+   "x": 440,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**4 隠れた原因**\n仕事: 子宮を取る手術で「支え・ホルモン・神経」の3つが同時に変わり、何年もかけて崩れると説明し、手術とつながっていなかった理由と、くしゃみの漏れ・夜中の尿意の理由を1つずつ渡す\n心理: 文字だけ（引用の箱）\nビジュアル: The Post-Hysterectomy Bladder Cascade / three systems that support the bladder are disrupted simultaneously / It's a post-surgical cascade.\nコピー: 3\n差を0にする事: 同じ順の同じ位置に1段で置き、「子宮を取る手術で「支え・ホルモン・神経」の3つが同時に変わり、何年も」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_5",
+   "type": "text",
+   "x": 440,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**5 悩みの共感**\n仕事: 3つの症状を絵文字で短く並べ、「全部私だ」と思わせる\n心理: 絵文字3つ（💧😰🌙）と短い文字\nビジュアル: Sudden urgency・No warning, 60 seconds / Stress leaks・Laugh, sneeze, cough / Broken sleep・Up 2, 3, 4× a night\nコピー: 4〜6（前）\n差を0にする事: 同じ順の同じ位置に1段で置き、「3つの症状を絵文字で短く並べ、「全部私だ」と思わせる」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_6",
+   "type": "text",
+   "x": 440,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**6 客の声**\n仕事: 51歳で手術して12年「年のせい」と思っていた人の「明かりがついた」で、原因の話を信じさせる\n心理: ★5の引用1件\nビジュアル: \"Reading this felt like someone finally turned on a light.\" — Karen D., 63, Phoenix, AZ ✔ Verified\nコピー: 6（後）\n差を0にする事: 同じ順の同じ位置に1段で置き、「51歳で手術して12年「年のせい」と思っていた人の「明かりがついた」」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_7",
+   "type": "text",
+   "x": 440,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**7 今までのやり方を切る**\n仕事: 骨盤体操・抗コリン薬（認知症の危険）・水を減らす・パッド（年$900）を1つずつ切り、⚠で「どれも根本に効かない」とまとめる\n心理: 文字、⚠の箱\nビジュアル: Why Everything You've Tried Has Failed / like tightening the bolts on a bridge after the pillars have shifted / $900+ per year / ⚠️ None of these treatments address the root cause.\nコピー: 7〜8\n差を0にする事: 同じ順の同じ位置に1段で置き、「骨盤体操・抗コリン薬（認知症の危険）・水を減らす・パッド（年$900」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_8",
+   "type": "text",
+   "x": 440,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**8 仕組み・成分**\n仕事: 6つの成分を「筋肉・内側の膜・ホルモン・粘膜」に当て、研究の名前で信じさせ、「6つ同時でないと浸水する地下室の壁1枚」で全部入りが要ると思わせる\n心理: 番号1〜6と文字\nビジュアル: The 6 Nutrients That Support a Post-Hysterectomy Bladder / Pumpkin Seed / Magnesium Citrate / Sodium Hyaluronate / Cranberry / Red Clover / Sea Buckthorn / WHY ALL SIX, NOT JUST ONE OR TWO\nコピー: 9〜15\n差を0にする事: 同じ順の同じ位置に1段で置き、「6つの成分を「筋肉・内側の膜・ホルモン・粘膜」に当て、研究の名前で信」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_9",
+   "type": "text",
+   "x": 440,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**9 客の声**\n仕事: 89%・87%・94%・91%の数字と、トイレの場所を考えずに出かけた・夫が寝室に戻った・発表会での失敗から立ち直った声で、生活が戻る絵を見せる\n心理: 大きい数字4つ、★5の引用3件\nビジュアル: What Clients Tell Me After 8 Weeks / 89% stronger bladder control / 87% fewer times at night / 10,000+ customers / Susan B. 67 / Patricia K. 63 / Dorothy K. 63\nコピー: 16〜20\n差を0にする事: 同じ順の同じ位置に1段で置き、「89%・87%・94%・91%の数字と、トイレの場所を考えずに出かけ」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_10",
+   "type": "text",
+   "x": 440,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**10 その他: 効くまでの目安**\n仕事: 「薬ではなく支えるもの」と言って最初の10日は変化がないと先に伝え、2〜4週・5〜8週・8週以降の変化で、やめずに続ける気持ちを作る\n心理: 矢印付きの期間の段\nビジュアル: What to Expect, and When / Days 1 to 10 / Weeks 2 to 4 / Weeks 5 to 8 / Week 8 onward（they stopped thinking about their bladder）\nコピー: 21\n差を0にする事: 同じ順の同じ位置に1段で置き、「「薬ではなく支えるもの」と言って最初の10日は変化がないと先に伝え、」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_11",
+   "type": "text",
+   "x": 440,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**11 その他: 3つの道**\n仕事: 何もしない・薬・支える、の3つを✗⚠✓と費用で並べ、3つ目しか残らないようにする\n心理: 3つの選択肢の箱（✗・⚠・✓）\nビジュアル: So, What Are Your Actual Options? / Option 1 Do Nothing（$900+/year forever）/ Option 2 Prescription Anticholinergic Drugs（$70 to $200/month）/ ✓ Option 3 · What I Recommend（UroControl: $29.99）\nコピー: 22〜25\n差を0にする事: 同じ順の同じ位置に1段で置き、「何もしない・薬・支える、の3つを✗⚠✓と費用で並べ、3つ目しか残らな」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_12",
+   "type": "text",
+   "x": 440,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**12 商品の紹介**\n仕事: 「ふだん商品はすすめない」専門家が唯一すすめる物として名前を出し、6つ全部が研究の量で入っている・1日2粒・処方不要と楽さを見せる\n心理: 縦長の商品写真（120×222）\nビジュアル: The Formula I Now Recommend / It is called UroControl, made by Lovy. / Two capsules per day with breakfast.\nコピー: 26\n差を0にする事: 同じ順の同じ位置に1段で置き、「「ふだん商品はすすめない」専門家が唯一すすめる物として名前を出し、6」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_13",
+   "type": "text",
+   "x": 440,
+   "y": 1910,
+   "width": 380,
+   "height": 150,
+   "text": "**13 値段・オファー**\n仕事: パッド年$900・薬年$1,800と並べて$29.99を小さく見せ、90日保証で試す怖さを消す\n心理: 大きい数字3つ＋ボタン\nビジュアル: $900+ Daily pads × 12 months / $1,800+ + side effects / $29.99 90-day guarantee / Try UroControl Risk-Free →\nコピー: 26末〜29（前）\n差を0にする事: 同じ順の同じ位置に1段で置き、「パッド年$900・薬年$1,800と並べて$29.99を小さく見せ、」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_14",
+   "type": "text",
+   "x": 440,
+   "y": 2080,
+   "width": 380,
+   "height": 150,
+   "text": "**14 物語・体験**\n仕事: Carolが7週後に水中運動に戻った結末で物語を閉じ、「誰も教えなかった理由」と「トイレを計画して残りの人生を過ごすな」で背中を押す\n心理: 文字だけ\nビジュアル: \"I felt like myself again. Not like someone managing a problem.\" / there is no financial incentive to explain it / Go on and get your freedom and your life back.\nコピー: 29（中）\n差を0にする事: 同じ順の同じ位置に1段で置き、「Carolが7週後に水中運動に戻った結末で物語を閉じ、「誰も教えなか」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g1_15",
+   "type": "text",
+   "x": 440,
+   "y": 2250,
+   "width": 380,
+   "height": 150,
+   "text": "**15 客の声**\n仕事: 847件の読者コメント風で、効いた報告・怒りと希望・「もう遅い？」への著者の返事を見せ、最後の疑いを周りの人に答えさせる\n心理: コメント欄（頭文字の丸・★・👍の数・何日前）\nビジュアル: Comments from readers 847 / Linda H.（夜3〜4回→1回）/ Barbara T. / Susan Hart, NP 🟢 Staff/Author / Sandra J.「Worried it might be too late」/ Mary K. / Janet W. / View 839 more comments\nコピー: 29（後）\n差を0にする事: 同じ順の同じ位置に1段で置き、「847件の読者コメント風で、効いた報告・怒りと希望・「もう遅い？」へ」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2",
+   "type": "group",
+   "label": "03 Avalaine",
+   "x": 840,
+   "y": 0,
+   "width": 880,
+   "height": 2100
+  },
+  {
+   "id": "g2_1",
+   "type": "text",
+   "x": 860,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題**\n仕事: 「なぜ悪くなり続けるのか」で、薬を飲んでも広がる人に「原因が別にある」と思わせる\n心理: 上に「BIGGEST SALE OF THE YEAR」「10,000+ ORDERS」「60 DAY MONEY BACK」の帯。文字だけの題\nビジュアル: 「Why Your Nerve Pain Keeps Getting Worse (And How to…)」\nコピー: 1〜2\n差を0にする事: 同じ順の同じ位置に1段で置き、「「なぜ悪くなり続けるのか」で、薬を飲んでも広がる人に「原因が別にある」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_2",
+   "type": "text",
+   "x": 860,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 書き手の名乗り**\n仕事: 27年の神経内科医が「Gabapentin・Lyrica が効かない理由を説明する」で信じさせる\n心理: 医師の顔写真2枚（横長）\nビジュアル: 「A neurologist explains why Gabapentin, Lyrica, and…」By Dr. Andrew Lenny, MD・27 Years\nコピー: 3\n差を0にする事: 同じ順の同じ位置に1段で置き、「27年の神経内科医が「Gabapentin・Lyrica が効かない」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_3",
+   "type": "text",
+   "x": 860,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 共感の場面**\n仕事: 毎週診る患者の症状（burning feet・tingling）を並べ、自分の事だと思わせる\n心理: 足の写真1枚\nビジュアル: 「The Problem is More Serious Than You Think」\nコピー: 4\n差を0にする事: 同じ順の同じ位置に1段で置き、「毎週診る患者の症状（burning feet・tingling）を並」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_4",
+   "type": "text",
+   "x": 860,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 物語・体験**\n仕事: 64歳の患者 Margaret の経過で、読み手の未来を見せる\n心理: 女性の写真1枚\nビジュアル: 「Margaret's Story」\nコピー: 5\n差を0にする事: 同じ順の同じ位置に1段で置き、「64歳の患者 Margaret の経過で、読み手の未来を見せる」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_5",
+   "type": "text",
+   "x": 860,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 今までのやり方を切る**\n仕事: 製薬には都合が悪い真実、として薬・サプリ・クリームを切る\n心理: 薬の写真1枚\nビジュアル: 「Why All These Solutions Fail (And What Nobody Tells You)」\nコピー: 6\n差を0にする事: 同じ順の同じ位置に1段で置き、「製薬には都合が悪い真実、として薬・サプリ・クリームを切る」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_6",
+   "type": "text",
+   "x": 860,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 隠れた原因**\n仕事: 血液検査で分かった事→マグネシウムが神経の信号を調整する、と原因に名前を付ける\n心理: 体の図1枚\nビジュアル: 「What I Told Margaret That Changed Everything」「What IS Actually Happening in Your Body」\nコピー: 7〜8\n差を0にする事: 同じ順の同じ位置に1段で置き、「血液検査で分かった事→マグネシウムが神経の信号を調整する、と原因に名」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_7",
+   "type": "text",
+   "x": 860,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 不安つぶし＋採点の基準**\n仕事: 3つの誤解を潰し、3つの条件を渡して、商品が全部満たすと受ける\n心理: 図2枚\nビジュアル: 「The 3 Misconceptions That Keep You Suffering」「The 3 Requirements For Real Relief」\nコピー: 9〜10\n差を0にする事: 同じ順の同じ位置に1段で置き、「3つの誤解を潰し、3つの条件を渡して、商品が全部満たすと受ける」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_8",
+   "type": "text",
+   "x": 860,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**8 商品の紹介＋仕組み・成分**\n仕事: 同僚から届いた論文→経皮の貼り薬、で商品名を出し、貼った後に体で起きる事を時間で言う\n心理: 商品の写真2枚\nビジュアル: 「The Solution That Addresses All Three Requirements」NerVana+・「How It Works In Your Body」Application (Now)…\nコピー: 11〜13\n差を0にする事: 同じ順の同じ位置に1段で置き、「同僚から届いた論文→経皮の貼り薬、で商品名を出し、貼った後に体で起き」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_9",
+   "type": "text",
+   "x": 860,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**9 物語・体験＋客の声**\n仕事: Margaret の結果と他の患者5人の声で「自分も」と思わせる\n心理: 客の写真5枚\nビジュアル: 「Margaret's Results」「What Other Patients Are Saying」\nコピー: 14〜15\n差を0にする事: 同じ順の同じ位置に1段で置き、「Margaret の結果と他の患者5人の声で「自分も」と思わせる」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_10",
+   "type": "text",
+   "x": 860,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**10 保証＋値段・オファー**\n仕事: 「疑って当然」と認めてから60日の保証、記事を読んだ人だけの60% OFF\n心理: 商品の写真2枚＋ボタン\nビジュアル: 「Try It Completely Risk-Free」「Special Offer For YOU, Reading This Article」「Unlock Over 60% Off Today」\nコピー: 16〜18\n差を0にする事: 同じ順の同じ位置に1段で置き、「「疑って当然」と認めてから60日の保証、記事を読んだ人だけの60% 」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_11",
+   "type": "text",
+   "x": 860,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**11 急がせ**\n仕事: 待つ一晩ごとに悪くなる、ここまで読んだ人は本気、で3回ボタン\n心理: 文字＋ボタン3つ\nビジュアル: 「You Deserve to Sleep Through the Night」「You've Made It This Far, Don't Miss Out」\nコピー: 19〜22\n差を0にする事: 同じ順の同じ位置に1段で置き、「待つ一晩ごとに悪くなる、ここまで読んだ人は本気、で3回ボタン」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g2_12",
+   "type": "text",
+   "x": 860,
+   "y": 1910,
+   "width": 380,
+   "height": 150,
+   "text": "**12 FAQ**\n仕事: Gabapentin との違いから答える\n心理: 文字だけ\nビジュアル: 「How is this different from Gabapentin or Lyrica?」\nコピー: 23\n差を0にする事: 同じ順の同じ位置に1段で置き、「Gabapentin との違いから答える」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3",
+   "type": "group",
+   "label": "04 NativeBloom",
+   "x": 1260,
+   "y": 0,
+   "width": 880,
+   "height": 1930
+  },
+  {
+   "id": "g3_1",
+   "type": "text",
+   "x": 1280,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題**\n仕事: 「$73 Billion の秘密を暴く」と、医者が隠していた物があるという怒りと好奇心\n心理: 媒体の帯「RENAL RESET JOURNAL」・日付と閲覧数「238,392 👁」\nビジュアル: 「Black Nephrologist Exposes the $73 Billion Secret…」\nコピー: 1〜3\n差を0にする事: 同じ順の同じ位置に1段で置き、「「$73 Billion の秘密を暴く」と、医者が隠していた物がある」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3_2",
+   "type": "text",
+   "x": 1280,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 書き手の名乗り**\n仕事: 腎臓内科医で、妻が患者だった人、で立場と動機を同時に出す\n心理: 医師の写真2枚\nビジュアル: 「Written by Dr. Malcolm Carter」「I'm about to piss off every nephrologist…」\nコピー: 4\n差を0にする事: 同じ順の同じ位置に1段で置き、「腎臓内科医で、妻が患者だった人、で立場と動機を同時に出す」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3_3",
+   "type": "text",
+   "x": 1280,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 物語・体験**\n仕事: 妻 Denise が泣いていた土曜の朝（時刻つき）で場面に引き込む\n心理: 写真2枚\nビジュアル: 「The Day Everything Changed...」9:14 AM\nコピー: 5\n差を0にする事: 同じ順の同じ位置に1段で置き、「妻 Denise が泣いていた土曜の朝（時刻つき）で場面に引き込む」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3_4",
+   "type": "text",
+   "x": 1280,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 今までのやり方を切る**\n仕事: 26年の訓練で試した薬を1つずつ切る\n心理: 文字だけ\nビジュアル: Lisinopril 10mg…\nコピー: 6\n差を0にする事: 同じ順の同じ位置に1段で置き、「26年の訓練で試した薬を1つずつ切る」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3_5",
+   "type": "text",
+   "x": 1280,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 隠れた原因**\n仕事: 94日の研究→「腎臓の衰えは侵入（毒の蓄積）」→腎臓のリンパ系、で原因に名前\n心理: 図2枚\nビジュアル: 「What 94 Days Of Research Finally Revealed」「The Real Root Cause They're Hiding」\nコピー: 7〜9\n差を0にする事: 同じ順の同じ位置に1段で置き、「94日の研究→「腎臓の衰えは侵入（毒の蓄積）」→腎臓のリンパ系、で原」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3_6",
+   "type": "text",
+   "x": 1280,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 物語・体験**\n仕事: 61日後に妻が教会で5時間立っていた場面で結果を見せる\n心理: 写真1枚\nビジュアル: 「The Miracle Hiding In Plain Sight」\nコピー: 10〜13\n差を0にする事: 同じ順の同じ位置に1段で置き、「61日後に妻が教会で5時間立っていた場面で結果を見せる」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3_7",
+   "type": "text",
+   "x": 1280,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 今までのやり方を切る（業界）**\n仕事: 同僚の警告・$73 Billion の業界、で隠されていた理由\n心理: 写真2枚\nビジュアル: 「This Breakthrough Is Pissing Off An Entire Industry」「When You Mess With $73 Billion」\nコピー: 14〜16\n差を0にする事: 同じ順の同じ位置に1段で置き、「同僚の警告・$73 Billion の業界、で隠されていた理由」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3_8",
+   "type": "text",
+   "x": 1280,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**8 商品の紹介＋仕組み・成分**\n仕事: 商品名と6つの成分（それぞれ1行の由来）\n心理: 商品の写真・成分の写真6枚\nビジュアル: 「It's called Flow+ By Native Bloom」「6 Powerful Natural Ingredients」\nコピー: 17〜19\n差を0にする事: 同じ順の同じ位置に1段で置き、「商品名と6つの成分（それぞれ1行の由来）」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3_9",
+   "type": "text",
+   "x": 1280,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**9 数の証拠**\n仕事: 11か月で13,900人・87%・91%\n心理: 写真1枚\nビジュアル: 「The Results That Have Doctors Quietly Ordering…」\nコピー: 20〜21\n差を0にする事: 同じ順の同じ位置に1段で置き、「11か月で13,900人・87%・91%」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3_10",
+   "type": "text",
+   "x": 1280,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**10 値段・オファー＋急がせ**\n仕事: 今かかっている費用を並べてから $99→60% OFF、72時間\n心理: 写真3枚\nビジュアル: 「The Price That's Causing Pharmaceutical Panic」「The 60% Off」「But Here's The Brutal Reality」\nコピー: 22〜26\n差を0にする事: 同じ順の同じ位置に1段で置き、「今かかっている費用を並べてから $99→60% OFF、72時間」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g3_11",
+   "type": "text",
+   "x": 1280,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**11 保証＋まとめ＋申込のボタン**\n仕事: 30日保証→2つの道→手順3つ→ボタン\n心理: 写真4枚＋ボタン\nビジュアル: 「My Personal 30-Day Zero Risk Guarantee」「The Decision That Will Define Your Next Decade」「GET 60% OFF」\nコピー: 27〜32\n差を0にする事: 同じ順の同じ位置に1段で置き、「30日保証→2つの道→手順3つ→ボタン」を日本語で起こす（ビジュアルは同じ枚数・同じ大きさ、コピーは直訳で同じ効果が出る所は直訳）"
+  },
+  {
+   "id": "g0_v1",
+   "type": "text",
+   "x": 440,
+   "y": 40,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 題の形**\n測った値: 暴露の言い方。「17,000件の事故は目のせいでも天気のせいでもない。本当の原因を調査が暴いた」。英語26語\n差を0にする事: 題は『〜のせいではない。本当の原因は〜』の暴露の言い方にし、数字（件数）を1つ入れる"
+  },
+  {
+   "id": "g0_v2",
+   "type": "text",
+   "x": 440,
+   "y": 220,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 書き手の肩書きと年数**\n測った値: Highway Patrol Officer・22 Years。顔写真 56px\n差を0にする事: うちも職と年数を名乗る（整備士か警察OBの2つから1つ）。顔写真は小さく題の下"
+  },
+  {
+   "id": "g0_v3",
+   "type": "text",
+   "x": 440,
+   "y": 400,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 大きい数字の数**\n測った値: 17,000+・600 FT・67,000+・3 Months・<0.5% の5つ\n差を0にする事: 段4と段10に大きい数字を4〜5個置く（件数・距離・人数・返品率）"
+  },
+  {
+   "id": "g0_v4",
+   "type": "text",
+   "x": 440,
+   "y": 580,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 今までのやり方を切る形**\n測った値: 2列の比較表（GLASS CLEANERS／RAIN-X／SPONGES vs DECONTAMINATION）＋『Rain-X は悪化させる』の1段\n差を0にする事: うちも比較表で市販の油膜取り・ウォッシャー液・コーティングを名指しで切る"
+  },
+  {
+   "id": "g0_v5",
+   "type": "text",
+   "x": 440,
+   "y": 760,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 割引率と保証**\n測った値: UP TO 60% OFF・90-DAY GUARANTEE・FREE US Shipping。ボタン5つ以上\n差を0にする事: 60% OFF・90日返金・送料無料をそのまま使い、ボタンは段7・11・16に置く"
+  },
+  {
+   "id": "g0_v6",
+   "type": "text",
+   "x": 440,
+   "y": 940,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 画像の数と形**\n測った値: 写真7枚＋動画1本（12.9秒・1カット）。正方形358px が多い\n差を0にする事: 画像は参考と同じ場所に同じ数（画像の置き方.py を0）。動画の面はうちの商品の実写で"
+  },
+  {
+   "id": "g1_v1",
+   "type": "text",
+   "x": 860,
+   "y": 40,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 題の形**\n測った値: 専門家の告白『20年、年のせいだと言ってきた。間違いだった』\n差を0にする事: 題は書き手の告白の形にし、年数を入れる"
+  },
+  {
+   "id": "g1_v2",
+   "type": "text",
+   "x": 860,
+   "y": 220,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 書き手の肩書きと年数**\n測った値: Nurse Practitioner・20 years・顔写真 48px\n差を0にする事: 職と年数、顔写真を題の直下に"
+  },
+  {
+   "id": "g1_v3",
+   "type": "text",
+   "x": 860,
+   "y": 400,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 成分と数の証拠**\n測った値: 成分6つ（1段ずつ）・% の枠4つ（89/87/94/91）・10,000+ の調査\n差を0にする事: 成分や仕組みの要素を番号つきで1段ずつ、% の枠を4つ"
+  },
+  {
+   "id": "g1_v4",
+   "type": "text",
+   "x": 860,
+   "y": 580,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 選択肢の段**\n測った値: 3つの道（何もしない／薬／勧める物）を1段ずつ、値段の比較 $900／$1,800／$29.99\n差を0にする事: 値段の前に『3つの道』を置き、1日あたり・年あたりで比べる"
+  },
+  {
+   "id": "g1_v5",
+   "type": "text",
+   "x": 860,
+   "y": 760,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 客の声**\n測った値: ★5の声3件＋読者コメント欄9件（847件表示）\n差を0にする事: 客の声は3件＋コメント欄の形"
+  },
+  {
+   "id": "g1_v6",
+   "type": "text",
+   "x": 860,
+   "y": 940,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 保証**\n測った値: 90-day money-back・『8週は待って』の注意\n差を0にする事: 90日の保証と、効くまでの目安（週）を1段"
+  },
+  {
+   "id": "g2_v1",
+   "type": "text",
+   "x": 1280,
+   "y": 40,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 題の形**\n測った値: 『なぜ悪くなり続けるのか（そして〜）』の問いの形\n差を0にする事: 題は『なぜ〜が悪くなり続けるのか』の問い"
+  },
+  {
+   "id": "g2_v2",
+   "type": "text",
+   "x": 1280,
+   "y": 220,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 書き手の肩書きと年数**\n測った値: Board-Certified Neurologist・27 Years・顔写真2枚\n差を0にする事: 職・資格・年数・写真"
+  },
+  {
+   "id": "g2_v3",
+   "type": "text",
+   "x": 1280,
+   "y": 400,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 誤解と条件の数**\n測った値: 3つの誤解→3つの条件→商品が3つ全部満たす\n差を0にする事: 『3つの誤解』『3つの条件』の段を商品の前に置く"
+  },
+  {
+   "id": "g2_v4",
+   "type": "text",
+   "x": 1280,
+   "y": 580,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 割引と保証とボタンの数**\n測った値: 60% Off・60 DAY MONEY BACK・ボタン3回（段16〜22）\n差を0にする事: 60% OFF・保証・ボタンを終盤に3回"
+  },
+  {
+   "id": "g2_v5",
+   "type": "text",
+   "x": 1280,
+   "y": 760,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 客の声の数**\n測った値: Margaret の結果＋5人の声（写真5枚）\n差を0にする事: 客の声5件・写真つき"
+  },
+  {
+   "id": "g2_v6",
+   "type": "text",
+   "x": 1280,
+   "y": 940,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 最初の画面の帯**\n測った値: BIGGEST SALE OF THE YEAR・10,000+ ORDERS・60 DAY MONEY BACK の3帯\n差を0にする事: 最初の画面に 売上の数・保証の帯"
+  },
+  {
+   "id": "g3_v1",
+   "type": "text",
+   "x": 1700,
+   "y": 40,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 題の形**\n測った値: 『黒人の腎臓内科医が$73 Billion の秘密を暴く』。金額で業界を名指し\n差を0にする事: 題は『〜が$〜の秘密を暴く』の形。業界の金額を入れる"
+  },
+  {
+   "id": "g3_v2",
+   "type": "text",
+   "x": 1700,
+   "y": 220,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 媒体の帯と閲覧数**\n測った値: RENAL RESET JOURNAL・日付・238,392 👁\n差を0にする事: 媒体名・日付・閲覧数の帯を題の上に"
+  },
+  {
+   "id": "g3_v3",
+   "type": "text",
+   "x": 1700,
+   "y": 400,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 書き手の肩書きと動機**\n測った値: MD 26年・妻が患者、顔写真2枚\n差を0にする事: 職・年数・『家族が患者』の動機"
+  },
+  {
+   "id": "g3_v4",
+   "type": "text",
+   "x": 1700,
+   "y": 580,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 成分の数**\n測った値: 6つ（1つ1行の由来つき）・写真6枚\n差を0にする事: 成分（仕組みの要素）6つを1行ずつ"
+  },
+  {
+   "id": "g3_v5",
+   "type": "text",
+   "x": 1700,
+   "y": 760,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 数の証拠**\n測った値: 13,900人・87%・91%\n差を0にする事: 人数1つ・% 2つ"
+  },
+  {
+   "id": "g3_v6",
+   "type": "text",
+   "x": 1700,
+   "y": 940,
+   "width": 420,
+   "height": 160,
+   "text": "**変数 割引・急がせ・保証**\n測った値: $99→60% OFF・72時間・30-Day Guarantee・2つの道・手順3つ\n差を0にする事: 60% OFF・時間の期限・保証・2つの道・手順3つの順"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e_g0_1_g0_2",
+   "fromNode": "g0_1",
+   "fromSide": "bottom",
+   "toNode": "g0_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_2_g0_3",
+   "fromNode": "g0_2",
+   "fromSide": "bottom",
+   "toNode": "g0_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_3_g0_4",
+   "fromNode": "g0_3",
+   "fromSide": "bottom",
+   "toNode": "g0_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_4_g0_5",
+   "fromNode": "g0_4",
+   "fromSide": "bottom",
+   "toNode": "g0_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_5_g0_6",
+   "fromNode": "g0_5",
+   "fromSide": "bottom",
+   "toNode": "g0_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_6_g0_7",
+   "fromNode": "g0_6",
+   "fromSide": "bottom",
+   "toNode": "g0_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_7_g0_8",
+   "fromNode": "g0_7",
+   "fromSide": "bottom",
+   "toNode": "g0_8",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_8_g0_9",
+   "fromNode": "g0_8",
+   "fromSide": "bottom",
+   "toNode": "g0_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_9_g0_10",
+   "fromNode": "g0_9",
+   "fromSide": "bottom",
+   "toNode": "g0_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_10_g0_13",
+   "fromNode": "g0_10",
+   "fromSide": "bottom",
+   "toNode": "g0_13",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_13_g0_15",
+   "fromNode": "g0_13",
+   "fromSide": "bottom",
+   "toNode": "g0_15",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_15_g0_16",
+   "fromNode": "g0_15",
+   "fromSide": "bottom",
+   "toNode": "g0_16",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_1_g1_2",
+   "fromNode": "g1_1",
+   "fromSide": "bottom",
+   "toNode": "g1_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_2_g1_4",
+   "fromNode": "g1_2",
+   "fromSide": "bottom",
+   "toNode": "g1_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_4_g1_5",
+   "fromNode": "g1_4",
+   "fromSide": "bottom",
+   "toNode": "g1_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_5_g1_6",
+   "fromNode": "g1_5",
+   "fromSide": "bottom",
+   "toNode": "g1_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_6_g1_7",
+   "fromNode": "g1_6",
+   "fromSide": "bottom",
+   "toNode": "g1_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_7_g1_8",
+   "fromNode": "g1_7",
+   "fromSide": "bottom",
+   "toNode": "g1_8",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_8_g1_9",
+   "fromNode": "g1_8",
+   "fromSide": "bottom",
+   "toNode": "g1_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_9_g1_10",
+   "fromNode": "g1_9",
+   "fromSide": "bottom",
+   "toNode": "g1_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_10_g1_11",
+   "fromNode": "g1_10",
+   "fromSide": "bottom",
+   "toNode": "g1_11",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_11_g1_12",
+   "fromNode": "g1_11",
+   "fromSide": "bottom",
+   "toNode": "g1_12",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_12_g1_13",
+   "fromNode": "g1_12",
+   "fromSide": "bottom",
+   "toNode": "g1_13",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_13_g1_14",
+   "fromNode": "g1_13",
+   "fromSide": "bottom",
+   "toNode": "g1_14",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_14_g1_15",
+   "fromNode": "g1_14",
+   "fromSide": "bottom",
+   "toNode": "g1_15",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_1_g2_2",
+   "fromNode": "g2_1",
+   "fromSide": "bottom",
+   "toNode": "g2_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_2_g2_3",
+   "fromNode": "g2_2",
+   "fromSide": "bottom",
+   "toNode": "g2_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_3_g2_4",
+   "fromNode": "g2_3",
+   "fromSide": "bottom",
+   "toNode": "g2_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_4_g2_5",
+   "fromNode": "g2_4",
+   "fromSide": "bottom",
+   "toNode": "g2_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_5_g2_6",
+   "fromNode": "g2_5",
+   "fromSide": "bottom",
+   "toNode": "g2_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_6_g2_7",
+   "fromNode": "g2_6",
+   "fromSide": "bottom",
+   "toNode": "g2_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_7_g2_8",
+   "fromNode": "g2_7",
+   "fromSide": "bottom",
+   "toNode": "g2_8",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_8_g2_9",
+   "fromNode": "g2_8",
+   "fromSide": "bottom",
+   "toNode": "g2_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_9_g2_10",
+   "fromNode": "g2_9",
+   "fromSide": "bottom",
+   "toNode": "g2_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_10_g2_11",
+   "fromNode": "g2_10",
+   "fromSide": "bottom",
+   "toNode": "g2_11",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_11_g2_12",
+   "fromNode": "g2_11",
+   "fromSide": "bottom",
+   "toNode": "g2_12",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_1_g3_2",
+   "fromNode": "g3_1",
+   "fromSide": "bottom",
+   "toNode": "g3_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_2_g3_3",
+   "fromNode": "g3_2",
+   "fromSide": "bottom",
+   "toNode": "g3_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_3_g3_4",
+   "fromNode": "g3_3",
+   "fromSide": "bottom",
+   "toNode": "g3_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_4_g3_5",
+   "fromNode": "g3_4",
+   "fromSide": "bottom",
+   "toNode": "g3_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_5_g3_6",
+   "fromNode": "g3_5",
+   "fromSide": "bottom",
+   "toNode": "g3_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_6_g3_7",
+   "fromNode": "g3_6",
+   "fromSide": "bottom",
+   "toNode": "g3_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_7_g3_8",
+   "fromNode": "g3_7",
+   "fromSide": "bottom",
+   "toNode": "g3_8",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_8_g3_9",
+   "fromNode": "g3_8",
+   "fromSide": "bottom",
+   "toNode": "g3_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_9_g3_10",
+   "fromNode": "g3_9",
+   "fromSide": "bottom",
+   "toNode": "g3_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g3_10_g3_11",
+   "fromNode": "g3_10",
+   "fromSide": "bottom",
+   "toNode": "g3_11",
+   "toSide": "top"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+<!doctype html><meta charset=utf-8><title>dia穴テスト</title>
+<style>
+ body{font:14px system-ui;padding:20px}
+ .overlay{position:fixed;inset:0;background:rgba(0,0,0,.01);z-index:9999}
+ button,div[id^=b]{display:block;margin:6px 0;padding:6px 12px;border:1px solid #ccc;width:fit-content}
+ #log{margin:16px 0;padding:8px;background:#eee;white-space:pre;min-height:2em}
+</style>
+<h1>dia穴テスト</h1>
+<div id="log">log:</div>
+<button id="b1">A 普通のボタン</button>
+<button id="b2" disabled>B disabled</button>
+<div id="b3" onclick="hit('C')" style="cursor:pointer">C divにonclick</div>
+<div id="b4" style="cursor:pointer">D divにaddEventListener</div>
+<div id="b5" role="switch" aria-checked="false" style="cursor:pointer">E role=switch</div>
+<button id="b6">F confirmが出る</button>
+<button id="b7">G pointerdownしか見ない</button>
+<button id="b8">H 新しいタブを開く</button>
+<button id="b9">保存</button>
+<button id="b10">保存して公開</button>
+<button id="b11">下書きを公開する</button>
+<div id="host1"></div>
+<div id="host2"></div>
+<script>
+ const log=(s)=>{document.getElementById('log').textContent+='\n'+s};
+ window.hit=(n)=>log('押された: '+n);
+ b1.onclick=()=>hit('A'); b2.onclick=()=>hit('B');
+ b4.addEventListener('click',()=>hit('D'));
+ b5.addEventListener('click',()=>hit('E'));
+ b6.onclick=()=>{ hit(confirm('本当に？')?'F-yes':'F-no') };
+ b7.addEventListener('pointerdown',()=>hit('G'));
+ b8.onclick=()=>{ window.open('about:blank#新タブ','_blank'); hit('H') };
+ b9.onclick=()=>hit('保存'); b10.onclick=()=>hit('保存して公開'); b11.onclick=()=>hit('下書きを公開する');
+ const s1=document.getElementById('host1').attachShadow({mode:'open'});
+ s1.innerHTML='<button id=so>I open shadow内</button>';
+ s1.getElementById('so').onclick=()=>hit('I');
+ const s2=document.getElementById('host2').attachShadow({mode:'closed'});
+ s2.innerHTML='<button id=sc>J closed shadow内</button>';
+ s2.getElementById('sc').onclick=()=>hit('J');
+ // オーバーレイは後から足す（--overlay で）
+ if (location.hash.includes('overlay')) {
+   const o=document.createElement('div'); o.className='overlay'; o.id='ov'; document.body.appendChild(o);
+ }
+</script>

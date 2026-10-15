@@ -1,0 +1,2721 @@
+{
+ "参考": "https://innoglam.com/pages/advert-2",
+ "幅": "既定",
+ "測った日": "2026-10-15（合格した時の測りを固定）",
+ "測り": {
+  "画像": [
+   {
+    "型": "VIDEO",
+    "src": "https://cdn.shopify.com/videos/c/o/v/e2ea140a855642d48ddfa08ad88cf3a9.mp4",
+    "章": 1,
+    "位置": 0.029,
+    "幅": 0.609,
+    "縦横": 0.563,
+    "px": [
+     780,
+     439
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/ez2-ezgif.com-png-to-webp-converter.webp?v=1724811219&width=1170",
+    "章": 2,
+    "位置": 0.109,
+    "幅": 0.609,
+    "縦横": 0.507,
+    "px": [
+     780,
+     395
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/qqqq-ezgif.com-png-to-webp-converter.webp?v=1724813117&width=1170",
+    "章": 3,
+    "位置": 0.131,
+    "幅": 0.609,
+    "縦横": 0.507,
+    "px": [
+     780,
+     395
+    ]
+   },
+   {
+    "型": "VIDEO",
+    "src": "https://cdn.shopify.com/videos/c/o/v/5ded140639ff40b6b485a3807dd9966a.mp4",
+    "章": 3,
+    "位置": 0.177,
+    "幅": 0.609,
+    "縦横": 0.563,
+    "px": [
+     780,
+     439
+    ]
+   },
+   {
+    "型": "VIDEO",
+    "src": "https://cdn.shopify.com/videos/c/o/v/fb6de47998584a04a4cc5b6ec03b7c78.mp4",
+    "章": 3,
+    "位置": 0.206,
+    "幅": 0.609,
+    "縦横": 0.563,
+    "px": [
+     780,
+     439
+    ]
+   },
+   {
+    "型": "VIDEO",
+    "src": "https://cdn.shopify.com/videos/c/o/v/9ff296d7f9474663a067ede33f35482e.mp4",
+    "章": 5,
+    "位置": 0.274,
+    "幅": 0.609,
+    "縦横": 0.563,
+    "px": [
+     780,
+     439
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/7-ezgif.com-png-to-webp-converter.webp?v=1724865200&width=1170",
+    "章": 6,
+    "位置": 0.354,
+    "幅": 0.609,
+    "縦横": 1,
+    "px": [
+     780,
+     780
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/red_ef.png?v=1723518928&width=1170",
+    "章": 7,
+    "位置": 0.4,
+    "幅": 0.609,
+    "縦横": 1,
+    "px": [
+     780,
+     780
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/31.png?v=1723526844&width=1170",
+    "章": 8,
+    "位置": 0.423,
+    "幅": 0.609,
+    "縦横": 1,
+    "px": [
+     780,
+     780
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/oldwo.png?v=1723524474&width=761",
+    "章": 9,
+    "位置": 0.451,
+    "幅": 0.396,
+    "縦横": 1,
+    "px": [
+     507,
+     507
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/newadvert-ezgif.com-png-to-webp-converter.webp?v=1724204832&width=761",
+    "章": 10,
+    "位置": 0.491,
+    "幅": 0.396,
+    "縦横": 1,
+    "px": [
+     507,
+     507
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/3percent.png?v=1723516795&width=761",
+    "章": 11,
+    "位置": 0.52,
+    "幅": 0.396,
+    "縦横": 1,
+    "px": [
+     507,
+     507
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/fbay.png?v=1723529994&width=761",
+    "章": 11,
+    "位置": 0.531,
+    "幅": 0.396,
+    "縦横": 1.51,
+    "px": [
+     507,
+     766
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/3.png?v=1722813758&width=761",
+    "章": 12,
+    "位置": 0.537,
+    "幅": 0.396,
+    "縦横": 1,
+    "px": [
+     507,
+     507
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/4-ezgif.com-png-to-webp-converter.webp?v=1726155457&width=761",
+    "章": 13,
+    "位置": 0.577,
+    "幅": 0.396,
+    "縦横": 0.527,
+    "px": [
+     507,
+     267
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/40.png?v=1723526844&width=761",
+    "章": 14,
+    "位置": 0.691,
+    "幅": 0.396,
+    "縦横": 1,
+    "px": [
+     507,
+     507
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/Naturally_Reverse_Hair_Loss_At_Home._10_Minutes_a_Day.jpg?v=1722668557&width=761",
+    "章": 15,
+    "位置": 0.737,
+    "幅": 0.396,
+    "縦横": 1,
+    "px": [
+     507,
+     507
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/1_cba8983b-d807-4359-83a8-b740b73064a3.png?v=1721754315&width=534",
+    "章": 16,
+    "位置": 0.743,
+    "幅": 0.278,
+    "縦横": 1,
+    "px": [
+     356,
+     356
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://innoglam.com/cdn/shop/files/gempages_523524537619317561-96eab601-1202-43ca-bdf0-74162fa1fa25.png?v=374125450554435436&width=1170",
+    "章": 17,
+    "位置": 0.857,
+    "幅": 0.609,
+    "縦横": 1.51,
+    "px": [
+     780,
+     1178
+    ]
+   },
+   {
+    "型": "IMG",
+    "src": "https://cdn.shopify.com/s/files/1/0658/4759/1127/files/botcom.png?v=1723530231&width=1920",
+    "章": 18,
+    "位置": 0.971,
+    "幅": 0.566,
+    "縦横": 1.51,
+    "px": [
+     725,
+     1095
+    ]
+   }
+  ],
+  "段": [
+   {
+    "型": "p",
+    "章": 0,
+    "字": 16,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(18, 18, 18)",
+    "寄せ": "center"
+   },
+   {
+    "型": "h1",
+    "章": 0,
+    "字": 32,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(77, 77, 77)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(77, 77, 77)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(77, 77, 77)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 1,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 2,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 2,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 2,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 2,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 3,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 3,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 4,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 4,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 5,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 5,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 6,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 6,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 7,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 7,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 8,
+    "字": 30,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 8,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 9,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 9,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 9,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 9,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 9,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 9,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 9,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 10,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 10,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 10,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 10,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 10,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 11,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 11,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 11,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 12,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 12,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 12,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 12,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 12,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 12,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 12,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 13,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 13,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 14,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 14,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 14,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 14,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 14,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 14,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 14,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "ボタン",
+    "章": 14,
+    "字": 25,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 14,
+    "字": 25,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "center"
+   },
+   {
+    "型": "h2",
+    "章": 15,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "h2",
+    "章": 16,
+    "字": 28,
+    "太": true,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "ボタン",
+    "章": 16,
+    "字": 16,
+    "太": true,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 16,
+    "太": true,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 13,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 13,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "ボタン",
+    "章": 16,
+    "字": 25,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 16,
+    "字": 25,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "center"
+   },
+   {
+    "型": "h2",
+    "章": 17,
+    "字": 28,
+    "太": true,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(226, 245, 250)",
+    "寄せ": "left"
+   },
+   {
+    "型": "ボタン",
+    "章": 17,
+    "字": 25,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 25,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 16,
+    "太": false,
+    "色": "rgb(36, 36, 36)",
+    "箱": null,
+    "寄せ": "left"
+   },
+   {
+    "型": "ボタン",
+    "章": 17,
+    "字": 25,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 17,
+    "字": 25,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "center"
+   },
+   {
+    "型": "h2",
+    "章": 18,
+    "字": 46,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(105, 161, 237)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 18,
+    "字": 16,
+    "太": false,
+    "色": "rgb(87, 87, 87)",
+    "箱": "rgb(239, 239, 239)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 18,
+    "字": 16,
+    "太": false,
+    "色": "rgb(87, 87, 87)",
+    "箱": "rgb(239, 239, 239)",
+    "寄せ": "center"
+   },
+   {
+    "型": "h2",
+    "章": 19,
+    "字": 46,
+    "太": true,
+    "色": "rgb(18, 18, 18)",
+    "箱": "rgb(94, 193, 56)",
+    "寄せ": "left"
+   },
+   {
+    "型": "ボタン",
+    "章": 19,
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   },
+   {
+    "型": "p",
+    "章": 19,
+    "字": 16,
+    "太": true,
+    "色": "rgb(255, 255, 255)",
+    "箱": "rgb(255, 255, 255)",
+    "寄せ": "center"
+   }
+  ],
+  "文": [
+   {
+    "章": 0,
+    "型": "p",
+    "文": "Advertorial"
+   },
+   {
+    "章": 0,
+    "型": "h1",
+    "文": "Doctor Reveals the Truth: How This ‘Hair Zapping’ Device Stops Thinning & Reverses Hair Loss"
+   },
+   {
+    "章": 1,
+    "型": "h2",
+    "文": "If you struggle with hair loss that's affecting your confidence, read this short article right now before you do anything else."
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "3591 Reviews"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "3591 Reviews"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "By Dr. Amy Wells"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "August 27, 2024"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "By Dr. Amy Wells"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "August 27, 2024"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "Hi, my name is Dr. Wells and I’m a doctor of dermatology from New York."
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "I have a decade of clinical experience and clocked in well over 10,000 hours helping patients."
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "Throughout my career, I’ve helped over 1,100 patients - all who came to me with a variety of hair problems."
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "Androgenetic Alopecia"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "Menopausal Hair Loss"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "Postpartum Hair Loss"
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "You name it."
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "I’ve seen it all."
+   },
+   {
+    "章": 1,
+    "型": "p",
+    "文": "From mild thinning and shedding… To receding hairlines… To…"
+   },
+   {
+    "章": 2,
+    "型": "h2",
+    "文": "Hair Loss So Bad You Could Barely Recognize Your Reflection In The Mirror."
+   },
+   {
+    "章": 2,
+    "型": "p",
+    "文": "But it wasn’t until earlier this year that I truly cracked the code to truly reverse hair loss ."
+   },
+   {
+    "章": 2,
+    "型": "p",
+    "文": "It all started with a personal Breakthrough Discovery I had earlier this year."
+   },
+   {
+    "章": 2,
+    "型": "p",
+    "文": "One night I was pouring through clinical studies on hair loss, and I stumbled across something that shocked me."
+   },
+   {
+    "章": 3,
+    "型": "h2",
+    "文": "Shocking Root Cause of Hair Loss"
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "What if I told you that your hair loss isn’t just about your scalp or hair follicles?"
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "That’s right — your hair is perfectly fine."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "The real problem here is poor blood circulation."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "You see, proper blood flow plays a crucial role in nourishing your hair follicles."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "Just like a garden needs water to grow, your hair follicles need a steady supply of nutrients delivered through blood flow."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "When your blood vessels are properly transporting nutrients to your follicles, your scalp quickly grows new, strong, shiny hair every day."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "But when the blood vessels going to your follicles become restricted from old age and stress, it’s like the water supply to your garden being cut off."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "Your hair can’t get the nutrients it needs to regrow, so it starts to thin and fall out."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "Here’s The Bad News…"
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "As we age, the blood vessels in our scalp are the first to weaken."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "The heart, struggling to pump with the vigor of youth, prioritizes vital organs like the brain and heart, leaving our hair follicles to fend for themselves."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "This neglect causes the blood vessels in our scalp to weaken, wither, and eventually die, severing the lifeline that nourishes our hair."
+   },
+   {
+    "章": 3,
+    "型": "p",
+    "文": "And this is the real root cause of hair loss, and it’s the reason other solutions like serums or supplements that don’t target the real root cause simply don’t work."
+   },
+   {
+    "章": 4,
+    "型": "h2",
+    "文": "So What's the Solution?"
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "You need to restore blood circulation to the scalp so that it starts delivering nutrients to your hair again..."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "And revive the dead, dormant follicles that aren't producing any hair."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "But how do you do that?"
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "Most experts will recommend either Minoxidil or Finasteride, the only two FDA approved hair loss solutions..."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "But truthfully... these medications will do nothing but cause some nasty side effects like mood swings, irritation and even severe dandruff."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "You see, Minoxidil was originally created for people suffering from high blood pressure, not thinning hair."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "And for Finasteride to be effective, you would have to take such a significant dose that you would be essentially chemically castrating yourself."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "And the side effects of that would be so much worse than what you’re experiencing with hair loss, that would be the least of your issues."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "That’s why many people never fully address the root cause of their hair loss and continue to struggle with thinning hair, feeling like they’re losing more of themselves with each passing day."
+   },
+   {
+    "章": 4,
+    "型": "p",
+    "文": "Luckily, there’s a better solution."
+   },
+   {
+    "章": 5,
+    "型": "h2",
+    "文": "Prevent & Fix Hair Loss at Home in Just 10 Minutes Per Day"
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "It's all possible thanks to an innovative treatment called “Tri-Phase Hair Growth Therapy”."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "This breakthrough therapy combines advanced electromagnetic therapy, soothing red light therapy, and therapeutic blue light to enhance blood circulation and promote healing."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "It works by applying these therapies simultaneously to your scalp…"
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "To stimulate blood flow, reduce inflammation, and release the blockage around the hair follicles."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "Here’s how these technologies works synergistically together:"
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "Electrotherapy: Electrotherapy penetrates deep into the epidermis, stimulating the hair follicles and promoting blood circulation. This increased blood flow helps to deliver vital oxygen and nutrients to the affected area, reducing inflammation and promoting faster hair growth."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "Red Light Therapy: Red light therapy penetrates the scalp to stimulate cellular activity within the hair follicles, enhancing their function and promoting faster, more robust hair growth. It also revitalizes your blood vessels and restores blood flow back to your scalp."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "Blue Light Therapy: Blue light therapy is clinically proven to soothe the scalp, reduce inflammation, and create a healthier environment for hair follicles. This ensures that you're not only stimulating hair growth but also nurturing your scalp to sustain those results over time."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "These therapies work together seamlessly to address the root cause of hair loss by promoting blood flow to the affected areas, and allowing the vital nutrients to flow to your hair follicles."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "The only problem was that this technology wasn’t available to an average Joe. It was very expensive and reserved for high-end clinics. Especially the electro magnetic therapy."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "So I partnered up with a U.S. beauty biotech startup called InnoGlam."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "These guys are known for making some of the best cutting edge beauty devices that have helped more than 300,000 men and women across America."
+   },
+   {
+    "章": 5,
+    "型": "p",
+    "文": "And together, we solved this problem once and for all."
+   },
+   {
+    "章": 6,
+    "型": "h2",
+    "文": "Introducing the InnoBrush"
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "InnoBrush is one of the first devices that use “Tri-Phase Hair Growth Therapy” to provide comprehensive relief for hair loss and thinning."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "When you start using it, the device will start applying electrotherapy, red light therapy, and blue light therapy to your scalp. This combination therapy addresses the root cause of hair loss."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Electrotherapy kickstarts blood circulation in your entire scalp."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Red light therapy stimulates blood flow, promoting fast & robust hair growth."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "Blue light therapy soothes the scalp and reduces inflammation."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "This comprehensive approach ensures that you restore blood flow and revitalize your hair follicles by rejuvenating those weakened blood vessels so your body can naturally grow those thick, luscious locks of hair, the way it was always meant to."
+   },
+   {
+    "章": 6,
+    "型": "p",
+    "文": "So you can get back to living your life in confidence."
+   },
+   {
+    "章": 7,
+    "型": "h2",
+    "文": "InnoBrush is Unlike Any Other Solution You've Tried Before"
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Let me be clear: You’ve never experienced anything like the InnoBrush in your life—no matter what treatments you’ve tried before."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "The InnoBrush goes beyond surface solutions, directly addressing the root cause of hair loss by revitalizing your scalp and boosting circulation where it matters most."
+   },
+   {
+    "章": 7,
+    "型": "p",
+    "文": "Before long, you’ll notice fuller, healthier hair, regaining the confidence to style it any way you want and waking up each day excited to see the difference."
+   },
+   {
+    "章": 8,
+    "型": "h2",
+    "文": "Here's How to Use the InnoBrush For Best Results"
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "All you need to do to reignite your hairs rapid growth is to comb your scalp for just 10 minutes a day."
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "Simply alternative between the 3 functions and enjoy the soothing sensation of these scientifically proven natural remedies while you give your scalp everything it needs to regrow those luscious locks."
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "Picture having luscious, shiny hair, without the hassle of all these crazy hair care routines."
+   },
+   {
+    "章": 8,
+    "型": "p",
+    "文": "That's the dream for every woman that I’ve worked with who's battled hair loss, and that's exactly what I know you can experience too."
+   },
+   {
+    "章": 9,
+    "型": "h2",
+    "文": "Here's What Linda, 55, Says About Her Experience With the InnoBrush"
+   },
+   {
+    "章": 9,
+    "型": "p",
+    "文": "\"You know what really sucks? When you visit the doctor repeatedly, complaining about shedding in your hair... And it's getting worse, getting thinner and thinner..."
+   },
+   {
+    "章": 9,
+    "型": "p",
+    "文": "Your once full hair feels so thin and lifeless, and it’s hard to even look in the mirror without feeling disheartened. Yet, after all the appointments and treatments, the doctors just shrug and say, 'It's just a part of getting older. Nothing to worry about.'"
+   },
+   {
+    "章": 9,
+    "型": "p",
+    "文": "Really? I'm only 55, with so much life ahead of me. I'm worried about more than just today's hair struggles. That’s when I came across an ad for the InnoBrush and thought, 'Why not give it a try?'"
+   },
+   {
+    "章": 9,
+    "型": "p",
+    "文": "So, I started using it, and within a few days, I noticed a difference. My hair felt fuller, healthier, and best of all, I finally saw less hair in the shower drain!"
+   },
+   {
+    "章": 9,
+    "型": "p",
+    "文": "Just a 10 minute session with the InnoBrush each day, and it’s like my hair has a new lease on life. I’m thrilled with this product! Now, I can picture myself enjoying vibrant, healthy hair for years to come. Thank you, InnoBrush!\""
+   },
+   {
+    "章": 9,
+    "型": "p",
+    "文": "Linda, 55"
+   },
+   {
+    "章": 10,
+    "型": "h2",
+    "文": "Or Look At The Difference It Made To Jodi, Who Struggled With Hair Loss For Years And Finally Found A Solution"
+   },
+   {
+    "章": 10,
+    "型": "p",
+    "文": "\"I’ve been dealing with hair loss for years now, and it’s been a constant struggle."
+   },
+   {
+    "章": 10,
+    "型": "p",
+    "文": "I’ve tried all kinds of treatments and products, but nothing seemed to help. I wanted to avoid harsh medications because of the side effects I’d heard about, so I decided to try your device instead."
+   },
+   {
+    "章": 10,
+    "型": "p",
+    "文": "Within just a couple of weeks of using it, I noticed a real difference! My hair feels thicker, and I’m seeing less shedding every day. It’s been nearly three months now, and I finally feel like I’m getting my hair back. Your device has made a world of difference for me!\""
+   },
+   {
+    "章": 10,
+    "型": "p",
+    "文": "Jodi, 40"
+   },
+   {
+    "章": 11,
+    "型": "h2",
+    "文": "The InnoBrush Already Helped Thousands Around the World to Reverse Hair Loss"
+   },
+   {
+    "章": 11,
+    "型": "p",
+    "文": "If you check out InnoGlam’s website, you will find thousands of reviews from people just like you."
+   },
+   {
+    "章": 11,
+    "型": "p",
+    "文": "People who were able to get significant relief from hair loss:"
+   },
+   {
+    "章": 12,
+    "型": "h2",
+    "文": "See... That's The Kind of Results I Want You To Experience"
+   },
+   {
+    "章": 12,
+    "型": "p",
+    "文": "Think about your hair right now…"
+   },
+   {
+    "章": 12,
+    "型": "p",
+    "文": "How much would it be worth to you to live your life with the hair of your dreams without ever again having to take another supplement, solution or treatment?"
+   },
+   {
+    "章": 12,
+    "型": "p",
+    "文": "How would it feel to literally age in reverse and to reclaim the youthful, thick and Lucious hair of your prime?"
+   },
+   {
+    "章": 12,
+    "型": "p",
+    "文": "To be happy, walking with confidence and happy in your skin?"
+   },
+   {
+    "章": 12,
+    "型": "p",
+    "文": "That feeling is priceless."
+   },
+   {
+    "章": 12,
+    "型": "p",
+    "文": "And I’m excited for you to experience it for yourself."
+   },
+   {
+    "章": 13,
+    "型": "h2",
+    "文": "IMPORTANT: You Won’t Find InnoGlam Products In Department Stores, On Amazon Or Ebay"
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "That’s because me and my team at InnoGlam don’t want any middlemen to mark up their prices."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "So you will never pay $356 for the device."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "My mission with the InnoBrush is to make cutting edge hair loss solutions accessible to as many people as possible."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "That’s why we sell directly to our customers."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "We heavily rely on word of mouth."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "We believe if the product is good, the word will spread."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "That’s the reason for this article."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "And that’s why today, you don't need to invest 356 dollars to get your hands on this revolutionary technology…"
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "In fact, you don't even need to invest 300 dollars."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "If you check our official InnoGlam website that’s available to the public…"
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "You will find this very brush listed for $218."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "And many including myself still consider this a steal!"
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "But today, you’re not going to pay 218 dollars."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "Because today, I’m offering the InnoBrush for just $159.00 dollars."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "That's over 25% off our retail price…"
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "But that’s not all."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "Today I’ve decided to do something different…"
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "Because you've made it this far into the presentation, it's obvious you're serious about your hair health, and you are interested in seeing how this one of a kind alternative solution can help you the same way it's helping thousands of others."
+   },
+   {
+    "章": 13,
+    "型": "p",
+    "文": "Which is why I want to let you try this device at a special price, available only through this article on this page today."
+   },
+   {
+    "章": 14,
+    "型": "h2",
+    "文": "For a Limited Time Only, I’d Like To Offer You a InnoBrush For Just $109."
+   },
+   {
+    "章": 14,
+    "型": "p",
+    "文": "That's another $50 OFF!"
+   },
+   {
+    "章": 14,
+    "型": "p",
+    "文": "Remember, this is the only place you'll find an InnoBrush at such a low price."
+   },
+   {
+    "章": 14,
+    "型": "p",
+    "文": "Once you click away, the offer is gone."
+   },
+   {
+    "章": 14,
+    "型": "p",
+    "文": "The InnoBrush will never cost less than this again."
+   },
+   {
+    "章": 14,
+    "型": "p",
+    "文": "Right now, you can try yours for just $109."
+   },
+   {
+    "章": 14,
+    "型": "p",
+    "文": "That's right, you can get your hands on this brilliant electric device for only $109."
+   },
+   {
+    "章": 14,
+    "型": "p",
+    "文": "GET 50% OFF INNOBRUSH NOW!"
+   },
+   {
+    "章": 15,
+    "型": "h2",
+    "文": "With Our 90-Day Results Or Refund Money Back Guarantee - You Don't Have To Make A Decision Now!"
+   },
+   {
+    "章": 16,
+    "型": "h2",
+    "文": "Finally Get Instant Relief From Hair Loss"
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "CHECK AVAILABILITY"
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "90-Day Money-Back Guarantee"
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "Free Delivery"
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "See… I want to completely eliminate the risk from all buyers."
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "I'm so firm and confident in the effectiveness of this device that without a second thought we provide an iron clad 90-day results or refund money back guarantee."
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "We don't want you to spend a dime until you are 100% certain that it works for you."
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "This means if you aren’t absolutely thrilled about your results, InnoGlam will refund you every penny you paid."
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "We're making this guarantee because we're confident you’re going to love the results you’re going to experience with your new InnoBrush."
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "Now you have 3 full months to test the InnoBrush and see for yourself how quickly it can reverse your hair loss."
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "So click the big green “GET 50% OFF InnoBrush Now!” button below."
+   },
+   {
+    "章": 16,
+    "型": "p",
+    "文": "GET 50% OFF InnoBrush Now!"
+   },
+   {
+    "章": 17,
+    "型": "h2",
+    "文": "How Much Longer Will You Keep Wasting Money on Overpriced Products That Just Don't Work."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "The InnoBrush combines advanced technologies specifically designed to encourage hair growth."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Say farewell to those stubborn thinning areas and brittle strands, and welcome a fuller, healthier, and more vibrant head of hair."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Forget about costly and painful hair transplants that might not deliver, or risky medications that come with a long list of unpleasant side effects—from scalp irritation to mood changes."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Who needs that?"
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "With the InnoBrush, you can achieve great results without any of those downsides, and at a fraction of the cost."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "It works seamlessly with all your current hair care routines and products."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "But like with any routine, consistency is key."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "We suggest using the brush daily for 10 minutes to see the difference it can make in just 8 to 16 weeks."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Fuller, healthier hair"
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Healthy Blood Circulation"
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Fix damaged hair"
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Restore Confidence"
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "90-Day Money Back Guarantee"
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "GET 50% OFF InnoBrush Now!"
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Here’s the way we see it: you have two choices..."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Option #1: Leave this page, skip the InnoBrush, and stick with the same old hair serums that are mostly filler oils and alcohol. These won’t do much to support your hair growth journey."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "You might find yourself caught in a frustrating cycle, trying another pricey serum that makes big promises but delivers little, or seeking a prescription for minoxidil that can irritate your scalp."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "If that doesn't work, you could even consider a costly and risky hair transplant abroad."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Option #2: Take a step that thousands of women have already embraced: try the InnoBrush risk-free."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "If you’ve made it this far on our page, it’s a sign that you’re ready for a change. Trust yourself to make the right decision and consider the benefits of Option #2."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Tap the green button below to choose your InnoBrush package."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Remember, this special offer of up to 50% off is only available here and now."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "If you leave this page, this exclusive deal will no longer be available, and the brush will return to its regular price, which is double what you can get it for today."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "If for any reason you’re not happy with the results, you have up to 90 days to get a full refund."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "I’m excited to see your results with the InnoBrush—whether it’s after 4 weeks, 8 weeks, or even a year."
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "Be sure to take before and after photos; you’ll want to see the amazing difference for yourself!"
+   },
+   {
+    "章": 17,
+    "型": "p",
+    "文": "GET 50% OFF InnoBrush Now!"
+   },
+   {
+    "章": 18,
+    "型": "h2",
+    "文": "REAL REVIEWS FROM REAL PEOPLE"
+   },
+   {
+    "章": 18,
+    "型": "p",
+    "文": "THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE"
+   },
+   {
+    "章": 18,
+    "型": "p",
+    "文": "THE STORY DEPICTED ON THIS SITE AND THE PERSON DEPICTED IN THE STORY ARE NOT ACTUAL NEWS. RATHER, THIS STORY IS BASED ON THE RESULTS THAT SOME PEOPLE WHO HAVE USED THESE PRODUCTS HAVE ACHIEVED. THE RESULTS PORTRAYED IN THE STORY AND IN THE COMMENTS ARE ILLUSTRATIVE, AND MAY NOT BE THE RESULTS THAT YOU ACHIEVE WITH THESE PRODUCTS. THIS PAGE COULD RECEIVE COMPENSATION FOR CLICKS ON OR PURCHASE OF PRODUCTS FEATURED ON THIS SITE."
+   },
+   {
+    "章": 18,
+    "型": "p",
+    "文": "Apply Discount & Check Availability"
+   },
+   {
+    "章": 19,
+    "型": "h2",
+    "文": "Get 50% OFF Today"
+   },
+   {
+    "章": 19,
+    "型": "p",
+    "文": "Apply Discount & Check Availiability"
+   }
+  ]
+ }
+}

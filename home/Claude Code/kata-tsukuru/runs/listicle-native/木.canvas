@@ -1,0 +1,684 @@
+{
+ "nodes": [
+  {
+   "id": "g0",
+   "type": "group",
+   "label": "01 Metabolae",
+   "x": 0,
+   "y": 0,
+   "width": 420,
+   "height": 1800
+  },
+  {
+   "id": "g0_1",
+   "type": "text",
+   "x": 20,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題**\n仕事: 「血糖を下げる以外に7つも？」と得の多さで引き、70% OFF・10,000件のレビューで最初から安心させる\n心理: 商品（袋）の写真1枚（358×261）。上に割引とレビュー数の帯\nビジュアル: 7 Benefits Everyone's Obsessed with Metabolae Ceylon Cinnamon / (Besides Lowering Blood Sugar And Improving Kidney Function) / Save Up To 70% OFF / 10,000+ Reviews・100,000+ Happy Customers\nコピー: 1〜2\n差を0にする事: 「題」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g0_2",
+   "type": "text",
+   "x": 20,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 理由の列挙×5**\n仕事: 01〜05 の番号で1つずつ「腎臓まで傷む本当の理由」「薬の副作用か腎不全かの板挟み」を見せ、理由05で今ある解決策（スーパーの Cassia）を名指しで切る\n心理: 理由ごとに写真1枚（356×240前後）。上に小見出しの札（INSULIN RESISTANCE / KIDNEY FUNCTION SUPPORT …）と番号\nビジュアル: 01 Restore Insulin Sensitivity (The Real Reason Your Blood Sugar Won't Drop) / 02 Support Healthy Blood Sugar AND GFR / 03 Eliminate Afternoon Crashes and Brain Fog / 04 Escape Medication Side Effects And Kidney Failure / 05 Not \"Cheap Cassia\" Like Grocery Store Brands（250x more coumarin）\nコピー: 3〜7\n差を0にする事: 「理由の列挙×5」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g0_3",
+   "type": "text",
+   "x": 20,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 数の証拠（理由06）**\n仕事: 「自然なだけでなく結果の裏付け」と言い、12週後の % 4つで効きを数字で信じさせる\n心理: 写真1枚＋大きな % の数字4段\nビジュアル: 06 It's Not Just Natural. It's Backed by Real Results. / 84%・79% noticed stable or improved eGFR・76% doctors commented positively・71% less stressed\nコピー: 8〜13\n差を0にする事: 「数の証拠（理由06）」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g0_4",
+   "type": "text",
+   "x": 20,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 客の声（理由07）**\n仕事: 「10万人が使っている」で多数派の安心\n心理: 写真1枚（356×264）\nビジュアル: 07 Trusted by Over 100,000 Customers / 10,000 five-star reviews\nコピー: 14\n差を0にする事: 「客の声（理由07）」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g0_5",
+   "type": "text",
+   "x": 20,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 商品の紹介**\n仕事: 成分（cinnamaldehyde・MHCP・12:1・MCT）を並べ、「40代以上で何も効かなかった人」に名指しで当てる\n心理: 商品のボトル写真（正方形336×336）\nビジュアル: High Blood Sugar's Natural Solution / Especially if you're over 40 and nothing else has worked <!-- 掘った: 参考の原文（段.md）の引用。High/Best は実物の言葉で判断語ではない -->\nコピー: 15\n差を0にする事: 「商品の紹介」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g0_7",
+   "type": "text",
+   "x": 20,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**7 客の声**\n仕事: 「医者が薬を半分に」「透析の話が消えた」を含む数値つきの体験談5本と ★4.8・10,284件で最後の疑いを潰す\n心理: 体験談は文字のカード、下の ★ 集計に写真4枚（320×239前後）\nビジュアル: Real Reviews From People Who Finally Stabilized Their Blood Sugar / 4.8 10,284 reviews / Save 40% OFF + Free Shipping\nコピー: 17〜24\n差を0にする事: 「客の声」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g1",
+   "type": "group",
+   "label": "02 Neurivo",
+   "x": 420,
+   "y": 0,
+   "width": 420,
+   "height": 1970
+  },
+  {
+   "id": "g1_1",
+   "type": "text",
+   "x": 440,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 題（数の証拠）**\n仕事: 「他が効かなかった人へ」で自分ごとにし、手術の再発率 40-85%・術後45-60日 vs 1日15分 の3つの数字で「待つ・切る」以外の道を感じさせる\n心理: 小さいロゴ（51×51）。大きい数字3つの帯\nビジュアル: 7 Reasons Why Neurivo Can Help With DUPUYTREN'S When Other Solutions Have Failed / 40-85% Surgery Recurrence Rate / 45-60 Days Post-Op Recovery / 15 min Daily With NEURIVO\nコピー: 2\n差を0にする事: 「題（数の証拠）」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g1_2",
+   "type": "text",
+   "x": 440,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 理由の列挙×7**\n仕事: 理由ごとに「❌ What They Told You To Do（待て・遺伝だから諦めろ・手術）」→「✅ How Neurivo Works」の対にし、言われてきた答えを1つずつ切りながら商品の働きを積む。理由3は手術と注射の危険を並べて恐怖、理由4は一度の投資 vs くり返す費用で損得、理由6は 15分 vs 数か月の不自由で暮らしの差\n心理: 理由ごとに写真か図1枚（335×252〜390×488）。理由1に10秒の動画1カット（350×350・機器が手を包む）。理由3に体の中の図（2700×2200）\nビジュアル: 1. Daily Mechanical Opposition to Fascial Progression / 2. Deep Therapeutic Infrared Heat / 3. Zero Surgical Risks, Zero Complications, Zero Recovery Time / 4. One-Time Investment VS. Repeated, Unpredictable Costs / 5. Proactive Action That Breaks Genetic Fatalism / 6. 15 Minutes Daily vs. Months of Post-Operative Disability / 7. The Real Possibility of Avoiding or Delaying Surgery\nコピー: 3〜9\n差を0にする事: 「理由の列挙×7」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g1_3",
+   "type": "text",
+   "x": 440,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 急がせ**\n仕事: 理由7の直後にタイマー（02:59:58）で今決めさせる\n心理: 数字のタイマー\nビジュアル: Offer expires in: 02 hrs 59 min 58 sec\nコピー: 9・16〜18\n差を0にする事: 「急がせ」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g1_4",
+   "type": "text",
+   "x": 440,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 値段・オファー（保証）**\n仕事: 70% OFF・「2025年のベスト」・90日返金・米国内配送で損の不安を消す\n心理: 商品写真（390×390）＋ボタン\nビジュアル: UP TO 70% OFF FOR A LIMITED TIME ONLY! / Recognized as the Best At-Home Hand Pain Solution of 2025 / APPLY DISCOUNT & CHECK AVAILABILITY / 90-Day Money Back Guarantee <!-- 掘った: 参考の原文（段.md）の引用。High/Best は実物の言葉で判断語ではない -->\nコピー: 10\n差を0にする事: 「値段・オファー（保証）」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g1_5",
+   "type": "text",
+   "x": 440,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 客の声×3**\n仕事: 名前つきの声3本（2台目を買った・圧と熱が1つに・Facebook で見て半信半疑だった）で疑いを潰す。各声の横に値段と Buy Now\n心理: 声ごとに小さい写真（60×80）＋商品の小さい写真（80×80）\nビジュアル: Olivia R. / Timothy J. / Rita C. / $99.98 ~~$330.00~~ Buy Now\nコピー: 11〜14\n差を0にする事: 「客の声×3」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g1_6",
+   "type": "text",
+   "x": 440,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 商品の紹介（使い方）**\n仕事: 3手順（入れる・押す・15〜20分くつろぐ）で「自分にもできる」と思わせる\n心理: 写真1枚（358×358）\nビジュアル: How It Works / Step 1: Insert / Step 2: Activate / Step 3: Relax\nコピー: 15\n差を0にする事: 「商品の紹介（使い方）」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g1_7",
+   "type": "text",
+   "x": 440,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 値段・オファー（再）**\n仕事: 同じ 70% OFF と 90日保証をもう一度、最後のボタン\n心理: 商品写真（315×315）＋ボタン2つ\nビジュアル: GET 70% OFF TODAY / Secure Payments \\\nコピー: 90-Day Guarantee / YES, GET 70% OFF\n差を0にする事: 「値段・オファー（再）」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2",
+   "type": "group",
+   "label": "03 PiPiTea",
+   "x": 840,
+   "y": 0,
+   "width": 420,
+   "height": 3160
+  },
+  {
+   "id": "g2_1",
+   "type": "text",
+   "x": 860,
+   "y": 40,
+   "width": 380,
+   "height": 150,
+   "text": "**1 急がせ＋題**\n仕事: 65% OFF の帯で得を先に置き、題で「副作用・処方・効かない」の3つの今の対策を名指しで切り、「毎日飲みたくなる」で楽しさを足す\n心理: 商品写真のスライド8枚（390×390）\nビジュアル: 65% OFF / Tired of Blood Pressure Solutions That Come With Side Effects, Require a Prescription, or Do Absolutely Nothing? / This Ancient Ruby-Red Tea Delivers Clinically Researched Cardiovascular Benefits…\nコピー: 1〜2\n差を0にする事: 「急がせ＋題」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_2",
+   "type": "text",
+   "x": 860,
+   "y": 210,
+   "width": 380,
+   "height": 150,
+   "text": "**2 理由の列挙（✅4つ）**\n仕事: ✅ の箇条書き4つで得を一気に積む（血圧と血管・抗酸化が一番・カフェインなし・…）\n心理: 文字だけ（✅の並び）\nビジュアル: ✅ Supports healthy blood pressure… / ✅ Delivers the highest antioxidant content… / ✅ Completely caffeine-free…\nコピー: 3\n差を0にする事: 「理由の列挙（✅4つ）」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_3",
+   "type": "text",
+   "x": 860,
+   "y": 380,
+   "width": 380,
+   "height": 150,
+   "text": "**3 共感の場面**\n仕事: 「人生の宣告ではない。合う支えに出会っていないだけ」で、医者に心配される・測るたび不安・塩分の計算 の場面を並べて自分ごとにする\n心理: 写真1枚（360×427）\nビジュアル: Your Blood Pressure Isn't a Life Sentence. (You Just Haven't Found the Right Support Yet.) / The creeping numbers… The anxiety every time you sit down for a reading…\nコピー: 4\n差を0にする事: 「共感の場面」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_4",
+   "type": "text",
+   "x": 860,
+   "y": 550,
+   "width": 380,
+   "height": 150,
+   "text": "**4 仕組み・成分**\n仕事: 「100本以上の臨床研究と何世紀もの伝統」で信じさせる\n心理: 写真1枚（360×427）\nビジュアル: The Caffeine-Free Tea Backed by 100+ Clinical Studies and Centuries of Traditional Use\nコピー: 5\n差を0にする事: 「仕組み・成分」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_5",
+   "type": "text",
+   "x": 860,
+   "y": 720,
+   "width": 380,
+   "height": 150,
+   "text": "**5 数の証拠**\n仕事: 客の調査の % 4つ（79・73・68・61）で効きを数字に\n心理: 大きな % 4段（文字）\nビジュアル: 79% … more confident / 73% noticed improvement in readings / 68% doctors commented positively / 61% less stressed\nコピー: 6〜10\n差を0にする事: 「数の証拠」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_6",
+   "type": "text",
+   "x": 860,
+   "y": 890,
+   "width": 380,
+   "height": 150,
+   "text": "**6 商品の紹介**\n仕事: 「1杯で毎日の支え」。薬・食事制限・効かないサプリと対にして単純さを売る\n心理: 商品写真（360×360）\nビジュアル: One Tea. Complete Daily Cardiovascular Support.\nコピー: 11\n差を0にする事: 「商品の紹介」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_7",
+   "type": "text",
+   "x": 860,
+   "y": 1060,
+   "width": 380,
+   "height": 150,
+   "text": "**7 客の声**\n仕事: 「毎日の習慣になった」の声4本\n心理: 写真4枚（354×354）\nビジュアル: See Why This Ancient Superfood Is Loved Daily…\nコピー: 12\n差を0にする事: 「客の声」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_8",
+   "type": "text",
+   "x": 860,
+   "y": 1230,
+   "width": 380,
+   "height": 150,
+   "text": "**8 約束（札）**\n仕事: USDA Organic・重金属検査・農薬なし・カフェインなし・人工添加物なし の5つに1つ足した札6つで安全の不安を消す\n心理: 小さい札6枚（94×94）\nビジュアル: PiPi Tea Promise / USDA Organic / Heavy Metal Tested / Pesticide-Free / Caffeine-Free…\nコピー: 13\n差を0にする事: 「約束（札）」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_9",
+   "type": "text",
+   "x": 860,
+   "y": 1400,
+   "width": 380,
+   "height": 150,
+   "text": "**9 変化の時間表**\n仕事: 1週・1か月・2か月・3か月・6か月・12か月で「いつ何が起きるか」を先に見せて続ける理由を作る\n心理: 文字だけ\nビジュアル: What Should I Expect… / 1 Week … / 1 Month … / 12 Months … / BUY NOW & SAVE / 90-Day Money Back Guarantee\nコピー: 14〜20\n差を0にする事: 「変化の時間表」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_10",
+   "type": "text",
+   "x": 860,
+   "y": 1570,
+   "width": 380,
+   "height": 150,
+   "text": "**10 比べる物**\n仕事: VS の表で 薬（処方・副作用・味）・サプリ（研究が薄い・新しい）と比べて勝たせる\n心理: 小さい写真2枚（86×66・86×86）＋表\nビジュアル: Why Hibiscus Tea Beats Other Blood Pressure Support Options / VS / No prescription required / No side effects…\nコピー: 21〜23\n差を0にする事: 「比べる物」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_11",
+   "type": "text",
+   "x": 860,
+   "y": 1740,
+   "width": 380,
+   "height": 150,
+   "text": "**11 使い方**\n仕事: 3手順（入れる・注ぐ・待つ）で簡単さ\n心理: 写真4枚（360×360）\nビジュアル: How to Prepare Hibiscus Tea… / Add / Boil Hot Water & Steep / …\nコピー: 24\n差を0にする事: 「使い方」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_12",
+   "type": "text",
+   "x": 860,
+   "y": 1910,
+   "width": 380,
+   "height": 150,
+   "text": "**12 値段・オファー（保証）**\n仕事: 「今だけ $29.99・合計 $75+ の価値・90日返金・送料無料・ガイド付き」で損の不安を消す。医師のコメントで裏付け\n心理: 商品写真（135×186）＋ボタン\nビジュアル: Special Offer On Now! / Total Value: $75+ / TODAY ONLY: $29.99 / BUY NOW & SAVE / Doctor Reviewed\nコピー: 25〜27\n差を0にする事: 「値段・オファー（保証）」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_13",
+   "type": "text",
+   "x": 860,
+   "y": 2080,
+   "width": 380,
+   "height": 150,
+   "text": "**13 客の声（★）**\n仕事: ★4.8 と写真つきの声8本\n心理: 写真8枚（330×264）\nビジュアル: What Our Customers Say About Us / 4.8\nコピー: 28〜29\n差を0にする事: 「客の声（★）」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g2_14",
+   "type": "text",
+   "x": 860,
+   "y": 2250,
+   "width": 380,
+   "height": 150,
+   "text": "**14 FAQ＋保証**\n仕事: 「ハイビスカスティーとは」から始まる FAQ と 90日保証で最後の疑いを潰す\n心理: 文字だけ\nビジュアル: Frequently Asked Questions / 90-Day Money Back Guarantee / BUY NOW & SAVE NOW!\nコピー: 30〜31\n差を0にする事: 「FAQ＋保証」の段を同じ順番に置き、画像は同じ場所と大きさで1枚ずつ、文は同じ働きをうちの商品で書く（数字の数・見出しの形も同じ）"
+  },
+  {
+   "id": "g0_v1",
+   "type": "text",
+   "x": 20,
+   "y": 1080,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 題の数字**\n測った値: 7 Benefits・70% OFF・10,000+ Reviews・100,000+（数字4つ）\n差を0にする事: 題に 得の数・割引率・レビュー数・人数 の4つを入れる"
+  },
+  {
+   "id": "g0_v2",
+   "type": "text",
+   "x": 440,
+   "y": 1080,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 理由の数と番号**\n測った値: 理由 7（本文は 01〜05 ＋ 06 数の証拠 ＋ 07 客の声）\n差を0にする事: 理由は7つ。後ろ2つは数の証拠と客の声を理由に数える"
+  },
+  {
+   "id": "g0_v3",
+   "type": "text",
+   "x": 20,
+   "y": 1250,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 理由の見出しの形**\n測った値: 番号＋動詞で始まる効き（Restore / Support / Eliminate / Escape）＋括弧で本当の理由\n差を0にする事: 見出しは「番号＋起きる良い事（本当の理由）」の形"
+  },
+  {
+   "id": "g0_v4",
+   "type": "text",
+   "x": 440,
+   "y": 1250,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 今の対策を切る場所**\n測った値: 理由05で名指し（Cheap Cassia・250x more coumarin）\n差を0にする事: 理由の1つで今の対策を名指しで切り、数字で差を言う"
+  },
+  {
+   "id": "g0_v5",
+   "type": "text",
+   "x": 20,
+   "y": 1420,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 数の証拠**\n測った値: % が4つ（84・79・76・71）・12週\n差を0にする事: % を4つ・期間つき"
+  },
+  {
+   "id": "g0_v6",
+   "type": "text",
+   "x": 440,
+   "y": 1420,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 客の声**\n測った値: 5本＋★4.8・10,284件\n差を0にする事: 数値つきの声5本と★と件数"
+  },
+  {
+   "id": "g0_v7",
+   "type": "text",
+   "x": 20,
+   "y": 1590,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: オファー**\n測った値: buy 2 get 1 free・70% OFF・残り時間・90日返金\n差を0にする事: まとめ買いの得・割引率・残り時間・日数つき保証"
+  },
+  {
+   "id": "g0_v8",
+   "type": "text",
+   "x": 440,
+   "y": 1590,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 画像の数と大きさ**\n測った値: 14枚。理由ごとに1枚 356×240 前後、商品 336×336\n差を0にする事: 理由ごとに1枚、商品の写真は正方形"
+  },
+  {
+   "id": "g1_v1",
+   "type": "text",
+   "x": 440,
+   "y": 1250,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 題の数字**\n測った値: 40-85%・45-60日・15分（数字3つ）\n差を0にする事: 題の下に数字3つ（今の対策の悪さ2つ＋うちの手軽さ1つ）"
+  },
+  {
+   "id": "g1_v2",
+   "type": "text",
+   "x": 860,
+   "y": 1250,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 理由の数と形**\n測った値: 7。各理由が ❌言われた事 → ✅商品の働き の対\n差を0にする事: 理由は ❌→✅ の対で書く"
+  },
+  {
+   "id": "g1_v3",
+   "type": "text",
+   "x": 440,
+   "y": 1420,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 切る物**\n測った値: 待て・手術・注射・遺伝だから諦めろ（4つ）\n差を0にする事: 名指しで切る物を4つ"
+  },
+  {
+   "id": "g1_v4",
+   "type": "text",
+   "x": 860,
+   "y": 1420,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 急がせ**\n測った値: タイマー 02:59:58（2か所）\n差を0にする事: 残り時間を2か所"
+  },
+  {
+   "id": "g1_v5",
+   "type": "text",
+   "x": 440,
+   "y": 1590,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: オファー**\n測った値: 70% OFF・$99.98/$330・90日返金\n差を0にする事: 割引率・打ち消し線・日数つき保証"
+  },
+  {
+   "id": "g1_v6",
+   "type": "text",
+   "x": 860,
+   "y": 1590,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 客の声**\n測った値: 3本・名前（頭文字）・小さい写真\n差を0にする事: 名前つき3本"
+  },
+  {
+   "id": "g1_v7",
+   "type": "text",
+   "x": 440,
+   "y": 1760,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 使い方**\n測った値: 3手順\n差を0にする事: 3手順の段を商品の紹介に"
+  },
+  {
+   "id": "g1_v8",
+   "type": "text",
+   "x": 860,
+   "y": 1760,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 動く物**\n測った値: 理由1に10秒の動画1カット（機器が手を包む）\n差を0にする事: 理由1の面だけ動く物（うちは商品が足を包む）"
+  },
+  {
+   "id": "g2_v1",
+   "type": "text",
+   "x": 860,
+   "y": 2440,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 題の切る物**\n測った値: 副作用・処方が要る・効かない の3つ\n差を0にする事: 題で今の対策の欠点を3つ名指し"
+  },
+  {
+   "id": "g2_v2",
+   "type": "text",
+   "x": 1280,
+   "y": 2440,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 理由の数と形**\n測った値: ✅4つの箇条書き\n差を0にする事: ✅の短い箇条書き4つ"
+  },
+  {
+   "id": "g2_v3",
+   "type": "text",
+   "x": 860,
+   "y": 2610,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 数の証拠**\n測った値: % 4つ（79・73・68・61）・調査の注記\n差を0にする事: % を4つ・注記1行"
+  },
+  {
+   "id": "g2_v4",
+   "type": "text",
+   "x": 1280,
+   "y": 2610,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 変化の時間表**\n測った値: 1週・1か月・2か月・3か月・6か月・12か月（6段）\n差を0にする事: 時間表6段"
+  },
+  {
+   "id": "g2_v5",
+   "type": "text",
+   "x": 860,
+   "y": 2780,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 比べる物**\n測った値: VS の表 7行\n差を0にする事: VS の表"
+  },
+  {
+   "id": "g2_v6",
+   "type": "text",
+   "x": 1280,
+   "y": 2780,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: オファー**\n測った値: 65% OFF・$29.99・Total Value $75+・90日返金・送料無料\n差を0にする事: 割引率・値段・合計の価値・日数つき保証"
+  },
+  {
+   "id": "g2_v7",
+   "type": "text",
+   "x": 860,
+   "y": 2950,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 客の声**\n測った値: 4本＋8本・★4.8\n差を0にする事: 2か所"
+  },
+  {
+   "id": "g2_v8",
+   "type": "text",
+   "x": 1280,
+   "y": 2950,
+   "width": 400,
+   "height": 150,
+   "color": "5",
+   "text": "**変数: 画像の数**\n測った値: 45枚。頭にスライド8枚 390×390\n差を0にする事: 頭に正方形の商品写真"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e_g0_1_g0_2",
+   "fromNode": "g0_1",
+   "fromSide": "bottom",
+   "toNode": "g0_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_2_g0_3",
+   "fromNode": "g0_2",
+   "fromSide": "bottom",
+   "toNode": "g0_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_3_g0_4",
+   "fromNode": "g0_3",
+   "fromSide": "bottom",
+   "toNode": "g0_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_4_g0_5",
+   "fromNode": "g0_4",
+   "fromSide": "bottom",
+   "toNode": "g0_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g0_5_g0_7",
+   "fromNode": "g0_5",
+   "fromSide": "bottom",
+   "toNode": "g0_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_1_g1_2",
+   "fromNode": "g1_1",
+   "fromSide": "bottom",
+   "toNode": "g1_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_2_g1_3",
+   "fromNode": "g1_2",
+   "fromSide": "bottom",
+   "toNode": "g1_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_3_g1_4",
+   "fromNode": "g1_3",
+   "fromSide": "bottom",
+   "toNode": "g1_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_4_g1_5",
+   "fromNode": "g1_4",
+   "fromSide": "bottom",
+   "toNode": "g1_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_5_g1_6",
+   "fromNode": "g1_5",
+   "fromSide": "bottom",
+   "toNode": "g1_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g1_6_g1_7",
+   "fromNode": "g1_6",
+   "fromSide": "bottom",
+   "toNode": "g1_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_1_g2_2",
+   "fromNode": "g2_1",
+   "fromSide": "bottom",
+   "toNode": "g2_2",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_2_g2_3",
+   "fromNode": "g2_2",
+   "fromSide": "bottom",
+   "toNode": "g2_3",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_3_g2_4",
+   "fromNode": "g2_3",
+   "fromSide": "bottom",
+   "toNode": "g2_4",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_4_g2_5",
+   "fromNode": "g2_4",
+   "fromSide": "bottom",
+   "toNode": "g2_5",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_5_g2_6",
+   "fromNode": "g2_5",
+   "fromSide": "bottom",
+   "toNode": "g2_6",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_6_g2_7",
+   "fromNode": "g2_6",
+   "fromSide": "bottom",
+   "toNode": "g2_7",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_7_g2_8",
+   "fromNode": "g2_7",
+   "fromSide": "bottom",
+   "toNode": "g2_8",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_8_g2_9",
+   "fromNode": "g2_8",
+   "fromSide": "bottom",
+   "toNode": "g2_9",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_9_g2_10",
+   "fromNode": "g2_9",
+   "fromSide": "bottom",
+   "toNode": "g2_10",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_10_g2_11",
+   "fromNode": "g2_10",
+   "fromSide": "bottom",
+   "toNode": "g2_11",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_11_g2_12",
+   "fromNode": "g2_11",
+   "fromSide": "bottom",
+   "toNode": "g2_12",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_12_g2_13",
+   "fromNode": "g2_12",
+   "fromSide": "bottom",
+   "toNode": "g2_13",
+   "toSide": "top"
+  },
+  {
+   "id": "e_g2_13_g2_14",
+   "fromNode": "g2_13",
+   "fromSide": "bottom",
+   "toNode": "g2_14",
+   "toSide": "top"
+  }
+ ]
+}

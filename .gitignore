@@ -1,0 +1,26 @@
+# 鍵・ログイン情報
+.env
+.env.*
+!.env.example
+*.key
+auth.json
+.secrets/
+
+# 作業で出来る物
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.bak*
+!home/Claude Code/arukoto-store/adv/index.bak-preoffer-2026-09-06.html
+home/Claude Code/team-room/data/
+審査の収束.jsonl
+
+# 他社のページの写し（入れない。取り直し方は 各記事の 参考を取り直す.md）
+**/参考/
+**/参考の画像/
+**/参考の動く物/
+**/作業/
+**/動く素材/
+*焼き込み*.html

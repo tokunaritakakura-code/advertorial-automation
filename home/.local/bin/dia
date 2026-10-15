@@ -1,0 +1,4 @@
+#!/bin/bash
+# dia — Diaブラウザを操作する共通コマンド。中身は surasura の dia.mjs。
+# ブラウザ操作は全部これを通す(スクショもAppleScriptもPlaywrightも使わない)。
+exec node "$HOME/.claude/skills/surasura/scripts/dia.mjs" "$@"

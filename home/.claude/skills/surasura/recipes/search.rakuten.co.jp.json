@@ -1,0 +1,11 @@
+{
+ "検索結果上位": {
+  "ok": 5,
+  "fail": 0,
+  "created": "2026-08-27",
+  "js": "// 楽天の検索結果から上位N件。args.word があればページ内fetchで検索し直す(遷移しない)。\nlet doc = document;\nif (args.word) {\n  const r = await fetch(\"https://search.rakuten.co.jp/search/mall/\" + encodeURIComponent(args.word) + \"/\", { credentials: \"include\" });\n  doc = new DOMParser().parseFromString(await r.text(), \"text/html\");\n}\nconst cards = [...doc.querySelectorAll(\"[class*=searchresultitem]\")].slice(0, args.n || 5);\nreturn cards.map(c => {\n  const a = c.querySelector(\"a[class*=title-link]\");\n  return {\n    商品: (a?.textContent || \"\").replace(/\\s+/g, \" \").trim().slice(0, 45),\n    価格: (c.querySelector(\"[class*=price]\")?.textContent || \"\").trim().slice(0, 14),\n    評価: (c.querySelector(\"[class*=rating]\")?.textContent || \"\").trim().slice(0, 14),\n    URL: (a?.getAttribute(\"href\") || \"\").split(\"?\")[0],\n  };\n});\n",
+  "note": "args:{word,n}。ページ内fetchなので遷移しない",
+  "updated": "2026-08-27",
+  "lastOk": "2026-10-12"
+ }
+}

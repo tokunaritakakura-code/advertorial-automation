@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>動画インプット脚 — 要件定義 &amp; 導入手順</title>
+<style>
+  :root{
+    --paper:#EEF0F3; --surface:#FFFFFF; --surface-2:#F6F7F9;
+    --ink:#1B1F27; --ink-soft:#565D6B; --ink-faint:#8A92A0;
+    --line:#DBDFE6; --line-soft:#E7EAEF;
+    --accent:#B4632A; --accent-strong:#8F4B1C; --accent-wash:#F3E6DA;
+    --ok:#2E7D5B; --warn:#B0741A; --bad:#BC423A;
+    --ok-wash:#E3F0E9; --warn-wash:#F4EAD8; --bad-wash:#F5E1DF;
+    --shadow:0 1px 2px rgba(20,25,35,.04), 0 8px 24px rgba(20,25,35,.06);
+    --mono:"SF Mono","SFMono-Regular",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,"Helvetica Neue",Arial,sans-serif;
+    --measure:62rem;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#121419; --surface:#1A1D23; --surface-2:#20242C;
+      --ink:#E7E9EE; --ink-soft:#A2A9B5; --ink-faint:#6D7481;
+      --line:#2A2E37; --line-soft:#23272F;
+      --accent:#E0A458; --accent-strong:#EBB877; --accent-wash:#2A2119;
+      --ok:#54B98C; --warn:#D9A85C; --bad:#E27168;
+      --ok-wash:#182720; --warn-wash:#2A2216; --bad-wash:#2C1917;
+      --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="light"]{
+    --paper:#EEF0F3; --surface:#FFFFFF; --surface-2:#F6F7F9;
+    --ink:#1B1F27; --ink-soft:#565D6B; --ink-faint:#8A92A0;
+    --line:#DBDFE6; --line-soft:#E7EAEF;
+    --accent:#B4632A; --accent-strong:#8F4B1C; --accent-wash:#F3E6DA;
+    --ok:#2E7D5B; --warn:#B0741A; --bad:#BC423A;
+    --ok-wash:#E3F0E9; --warn-wash:#F4EAD8; --bad-wash:#F5E1DF;
+    --shadow:0 1px 2px rgba(20,25,35,.04), 0 8px 24px rgba(20,25,35,.06);
+  }
+  :root[data-theme="dark"]{
+    --paper:#121419; --surface:#1A1D23; --surface-2:#20242C;
+    --ink:#E7E9EE; --ink-soft:#A2A9B5; --ink-faint:#6D7481;
+    --line:#2A2E37; --line-soft:#23272F;
+    --accent:#E0A458; --accent-strong:#EBB877; --accent-wash:#2A2119;
+    --ok:#54B98C; --warn:#D9A85C; --bad:#E27168;
+    --ok-wash:#182720; --warn-wash:#2A2216; --bad-wash:#2C1917;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--sans); font-size:16.5px; line-height:1.62;
+    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:var(--measure); margin:0 auto; padding:0 clamp(1.1rem,4vw,2.4rem)}
+  a{color:var(--accent-strong); text-decoration:none; border-bottom:1px solid color-mix(in srgb,var(--accent) 35%,transparent)}
+  a:hover{border-bottom-color:var(--accent)}
+  :focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:3px}
+  code,kbd,samp{font-family:var(--mono)}
+
+  /* ---------- header ---------- */
+  header.masthead{
+    border-bottom:1px solid var(--line);
+    background:
+      radial-gradient(120% 140% at 88% -10%, color-mix(in srgb,var(--accent) 12%,transparent), transparent 60%),
+      var(--surface);
+  }
+  .masthead .wrap{padding-top:clamp(2.4rem,6vw,4rem); padding-bottom:clamp(1.8rem,4vw,2.6rem)}
+  .kicker{
+    font-family:var(--mono); font-size:.72rem; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--accent-strong); display:flex; align-items:center; gap:.6rem; margin:0 0 1.1rem;
+  }
+  .kicker .rec{width:.55rem; height:.55rem; border-radius:50%; background:var(--accent); box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 22%,transparent)}
+  h1{
+    font-size:clamp(1.9rem,5.2vw,3rem); line-height:1.06; letter-spacing:-.02em;
+    font-weight:800; margin:0 0 .7rem; text-wrap:balance;
+  }
+  h1 .thin{font-weight:500; color:var(--ink-soft)}
+  .lede{font-size:clamp(1.02rem,2.4vw,1.22rem); color:var(--ink-soft); max-width:44rem; margin:0 0 1.6rem; text-wrap:pretty}
+  .lede b{color:var(--ink); font-weight:650}
+  .facts{display:flex; flex-wrap:wrap; gap:.5rem}
+  .fact{
+    font-family:var(--mono); font-size:.76rem; letter-spacing:.02em;
+    padding:.42rem .7rem; border:1px solid var(--line); border-radius:7px;
+    background:var(--surface-2); color:var(--ink-soft);
+  }
+  .fact b{color:var(--ink); font-weight:600}
+
+  /* ---------- sections ---------- */
+  main .wrap{padding-top:clamp(2.2rem,5vw,3.4rem); padding-bottom:4rem}
+  section{margin:0 0 clamp(2.6rem,6vw,3.8rem); scroll-margin-top:1.5rem}
+  .sec-head{display:flex; align-items:baseline; gap:.85rem; margin:0 0 1.2rem; border-bottom:1px solid var(--line); padding-bottom:.6rem}
+  .sec-no{font-family:var(--mono); font-size:.82rem; color:var(--accent-strong); font-weight:600; letter-spacing:.04em}
+  h2{font-size:clamp(1.28rem,3vw,1.62rem); line-height:1.15; letter-spacing:-.01em; font-weight:750; margin:0}
+  h3{font-size:1.02rem; font-weight:700; margin:1.8rem 0 .7rem; letter-spacing:-.005em}
+  p{margin:.7rem 0}
+  .muted{color:var(--ink-soft)}
+  strong{font-weight:650}
+
+  /* ---------- callout ---------- */
+  .note{
+    display:grid; grid-template-columns:auto 1fr; gap:.85rem;
+    padding:1rem 1.1rem; border:1px solid var(--line); border-left-width:3px;
+    border-radius:9px; background:var(--surface); margin:1.2rem 0; box-shadow:var(--shadow);
+  }
+  .note .tag{font-family:var(--mono); font-size:.7rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; padding-top:.15rem}
+  .note.bad{border-left-color:var(--bad); background:var(--bad-wash)} .note.bad .tag{color:var(--bad)}
+  .note.warn{border-left-color:var(--warn); background:var(--warn-wash)} .note.warn .tag{color:var(--warn)}
+  .note.ok{border-left-color:var(--ok); background:var(--ok-wash)} .note.ok .tag{color:var(--ok)}
+  .note p{margin:.25rem 0}
+  .note p:first-child{margin-top:0} .note p:last-child{margin-bottom:0}
+
+  /* ---------- layers grid ---------- */
+  .layers{display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin:1.3rem 0}
+  .layer{border:1px solid var(--line); border-radius:11px; background:var(--surface); padding:1.15rem 1.2rem; box-shadow:var(--shadow)}
+  .layer h3{margin:.1rem 0 .5rem; display:flex; align-items:center; gap:.55rem}
+  .layer .file{font-family:var(--mono); font-size:.82rem; color:var(--accent-strong)}
+  .layer ul{margin:.6rem 0 0; padding-left:1.1rem}
+  .layer li{margin:.3rem 0; color:var(--ink-soft)}
+  .layer li b{color:var(--ink)}
+
+  /* ---------- badges ---------- */
+  .badge{font-family:var(--mono); font-size:.68rem; font-weight:700; letter-spacing:.04em; padding:.16rem .5rem; border-radius:5px; white-space:nowrap; border:1px solid transparent}
+  .badge.par{color:var(--ok); background:var(--ok-wash); border-color:color-mix(in srgb,var(--ok) 30%,transparent)}
+  .badge.ser{color:var(--warn); background:var(--warn-wash); border-color:color-mix(in srgb,var(--warn) 30%,transparent)}
+  .badge.txt{color:var(--ink-soft); background:var(--surface-2); border-color:var(--line)}
+
+  /* ---------- tables ---------- */
+  .tbl-scroll{overflow-x:auto; border:1px solid var(--line); border-radius:11px; box-shadow:var(--shadow); margin:1.2rem 0}
+  table{border-collapse:collapse; width:100%; font-size:.9rem; background:var(--surface)}
+  th,td{text-align:left; padding:.7rem .85rem; border-bottom:1px solid var(--line-soft); vertical-align:top}
+  thead th{font-family:var(--mono); font-size:.72rem; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-soft); background:var(--surface-2); position:sticky; top:0}
+  tbody tr:last-child td{border-bottom:none}
+  td code, th code{font-size:.84em; background:var(--surface-2); padding:.08rem .32rem; border-radius:4px; border:1px solid var(--line-soft)}
+  td.k{font-family:var(--mono); color:var(--ink); white-space:nowrap}
+  .sym-ok{color:var(--ok); font-weight:700} .sym-no{color:var(--bad); font-weight:700} .sym-mid{color:var(--warn); font-weight:700}
+
+  /* ---------- code blocks ---------- */
+  .term{margin:1rem 0; border:1px solid var(--line); border-radius:10px; overflow:hidden; background:var(--surface); box-shadow:var(--shadow)}
+  .term-bar{display:flex; align-items:center; gap:.4rem; padding:.5rem .8rem; background:var(--surface-2); border-bottom:1px solid var(--line)}
+  .term-bar .dot{width:.62rem; height:.62rem; border-radius:50%; background:var(--line)}
+  .term-bar .ttl{margin-left:.5rem; font-family:var(--mono); font-size:.72rem; color:var(--ink-faint); letter-spacing:.03em}
+  pre{margin:0; padding:.95rem 1.05rem; overflow-x:auto; font-family:var(--mono); font-size:.82rem; line-height:1.65}
+  pre .c{color:var(--ink-faint)}
+  pre .p{color:var(--accent-strong); font-weight:600}
+  pre .s{color:var(--ok)}
+  pre .f{color:var(--ink-soft)}
+
+  /* ---------- architecture flow ---------- */
+  .flow{border:1px solid var(--line); border-radius:14px; background:
+      linear-gradient(180deg, var(--surface), var(--surface-2));
+    padding:clamp(1.1rem,3vw,1.8rem); margin:1.4rem 0; box-shadow:var(--shadow)}
+  .flow-stage{display:flex; flex-direction:column; align-items:center}
+  .stage-label{font-family:var(--mono); font-size:.68rem; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-faint); margin:0 0 .7rem; align-self:center}
+  .chips{display:flex; flex-wrap:wrap; gap:.5rem; justify-content:center}
+  .chip{font-family:var(--mono); font-size:.76rem; padding:.45rem .7rem; border:1px dashed var(--line); border-radius:8px; background:var(--surface); color:var(--ink-soft)}
+  .conn{width:2px; height:1.5rem; background:linear-gradient(var(--line),var(--accent)); margin:.35rem 0; position:relative}
+  .conn::after{content:""; position:absolute; bottom:-1px; left:50%; transform:translateX(-50%); border:5px solid transparent; border-top-color:var(--accent)}
+  .router{width:100%; max-width:34rem; text-align:center; border:1.5px solid var(--accent); background:var(--accent-wash); border-radius:11px; padding:.85rem 1rem}
+  .router .r-t{font-family:var(--mono); font-size:.74rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--accent-strong)}
+  .router .r-q{font-size:.86rem; color:var(--ink-soft); margin-top:.3rem}
+  .router .r-q code{background:var(--surface); padding:.05rem .3rem; border-radius:4px; border:1px solid var(--line)}
+  .lanes{display:grid; grid-template-columns:repeat(3,1fr); gap:.9rem; width:100%; margin-top:.3rem}
+  .lane{border:1px solid var(--line); border-radius:11px; background:var(--surface); padding:.95rem; display:flex; flex-direction:column; gap:.45rem}
+  .lane .l-file{font-family:var(--mono); font-weight:700; font-size:.9rem; color:var(--ink)}
+  .lane .l-role{font-size:.8rem; color:var(--ink-soft)}
+  .lane .l-steps{font-family:var(--mono); font-size:.72rem; color:var(--ink-faint); line-height:1.5; border-top:1px dashed var(--line); padding-top:.45rem; margin-top:.1rem}
+  .lane.accent{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+  .merge{display:flex; flex-wrap:wrap; gap:.7rem; justify-content:center; width:100%}
+  .out{border:1px solid var(--line); border-radius:9px; background:var(--surface); padding:.6rem .85rem; font-family:var(--mono); font-size:.78rem; display:flex; align-items:center; gap:.5rem}
+  .out.primary{border-color:var(--accent); background:var(--accent-wash); color:var(--accent-strong); font-weight:600}
+  .final{width:100%; max-width:34rem; text-align:center; border:1px solid var(--line); border-radius:11px; background:var(--surface-2); padding:.8rem 1rem}
+  .final .f-t{font-weight:700; font-size:.92rem}
+  .final .f-s{font-size:.8rem; color:var(--ink-soft); margin-top:.2rem}
+  .flow-legend{display:flex; flex-wrap:wrap; gap:.9rem; justify-content:center; margin-top:1.1rem; padding-top:.9rem; border-top:1px solid var(--line-soft); font-size:.76rem; color:var(--ink-soft)}
+  .flow-legend span{display:inline-flex; align-items:center; gap:.35rem}
+
+  /* ---------- ordered setup ---------- */
+  ol.steps{list-style:none; counter-reset:st; padding:0; margin:1.3rem 0}
+  ol.steps>li{counter-increment:st; position:relative; padding:0 0 1.35rem 3rem; border-left:2px solid var(--line); margin-left:1rem}
+  ol.steps>li:last-child{border-left-color:transparent; padding-bottom:0}
+  ol.steps>li::before{content:counter(st,decimal-leading-zero); position:absolute; left:-1rem; top:-.15rem; width:2rem; height:2rem; display:grid; place-items:center; font-family:var(--mono); font-size:.78rem; font-weight:700; color:var(--surface); background:var(--accent); border-radius:50%}
+  ol.steps>li h3{margin:.1rem 0 .35rem}
+  ol.steps>li p{margin:.3rem 0}
+
+  footer{border-top:1px solid var(--line); color:var(--ink-faint); font-size:.82rem}
+  footer .wrap{padding:1.6rem 0 2.4rem; display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; align-items:center; justify-content:space-between}
+  footer code{color:var(--ink-soft)}
+
+  @media (max-width:680px){
+    .layers{grid-template-columns:1fr}
+    .lanes{grid-template-columns:1fr}
+  }
+  @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <p class="kicker"><span class="rec"></span> task-fleet · 動画インプット脚 / video ingest</p>
+    <h1>動画を「見る」前に、<br><span class="thin">機械経路で畳んで取り込む。</span></h1>
+    <p class="lede">YouTube などの動画を、人間が全部再生して目視する代わりに <b>機械経路で必要なコマだけ抜き取り</b>、下流の解析にそのまま渡せる形（文字起こし JSON ／時刻ラベル付きコンタクトシート）へ畳み込む脚。<b>喋り（テキスト）</b>と <b>映像</b> の2レイヤーで構成する。この文書は、別環境にそのまま導入するための要件定義・依存関係・手順・落とし穴をまとめたもの。</p>
+    <div class="facts">
+      <span class="fact"><b>4</b> scripts</span>
+      <span class="fact">runtime: <b>node</b> + <b>python3</b></span>
+      <span class="fact">deps: <b>yt-dlp · ffmpeg · Pillow · playwright</b></span>
+      <span class="fact">検証: <b>2026-08-15</b></span>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+
+  <!-- 01 概要 -->
+  <section id="overview">
+    <div class="sec-head"><span class="sec-no">§01</span><h2>概要 — 何をする脚か</h2></div>
+    <p>中核の原則は一つ。<strong>「動画は見る／聴く前に、機械経路で畳んで取る。ブラウザ描画も実時間再生も最小化する」</strong>。全フレームを人手で見るのではなく、意味の変わり目だけを抜き、1枚の一覧にして vision 解析へ渡す。取り込みは目的で2レイヤーに分かれる。</p>
+
+    <div class="layers">
+      <div class="layer">
+        <h3>喋りレイヤー <span class="file">yt.mjs</span> <span class="badge txt">TEXT ONLY</span></h3>
+        <p class="muted">「何を言ったか」が要るとき。字幕(VTT)を <code>yt-dlp</code> で並列取得し、タイムスタンプ・タグ・重複を除去したクリーンな文字起こし JSON にして返す。</p>
+        <ul>
+          <li>チャンネル/ハンドル/プレイリストを渡すと <b>全動画へ展開</b>してから並列処理</li>
+          <li>手動字幕→自動字幕の順、<b>言語優先</b>指定可</li>
+          <li>字幕が取れなければ <b>1回リトライ→降格</b>（<code>route:"browser"</code>）</li>
+          <li><b>映像・画面・テロップは取らない</b></li>
+        </ul>
+      </div>
+      <div class="layer">
+        <h3>映像レイヤー <span class="file">av.mjs · grab.mjs</span> <span class="badge par">VISUAL</span></h3>
+        <p class="muted">「どう見せたか」（カット割り・テロップ・見せ方）が要るとき。フレームを抜いて <span class="file">contact.py</span> が時刻ラベル付きモンタージュに畳む。</p>
+        <ul>
+          <li><b>av.mjs</b> — DL可能な動画（ローカル / Meta・TikTok の直CDN <code>.mp4</code>）を <b>ffmpeg シーン検出</b>でカット抽出。並列可</li>
+          <li><b>grab.mjs</b> — YouTube 等を稼働中 Chromium に <b>CDP 接続→seek→スクショ</b>。実時間再生でないので速い。直列</li>
+          <li><b>contact.py</b> — PIL で時刻ラベル付きコンタクトシート生成</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 なぜ2経路 -->
+  <section id="why">
+    <div class="sec-head"><span class="sec-no">§02</span><h2>なぜ映像に2経路あるのか</h2></div>
+    <p>映像の取得元によって道が分かれるのは、<strong>YouTube のメディア取得が構造的に固いから</strong>。ここは設計の肝なので明示しておく。</p>
+
+    <div class="note bad">
+      <span class="tag">403</span>
+      <div>
+        <p><strong>YouTube のメディア（動画バイト）ダウンロードは今や PO token 必須で、<code>yt-dlp</code> が <code>HTTP 403 Forbidden</code> で弾かれる。</strong></p>
+        <p class="muted">字幕エンドポイントは通る（＝<code>yt.mjs</code> は成立する）が、動画本体の取得は不可。<code>--cookies-from-browser</code> による回避も、現行 Chrome の <b>App-Bound Encryption</b> で cookie が復号できず失敗する（<code>Extracted 0 cookies</code>）。</p>
+      </div>
+    </div>
+
+    <p>したがって取得元 → 経路の対応はこうなる。</p>
+    <div class="tbl-scroll">
+      <table>
+        <thead><tr><th>取得元</th><th>喋り(字幕)</th><th>映像</th><th>並列</th></tr></thead>
+        <tbody>
+          <tr><td class="k">YouTube</td><td><code>yt.mjs</code> <span class="sym-ok">OK</span></td><td><code>grab.mjs</code>（ブラウザ捕獲）</td><td><span class="sym-no">直列</span></td></tr>
+          <tr><td class="k">Meta 広告ライブラリ / gethookd</td><td>—</td><td><code>av.mjs</code>（直CDN <code>.mp4</code>）</td><td><span class="sym-ok">並列</span></td></tr>
+          <tr><td class="k">TikTok</td><td>—</td><td><code>av.mjs</code>（yt-dlp が通る範囲）</td><td><span class="sym-ok">並列</span></td></tr>
+          <tr><td class="k">ローカルファイル</td><td>—</td><td><code>av.mjs</code>（<code>.mp4</code> を直入力）</td><td><span class="sym-ok">並列</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted">要は <b>YouTube の映像は grab.mjs（ブラウザ捕獲）が本線</b>、<b>DL可能なソースは av.mjs で並列</b>。EC 広告の主戦場（Meta / gethookd）は直CDN が取れるので av 側で回る。</p>
+  </section>
+
+  <!-- 03 アーキテクチャ -->
+  <section id="arch">
+    <div class="sec-head"><span class="sec-no">§03</span><h2>アーキテクチャ — 入力から9ビートまで</h2></div>
+
+    <div class="flow">
+      <div class="flow-stage">
+        <p class="stage-label">Input</p>
+        <div class="chips">
+          <span class="chip">channel / @handle</span>
+          <span class="chip">watch URL</span>
+          <span class="chip">local .mp4</span>
+          <span class="chip">CDN .mp4</span>
+        </div>
+
+        <div class="conn"></div>
+
+        <div class="router">
+          <div class="r-t">Router — 経路を仕分ける</div>
+          <div class="r-q">喋りだけ? → <code>yt.mjs</code>　｜　映像が要る? → DL可能なら <code>av.mjs</code> / YouTube なら <code>grab.mjs</code></div>
+        </div>
+
+        <div class="conn"></div>
+
+        <p class="stage-label">Legs</p>
+        <div class="lanes">
+          <div class="lane">
+            <div class="l-file">yt.mjs <span class="badge txt">TEXT</span></div>
+            <div class="l-role">字幕を機械経路で文字起こし</div>
+            <div class="l-steps">yt-dlp 字幕DL<br>→ VTT クレンジング<br>→ transcript</div>
+          </div>
+          <div class="lane accent">
+            <div class="l-file">av.mjs <span class="badge par">並列</span></div>
+            <div class="l-role">DL可能な動画をカット抽出</div>
+            <div class="l-steps">yt-dlp/curl DL<br>→ ffmpeg シーン検出<br>→ frames + caption</div>
+          </div>
+          <div class="lane accent">
+            <div class="l-file">grab.mjs <span class="badge ser">直列</span></div>
+            <div class="l-role">YouTube をブラウザ捕獲</div>
+            <div class="l-steps">CDP 接続 → 再生<br>→ seek × N → screenshot<br>→ frames</div>
+          </div>
+        </div>
+
+        <div class="conn"></div>
+
+        <div class="merge">
+          <span class="out">frames[] → <b style="color:var(--accent-strong)">&nbsp;contact.py</b>&nbsp;(PIL montage)</span>
+        </div>
+
+        <div class="conn"></div>
+
+        <p class="stage-label">Output</p>
+        <div class="merge">
+          <span class="out primary">transcript.json</span>
+          <span class="out primary">montage_NN.jpg + frames</span>
+        </div>
+
+        <div class="conn"></div>
+
+        <div class="final">
+          <div class="f-t">下流の vision 解析 →&nbsp; 9ビート分解</div>
+          <div class="f-s">フック / 問題提起 / 失敗した解決策 / 独自メカニズム / 商品 / 実演 / 証拠 / オファー / CTA</div>
+        </div>
+      </div>
+
+      <div class="flow-legend">
+        <span><span class="badge txt">TEXT</span> 字幕のみ・映像なし</span>
+        <span><span class="badge par">並列</span> POOL でファンアウト可</span>
+        <span><span class="badge ser">直列</span> 共有ブラウザ1台＝逐次</span>
+      </div>
+    </div>
+    <p class="muted"><code>yt.mjs</code> は <code>contact.py</code> を通らず直接 <code>transcript.json</code> へ抜ける（テキストにモンタージュは無い）。<code>av.mjs</code> / <code>grab.mjs</code> のフレームだけが <code>contact.py</code> でモンタージュに畳まれる。</p>
+  </section>
+
+  <!-- 04 依存関係 -->
+  <section id="deps">
+    <div class="sec-head"><span class="sec-no">§04</span><h2>依存関係 — 友達が入れるもの</h2></div>
+    <p>macOS 前提。無い場合の <b>degrade（どこまで動くか）</b>も併記する。</p>
+    <div class="tbl-scroll">
+      <table>
+        <thead><tr><th>依存</th><th>用途</th><th>入手</th><th>無いとどうなる</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="k">node<br><span class="muted">(v18+)</span></td>
+            <td>3スクリプト本体の実行</td>
+            <td><code>brew install node</code></td>
+            <td><span class="sym-no">必須</span> 何も動かない</td>
+          </tr>
+          <tr>
+            <td class="k">yt-dlp</td>
+            <td>字幕取得(yt.mjs)・動画DL試行(av.mjs)</td>
+            <td><code>pip install -U yt-dlp</code><br>or <code>brew install yt-dlp</code></td>
+            <td><span class="sym-mid">一部</span> yt.mjs と av の DL が不可。<b>grab.mjs は生きる</b></td>
+          </tr>
+          <tr>
+            <td class="k">ffmpeg<br>ffprobe</td>
+            <td>シーン検出・フレーム抽出・尺取得</td>
+            <td><code>brew install ffmpeg</code></td>
+            <td><span class="sym-no">映像必須</span> av/grab のフレーム抽出不可</td>
+          </tr>
+          <tr>
+            <td class="k">python3<br>Pillow</td>
+            <td>モンタージュ生成(contact.py)</td>
+            <td><code>pip install Pillow</code></td>
+            <td><span class="sym-mid">一部</span> フレームは出るがモンタージュ無し</td>
+          </tr>
+          <tr>
+            <td class="k">playwright<br>chromium</td>
+            <td>grab.mjs のブラウザ捕獲(CDP 9222)</td>
+            <td>browser-agent スキル経由<br><code>npx playwright install chromium</code></td>
+            <td><span class="sym-mid">一部</span> YouTube の<b>映像</b>取得不可（字幕/DL可ソースは無関係）</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note warn">
+      <span class="tag">note</span>
+      <div><p>Homebrew の <code>ffmpeg</code> は <code>drawtext</code>(libfreetype) を欠くビルドがある。ラベル焼き込みを ffmpeg でなく <b>PIL(contact.py)</b> でやっているのはこのため。<code>Pillow</code> さえ入っていれば問題ない。</p></div>
+    </div>
+  </section>
+
+  <!-- 05 セットアップ -->
+  <section id="setup">
+    <div class="sec-head"><span class="sec-no">§05</span><h2>セットアップ手順</h2></div>
+    <ol class="steps">
+      <li>
+        <h3>スクリプトを置く</h3>
+        <p class="muted">4ファイルを <code>~/.claude/skills/task-fleet/scripts/</code> に配置する。</p>
+        <div class="term"><div class="term-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="ttl">files</span></div><pre><span class="f">~/.claude/skills/task-fleet/scripts/</span>
+├── yt.mjs        <span class="c"># 喋り(字幕)</span>
+├── av.mjs        <span class="c"># 映像・DL可ソース</span>
+├── grab.mjs      <span class="c"># 映像・YouTube(ブラウザ捕獲)</span>
+└── contact.py    <span class="c"># モンタージュ生成(PIL)</span></pre></div>
+      </li>
+      <li>
+        <h3>依存を入れる</h3>
+        <div class="term"><div class="term-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="ttl">bash</span></div><pre><span class="p">brew</span> install node ffmpeg yt-dlp
+<span class="p">pip3</span> install -U yt-dlp Pillow</pre></div>
+        <p class="muted"><code>ffmpeg -version</code> / <code>yt-dlp --version</code> / <code>python3 -c "import PIL"</code> が通れば OK。</p>
+      </li>
+      <li>
+        <h3>grab.mjs 用のブラウザを常駐させる</h3>
+        <p class="muted"><code>grab.mjs</code> は browser-agent スキルの Chromium を <b>CDP ポート 9222</b> で使う。スキルを入れて起動し、その profile で YouTube に一度ログインしておく（アクセス安定のため）。</p>
+        <div class="term"><div class="term-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="ttl">bash</span></div><pre><span class="c"># browser-agent を用意（初回のみ）</span>
+<span class="p">cd</span> ~/.claude/skills/browser-agent
+<span class="p">npm</span> i &amp;&amp; <span class="p">npx</span> playwright install chromium
+
+<span class="c"># CDP ブラウザを 9222 で起動（launch.sh / env CDP_PORT）</span>
+<span class="p">bash</span> scripts/launch.sh</pre></div>
+        <div class="note ok"><span class="tag">check</span><div><p>別ターミナルで <code>curl -s http://127.0.0.1:9222/json/version</code> が JSON を返せば CDP は生きている。</p></div></div>
+      </li>
+      <li>
+        <h3>スモークテスト</h3>
+        <p class="muted">3経路を最小コマンドで通す。</p>
+        <div class="term"><div class="term-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="ttl">bash — smoke</span></div><pre><span class="c"># ① 喋り: 字幕が ok:true / manual-sub で返るか</span>
+<span class="p">node</span> scripts/yt.mjs <span class="s">"https://www.youtube.com/watch?v=dQw4w9WgXcQ"</span>
+
+<span class="c"># ② 映像(YouTube): 8フレーム + montage が出るか</span>
+<span class="p">node</span> scripts/grab.mjs <span class="s">"https://www.youtube.com/watch?v=dQw4w9WgXcQ"</span> --points 8
+
+<span class="c"># ③ 映像(DL可): ローカル/直CDN の .mp4 で montage が出るか</span>
+<span class="p">node</span> scripts/av.mjs <span class="s">./some.mp4</span> --max-frames 12</pre></div>
+        <p class="muted">実測(2026-08-15): ①manual-sub/en 351語, ②12frames/5.3s(フル3:33を12点seek), ③ローカルmp4 10frames/0.4s。</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- 06 使い方 -->
+  <section id="usage">
+    <div class="sec-head"><span class="sec-no">§06</span><h2>使い方 — 代表コマンド</h2></div>
+
+    <h3>yt.mjs — 喋り（字幕）<span class="badge txt">TEXT</span> <span class="badge par">並列</span></h3>
+    <div class="term"><div class="term-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="ttl">yt.mjs</span></div><pre><span class="p">node</span> yt.mjs <span class="s">&lt;videoUrl&gt;</span> [url2 …]                       <span class="c"># 単発/複数</span>
+<span class="p">node</span> yt.mjs --channel <span class="s">https://youtube.com/@handle</span>      <span class="c"># チャンネル→全動画</span>
+<span class="p">node</span> yt.mjs --channel <span class="s">&lt;url&gt;</span> --limit 20              <span class="c"># 直近N本</span>
+<span class="p">node</span> yt.mjs --channel <span class="s">&lt;url&gt;</span> --lang ja,en --text     <span class="c"># 言語優先・人間可読</span>
+<span class="c">#  flags: --channel --limit N --lang a,b,c --text --keep-vtt   env: YT_DLP POOL(=4) TIMEOUT</span></pre></div>
+
+    <h3>av.mjs — 映像 / DL可能なソース <span class="badge par">並列</span></h3>
+    <div class="term"><div class="term-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="ttl">av.mjs</span></div><pre><span class="p">node</span> av.mjs <span class="s">./ad.mp4</span>                                 <span class="c"># ローカル</span>
+<span class="p">node</span> av.mjs <span class="s">https://cdn…/ad.mp4</span>                      <span class="c"># 直CDN(Meta/TikTok)</span>
+<span class="p">node</span> av.mjs <span class="s">jobs.json</span>                               <span class="c"># [{id,url}] を並列(POOL=3)</span>
+<span class="c">#  flags: --scene 0.30 --max-frames 40 --every 4 --min-frames 6 --height 720 --cols 5 --lang --out --keep-video</span></pre></div>
+
+    <h3>grab.mjs — 映像 / YouTube（ブラウザ捕獲）<span class="badge ser">直列</span></h3>
+    <div class="term"><div class="term-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="ttl">grab.mjs</span></div><pre><span class="p">node</span> grab.mjs <span class="s">&lt;watchUrl&gt;</span> --points 24 --cols 5
+<span class="c">#  flags: --points N(=24) --cols C(=5) --embed --out DIR      env: CDP_URL(=http://127.0.0.1:9222)</span>
+<span class="c">#  ⚠ 稼働中の共有ブラウザ1台を使う → grab を並列に走らせない</span></pre></div>
+  </section>
+
+  <!-- 07 出力スキーマ -->
+  <section id="schema">
+    <div class="sec-head"><span class="sec-no">§07</span><h2>出力スキーマ</h2></div>
+    <p class="muted">3スクリプトとも <b>stdout に JSON</b>。進捗ログは stderr。取得不能は <code>ok:false</code> + <code>route:"browser"</code>。</p>
+    <div class="tbl-scroll">
+      <table>
+        <thead><tr><th>フィールド</th><th>yt.mjs</th><th>av.mjs</th><th>grab.mjs</th><th>意味</th></tr></thead>
+        <tbody>
+          <tr><td class="k">ok</td><td class="sym-ok">✓</td><td class="sym-ok">✓</td><td class="sym-ok">✓</td><td>成否</td></tr>
+          <tr><td class="k">route</td><td>(降格時)</td><td class="sym-ok">✓</td><td class="sym-ok">✓</td><td>失敗時 <code>"browser"</code></td></tr>
+          <tr><td class="k">transcript</td><td class="sym-ok">✓</td><td>—</td><td>—</td><td>クリーン文字起こし本文</td></tr>
+          <tr><td class="k">source</td><td class="sym-ok">✓</td><td class="sym-ok">✓</td><td>—</td><td>yt: <code>manual-sub|auto-sub</code> / av: <code>scene-cut|interval|local|direct</code></td></tr>
+          <tr><td class="k">lang · words · chars</td><td class="sym-ok">✓</td><td>—</td><td>—</td><td>字幕言語・語数・文字数</td></tr>
+          <tr><td class="k">duration · frameCount</td><td>—</td><td class="sym-ok">✓</td><td class="sym-ok">✓</td><td>尺・抽出フレーム数</td></tr>
+          <tr><td class="k">frames[]</td><td>—</td><td class="k"><code>{t,path,caption}</code></td><td class="k"><code>{t,path}</code></td><td>各フレーム(時刻/画像/字幕)</td></tr>
+          <tr><td class="k">montages[]</td><td>—</td><td class="sym-ok">✓</td><td class="sym-ok">✓</td><td>コンタクトシート画像パス</td></tr>
+          <tr><td class="k">ms · error</td><td class="sym-ok">✓</td><td class="sym-ok">✓</td><td class="sym-ok">✓</td><td>処理時間・エラー</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 08 制約 -->
+  <section id="limits">
+    <div class="sec-head"><span class="sec-no">§08</span><h2>既知の制約 / blindspot</h2></div>
+    <div class="layers">
+      <div class="layer">
+        <h3>字幕なし動画</h3>
+        <p class="muted"><code>yt.mjs</code> は字幕が無いと <code>route:"browser"</code> に降格して<b>そこで止まる</b>（音声書き起こしのフォールバックは無い）。喋りが要るなら別途 whisper 等を足す。</p>
+      </div>
+      <div class="layer">
+        <h3>grab は直列</h3>
+        <p class="muted">共有ブラウザ1台(CDP)を使うため <b>並列にできない</b>。多本を回すなら逐次。DL可能なソースは <code>av.mjs</code> の並列へ寄せる。</p>
+      </div>
+      <div class="layer">
+        <h3>プレイヤーUIの写り込み</h3>
+        <p class="muted"><code>grab.mjs</code> は捕獲前に YouTube のコントロール/サジェスト/エンドカードを <b>CSS で消して</b>素フレームにしている。ただし焼き込み字幕は残る（むしろテロップ解析に有用）。</p>
+      </div>
+      <div class="layer">
+        <h3>テキストと映像は別物</h3>
+        <p class="muted"><code>yt.mjs</code> は<b>映像を一切取らない</b>。「どう見せたか」が要るタスクで yt.mjs を使うと骨格が抜ける。用途で使い分ける。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 09 トラブルシュート -->
+  <section id="trouble">
+    <div class="sec-head"><span class="sec-no">§09</span><h2>トラブルシュート</h2></div>
+    <p class="muted">導入時に実際に踏んだ落とし穴と対処。</p>
+    <div class="tbl-scroll">
+      <table>
+        <thead><tr><th>症状</th><th>原因</th><th>対処</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="k">HTTP Error 403<br><span class="muted">(yt-dlp DL時)</span></td>
+            <td>YouTube のメディアが PO token 必須</td>
+            <td>YT の映像は <code>grab.mjs</code> を使う。DL可能なら直 <code>.mp4</code> を <code>av.mjs</code> に食わせる</td>
+          </tr>
+          <tr>
+            <td class="k">no subtitles<br>after retry</td>
+            <td>その動画に字幕が無い</td>
+            <td><code>route:"browser"</code> 降格。喋りが要るなら whisper、映像なら <code>grab.mjs</code></td>
+          </tr>
+          <tr>
+            <td class="k">No such filter:<br>'drawtext'</td>
+            <td>ffmpeg が libfreetype 欠き</td>
+            <td>正常。ラベルは <code>contact.py</code>(PIL)が付ける。<code>Pillow</code> を確認</td>
+          </tr>
+          <tr>
+            <td class="k">waitForSelector<br>video timeout</td>
+            <td>YT は再生前 <code>&lt;video&gt;</code> を aria-hidden にする</td>
+            <td><code>state:'attached'</code> で待つ（実装済）。再生ボタンをクリックして始動</td>
+          </tr>
+          <tr>
+            <td class="k">duration NaN /<br>waitForFunction timeout</td>
+            <td><code>--embed</code> が autoplay 開始しない</td>
+            <td><code>--embed</code> を外し、通常の <b>watch URL</b> を使う（ログイン済ブラウザで autoplay する）</td>
+          </tr>
+          <tr>
+            <td class="k">Extracted 0 cookies<br>(could not be decrypted)</td>
+            <td>Chrome の App-Bound Encryption</td>
+            <td>cookies-from-browser は諦める。<code>grab.mjs</code> の<b>ライブ session</b> をそのまま使う</td>
+          </tr>
+          <tr>
+            <td class="k">grab が途中で不安定</td>
+            <td>共有ブラウザを並列で叩いている</td>
+            <td>grab は<b>直列</b>で回す。並列にしない</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>task-fleet · 動画インプット脚 — 要件定義</span>
+    <span><code>~/.claude/skills/task-fleet/scripts/</code> · 検証 2026-08-15</span>
+  </div>
+</footer>
+
+</body>
+</html>
