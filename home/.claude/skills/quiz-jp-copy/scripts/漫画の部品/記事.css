@@ -1,0 +1,109 @@
+:root{--pk:#ff0080;--pk2:#ff1c73;--pk3:#ff007b;--mg:#fa57cc;--co:#f06666;--rd:#e60000;--bl:#0000ff;--nv:#0047b2;--ol:#666600;--lv:#9933ff;--sk:#66a3e0}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:#000;font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",Meiryo,sans-serif;font-size:17px;line-height:1.75;word-break:keep-all;overflow-wrap:anywhere}
+.wrap{max-width:390px;margin:0 auto;background:#fff;overflow:hidden}
+img,video{display:block;width:100%;height:auto}
+.full{width:100%}
+.w90{width:90%;margin:0 auto}
+.vid{position:relative;overflow:hidden}.vid video{position:relative;z-index:1}.vid .vpost{position:absolute;inset:0;z-index:0}
+.pr{margin:4px 10px 4px;text-align:right;font-size:11px;line-height:1.4}
+.l{margin:14px 12px;text-align:center}
+.sp{height:18px}
+.note{margin:6px 12px;font-size:11px;line-height:1.5;color:#000}.note.r{text-align:right}
+small{font-size:10px}
+.b{font-weight:700}
+.f13{font-size:13px}.f18{font-size:18px}.f19{font-size:19px}.f20{font-size:20px}.f21{font-size:21px}.f22{font-size:22px}.f23{font-size:23px}.f25{font-size:25px}.f27{font-size:27px}.f29{font-size:29px}.f30{font-size:30px}.f33{font-size:33px}.f35{font-size:35px}
+.c-pk{color:var(--pk)}.c-pk2{color:var(--pk2)}.c-pk3{color:var(--pk3)}.c-mg{color:var(--mg)}.c-co{color:var(--co)}.c-rd{color:var(--rd)}.c-bl{color:var(--bl)}.c-nv{color:var(--nv)}.c-ol{color:var(--ol)}.c-lv{color:var(--lv)}.c-sk{color:var(--sk)}
+.ul{background:linear-gradient(transparent 60%,#ffff66 60%)}
+.hl{background:linear-gradient(transparent 60%,#ffff66 60%)}
+.hlband{background:#ffff00;padding:0 4px}
+.brand{margin:4px 0 14px;text-align:center;color:var(--pk2);font-weight:700;font-size:34px;line-height:1.2}.brand rt{font-size:13px;letter-spacing:.2em}
+/* 最初の画面の箱（参考のピンクの吹き出しと同じ形） */
+.worst{margin:8px 14px 10px;padding:8px 12px;background:#ffe4ef;border-radius:18px;color:#c2185b;font-size:14.5px;line-height:1.55;text-align:left}
+.worst p{margin:2px 0}.worst b{color:#e60000}
+/* 青い吹き出し */
+.fk{display:flex;align-items:center;gap:10px;margin:18px 14px}
+.fk .ic{width:55px;height:55px;border-radius:50%;flex:none;object-fit:cover}
+.fb{background:#bfe6ff;border-radius:16px;padding:10px 14px;font-size:16px;line-height:1.7;box-shadow:0 2px 4px rgba(0,0,0,.12)}
+/* ピンクの吹き出し */
+.pf{position:relative;margin:18px 22px 22px 34px}
+.pb{background:#ffe4f0;color:var(--pk);border-radius:20px;padding:12px 16px;font-size:16px;font-weight:700;line-height:1.7}
+.pf i{position:absolute;background:#ffe4f0;border-radius:50%}.pf i:nth-of-type(1){width:14px;height:14px;left:-14px;bottom:-4px}.pf i:nth-of-type(2){width:8px;height:8px;left:-26px;bottom:-12px}
+.yf{margin:18px 22px;background:#fff6b8;border-radius:20px;padding:12px 16px;color:var(--pk);font-weight:700;font-size:16px}
+.bf{margin:18px 22px;background:#e3f2ff;border-radius:22px;padding:12px 18px;text-align:left}
+/* 点3つ（時間が飛ぶ所） */
+.dots{display:flex;flex-direction:column;align-items:center;gap:8px;margin:18px 0}
+.dots i{display:block;border-radius:50%;background:#d97a9a}.dots i:nth-child(1){width:20px;height:20px}.dots i:nth-child(2){width:12px;height:12px}.dots i:nth-child(3){width:7px;height:7px}
+/* 打っている途中の点 */
+.typ{display:flex;flex-direction:column;align-items:center;gap:10px;margin:10px 0}
+.typ span{width:12px;height:12px;border-radius:50%;background:#bbb;animation:continue 1s infinite}
+.typ .d2{animation-delay:.33s}.typ .d3{animation-delay:.66s}
+@keyframes continue{0%{opacity:0}50%{opacity:.5}100%{opacity:1}}
+/* 黒の階段バー */
+.bars{margin:16px 0;display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+.bars i{display:block;height:22px;background:linear-gradient(90deg,#fff,#000)}
+.bars i:nth-child(1){width:100%}.bars i:nth-child(2){width:62%}.bars i:nth-child(3){width:28%}
+/* 揺れる字 */
+.sway{margin:16px 12px;text-align:center;animation:swayingText .25s infinite}
+@keyframes swayingText{0%{transform:translate(0,0) rotateZ(0)}25%{transform:translate(2px,2px) rotateZ(1deg)}50%{transform:translate(0,2px) rotateZ(0)}75%{transform:translate(2px,0) rotateZ(-1deg)}100%{transform:translate(0,0) rotateZ(0)}}
+/* 上下に揺れる吹き出し */
+.slidewrap{text-align:center;margin:14px 0}
+.slideb{display:inline-block;position:relative;background:#f06666;color:#fff;font-weight:700;border-radius:12px;padding:6px 20px;animation:slide 1s infinite}
+.slideb:after{content:"";position:absolute;left:50%;bottom:-10px;margin-left:-8px;border:8px solid transparent;border-top-color:#f06666;border-bottom:0}
+@keyframes slide{0%{transform:translate(0,0)}50%{transform:translate(0,10px)}100%{transform:translate(0,0)}}
+/* 下向きの矢印3つ */
+.arr3{display:flex;justify-content:center;gap:26px;margin:18px 0}
+.arr3 i{width:0;height:0;border-left:30px solid transparent;border-right:30px solid transparent;border-top:36px solid #f08a8a;position:relative}
+.arr3 i:before{content:"";position:absolute;left:-12px;top:-60px;width:24px;height:26px;background:#f08a8a}
+.mv{animation:btnAnime02 1.5s infinite}
+@keyframes btnAnime02{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+/* ㊙情報の帯 */
+.maru{display:flex;align-items:center;justify-content:center;gap:12px;margin:18px 0;background:#f9a3b6;color:#e60000;font-weight:700;font-size:27px;line-height:1.3;padding:14px 8px;position:relative}
+.maru i{display:block;width:0;height:0;border-left:9px solid transparent;border-right:9px solid transparent;border-top:14px solid #fff;animation:move 3s infinite}
+@keyframes move{0%{transform:translateY(0)}100%{transform:translateY(12px)}}
+.hbox{margin:18px 12px;border-left:4px solid #f7a1c4;padding:6px 10px;font-size:21px;font-weight:700;line-height:1.5;border-bottom:1px solid #ccc}
+/* 跳ねる・点滅・ぽよぽよ */
+.bound{animation:bounce 2s infinite}
+@keyframes bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-20px)}60%{transform:translateY(-10px)}}
+.flash{animation:flash 1s infinite}
+@keyframes flash{50%{opacity:0}}
+.poyo{display:block;margin:6px 10px 10px;animation:poyopoyo 1.7s infinite}
+@keyframes poyopoyo{0%,40%,60%,80%{transform:scale(1)}50%,70%{transform:scale(.95)}}
+/* 山形2つ */
+.chev{position:relative;height:48px;margin:6px 0}
+.chev i{position:absolute;left:50%;width:28px;height:28px;margin-left:-14px;border-right:3px solid #f598b8;border-bottom:3px solid #f598b8;transform:rotate(45deg);animation:arrow-move08 2s ease-in-out infinite;opacity:0}
+.chev .c2{animation-delay:1s}
+@keyframes arrow-move08{0%{top:0;opacity:0}50%{opacity:1}100%{top:18px;opacity:0}}
+/* 横に流すカード */
+.slider{position:relative;margin:10px 20px;overflow:hidden}
+.slider .track{display:flex;transition:transform .5s}
+.slider .track img{flex:none;width:100%}
+.slider .sa{position:absolute;top:50%;margin-top:-18px;width:30px;height:36px;border:0;background:rgba(255,255,255,.7);color:#e75a8a;font-size:30px;line-height:30px;padding:0;cursor:pointer}
+.slider .sa.l{left:0}.slider .sa.r{right:0}
+/* アンケート */
+.qa{margin:0 16px 30px;padding-bottom:30px;border-bottom:1px solid #ccc}
+.navi{display:flex;justify-content:center;position:relative;margin:10px 0}
+.navi:before{content:"";position:absolute;left:60px;right:60px;top:calc(50% - 10px);height:20px;background:#eee}
+.navi span{position:relative;width:62px;height:62px;margin:0 9px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;color:#fff;background:#eebbcb}
+.navi span.cur{background:#ff1493}.navi span.done{background:#bbb}
+.qt{margin:8px 0 18px;padding-bottom:10px;font-size:21px;line-height:1.5;text-align:center;border-bottom:2px solid #f7b6cf}
+.qimg{width:100%}
+.opts{display:flex;flex-direction:column;gap:12px}
+.ans{display:block;width:100%;border:0;border-radius:100vh;background:#eee;color:#000;font-weight:700;font-size:17px;line-height:1.4;padding:12px 16px;font-family:inherit;cursor:pointer}
+.ans.on{background:#ff1493;color:#fff}
+.send{text-align:center;margin:0 0 10px}
+.send button{border:0;background:#ff1493;color:#fff;font-weight:700;font-size:19px;padding:14px 24px;font-family:inherit;cursor:pointer}
+.reveal.hide{display:none}
+.reveal{margin:8px 10px}
+.cta img{width:100%}
+.sr{position:absolute;left:-10000px;top:auto;white-space:nowrap}
+.foot{text-align:center;font-size:13px;margin:20px 0 40px}.foot a{color:#888}
+/* 右下の固定の札 */
+.fixpop{position:fixed;right:6px;bottom:6px;width:156px;z-index:50;opacity:0;pointer-events:none;transition:opacity .3s}
+.fixpop.on{opacity:1;pointer-events:auto}
+.fixpop img{width:156px}
+.fixpop .x{position:absolute;left:-6px;top:-6px;width:24px;height:24px;border-radius:50%;border:0;background:#999;color:#fff;font-size:15px;line-height:24px;padding:0;cursor:pointer}
+@media (min-width:600px){body{background:#f4f4f4}}
+
+.seg{display:block}.seg+.seg{margin-top:14px}.brk{display:block}
